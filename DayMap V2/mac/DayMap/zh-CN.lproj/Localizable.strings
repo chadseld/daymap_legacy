@@ -1,0 +1,261 @@
+/* file size */
+"%.1f GB" = "%.1f 千兆字节";
+
+/* file size */
+"%.1f MB" = "%.1f 兆字节";
+
+/* month view */
+"%d more…" = "再多 %d 个…";
+
+/* month view */
+"%d task" = "%d 个任务";
+
+/* month view */
+"%d tasks" = "%d 个任务";
+
+/* file size */
+"%llu KB" = "%llu 千字节";
+
+/* file size */
+"%llu bytes" = "%llu 字节";
+
+/* menu item */
+"About %@" = "关于 %@";
+
+/* button */
+"All Occurrences" = "全部事件";
+
+/* context menu */
+"Archive" = "存档";
+
+/* alert text */
+"Archived projects and their subtasks are hidden from view. You can show your archived projects by choosing “Show Archived Projects” from the View menu." = "存档的项目及其子任务均在视图中隐藏。您可以通过在“视图”菜单中选择“显示存档项目，来显示已存档的项目。";
+
+/* (No Commment) */
+"Cancel" = "取消";
+
+/* button */
+"Change All" = "更改全部";
+
+/* button */
+"Change All Occurrences" = "更改全部事件";
+
+/* context menu */
+"Collapse All Tasks" = "折叠所有任务";
+
+/* context menu */
+"Complete" = "完成";
+
+/* sharing service menu */
+"Copy" = "复制";
+
+/* error dialog */
+"Could not enable iCloud" = "无法启用 iCloud";
+
+/* Quit without saves error question message */
+"Could not save changes while quitting. Quit anyway?" = "退出时将不能保存更改。是否退出？";
+
+/* import alert */
+"DayMap has located data from DayMap Lite. Would you like to import this data?" = "DayMap 已从 DayMap Lite 中查找到数据，是否要导入此数据？";
+
+/* (No Commment) */
+"Delete" = "删除";
+
+/* delete project message */
+"Delete '%@'?" = "删除 '%@'？";
+
+/* context menu */
+"Delete…" = "正在删除...";
+
+/* delete project message info */
+"Deleting this Project will also delete its Tasks and Subtasks." = "删除此项目将会删除其任务和子任务。";
+
+/* alert question */
+"Do you want to change all occurrences?" = "是否要更改全部事件？";
+
+/* alert question */
+"Do you want to change all occurrences?\n(Use the Calendar view to change a specific occurrence.)" = "是否要更改全部事件？\n（使用日历视图更改具体事件）";
+
+/* alert question */
+"Do you want to change only this occurrence, or change this and all occurrences?" = "是否只更改此事件，或更改全部事件？";
+
+/* alert question */
+"Do you want to reschedule all occurrences, or reschedule only this occurrence by creating a new task?" = "是否要重新安排全部事件？或者通过创建新任务只重新安排此事件？";
+
+/* import alert */
+"Don't Import" = "不导入";
+
+/* error dialog */
+"Don't Overwrite" = "不覆盖";
+
+/* hide completed popover */
+"Don't hide completed" = "不隐藏已完成的任务";
+
+/* context menu */
+"Edit…" = "正在编辑...";
+
+/* error dialog */
+"Error loading DayMap data" = "加载 DayMap 数据时出错";
+
+/* error dialog */
+"Error saving DayMap data" = "保存 DayMap 数据时出错";
+
+/* error dialog */
+"Error saving data." = "保存数据出错。";
+
+/* context menu */
+"Expand All Tasks" = "展开所有任务";
+
+/* error dialog */
+"Failed to restore backup.\n%@" = "恢复备份失败。\n%@";
+
+/* menu item */
+"Hide %@" = "隐藏 %@";
+
+/* menu item */
+"Hide Calendar View" = "隐藏日历视图";
+
+/* hide completed popover */
+"Hide all completed" = "隐藏所有已完成任务";
+
+/* hide completed popover. Singular. */
+"Hide completed after %ld day" = "隐藏已完成 %ld 天的任务";
+
+/* hide completed popover. Plural. */
+"Hide completed after %ld days" = "隐藏已完成 %ld 天的任务";
+
+/* import alert */
+"Import" = "导入";
+
+/* import alert */
+"Import data from DayMap Lite?" = "从 DayMap Lite 中导入数据？";
+
+/* context menu */
+"Insert Project…" = "插入项目...";
+
+/* error dialog */
+"Merge" = "合并";
+
+/* context menu */
+"Move To" = "移至";
+
+/* context menu */
+"New Subtask…" = "新的子任务...";
+
+/* context menu */
+"New Task…" = "新建任务...";
+
+/* error dialog */
+"Not logged in to iCloud" = "未登录 iCloud";
+
+/* error dialog */
+"OK" = "确定";
+
+/* button */
+"Only this Occurrence" = "仅此事件";
+
+/* error dialog */
+"Overwrite" = "覆盖";
+
+/* error dialog */
+"Overwrite DayMap data on iCloud?" = "覆盖 iCloud 中的 DayMap 数据？";
+
+/* error dialog */
+"Overwrite DayMap data?" = "覆盖 DayMap 数据？";
+
+/* error dialog */
+"Overwrite and Restore" = "覆盖和恢复";
+
+/* error dialog */
+"Overwrite data on iCloud with your current DayMap data?\nThis can not be undone." = "用当前的 DayMap 数据覆盖 iCloud 中的数据？\n此操作将不能撤销。";
+
+/* error dialog */
+"Overwrite your existing DayMap and restore with data from the selected backup?\nThis can not be undone." = "覆盖现有 DayMap 并从所选备份中恢复数据？\n此操作将不能撤销。";
+
+/* sharing service menu */
+"Print" = "打印";
+
+/* alert title */
+"Project Archived" = "项目已存档";
+
+/* menu item */
+"Quit %@" = "退出 %@";
+
+/* Quit anyway button title */
+"Quit anyway" = "退出";
+
+/* Quit without saves error question info */
+"Quitting now will lose any changes you have made since the last successful save" = "退出后您将丢失自上次成功保存后所做的所有更改";
+
+/* error dialog */
+"Restoration Failed" = "恢复失败";
+
+/* context menu */
+"Select All" = "全选";
+
+/* context menu */
+"Show" = "显示";
+
+/* menu item */
+"Show Calendar View" = "显示日历视图";
+
+/* context menu */
+"Show in Calendar" = "在日历中显示";
+
+/* context menu */
+"Show in Outline" = "在概要中显示";
+
+/* error dialog */
+"The system is not permitting access to the DayMap iCloud file. This could be caused by a sync in progress. If this problem persists, wait a few minutes or reboot your Mac." = "系统不允许访问 DayMap iCloud 文件。这可能是因为同步正在进行所导致的。如果问题持续存在，请稍候几分钟或重启您的 Mac。";
+
+/* error dialog */
+"There is already DayMap data on iCloud" = "iCloud 中已有 DayMap 数据";
+
+/* error dialog */
+"There was a problem merging local data with iCloud data.\nYou may need try again and overwrite iCloud data instead." = "合并本地数据和 iCloud 数据时出错。\n您需要再试一次并覆盖 iCloud 数据。";
+
+/* error dialog */
+"There was an error saving your DayMap data. If this problem persists, restart DayMap." = "保存 DayMap 数据时出错。如果问题持续存在，请重启 DayMap。";
+
+/* error dialog */
+"There was an error saving your DayMap data. The system is not permitting acces to the DayMap data file. This could be related to iCloud syncing. If this problem persists, restart DayMap or reboot your Mac." = "保存 DayMap 数据时出错。系统不允许访问 DayMap 数据文件。这可能与 iCloud 同步有关。如果问题持续存在，请重启 DayMap 或重启您的 Mac。";
+
+/* error dialog */
+"This Mac has been logged out of iCloud. iCloud synced DayMap data will not be available unless iCloud is enabled in System Preferences and DayMap Preferences. " = "此 Mac 以退出 iCloud。除非在“系统首选项”和“DayMap  首选项”中启用 iCloud，否则 iCloud 同步的 DayMap 数据将不可用。 ";
+
+/* error dialog */
+"This Mac has not been logged in to iCloud. Please log in to your iCloud account.\n\n(System Preferences > iCloud)\n\nAlso make sure the Documents & Data option is enabled." = "此 Mac 以退出 iCloud。请登录您的 iCloud 账户。\n\n（“系统首选项“ &gt; iCloud）\n\n此外，请务必启用”文档和数据“选项。";
+
+/* error dialog */
+"This device has been logged out of iCloud. iCloud synced DayMap data will not be available unless iCloud is enabled in Settings and DayMap Preferences. " = "此设备已退出 iCloud。除非在“设置”和“DayMap 首选项”中启用 iCloud，否则 iCloud 同步的 DayMap 数据将不可用。 ";
+
+/* error dialog */
+"This device has not been logged in to iCloud. Please log in to your iCloud account via Settings > iCloud." = "此设备已退出 iCloud。请通过”设置“ &gt; iCloud，登录您的 iCloud 账户。";
+
+/* error dialog */
+"This is already DayMap data on iCloud. Would you like to merge it or overwrite it?" = "iCloud 中已有 DayMap 数据。是否要合并它或覆盖它？";
+
+/* error dialog */
+"Unable to merge iCloud data" = "无法合并 iCloud 数据";
+
+/* context menu */
+"Unarchive" = "解压缩";
+
+/* context menu */
+"Unschedule" = "取消计划安排";
+
+/* alert question */
+"You're changing a repeating task." = "您正在更改一个重复任务。";
+
+/* alert question */
+"You're rescheduling a repeating task." = "您正在重新安排一个重复任务。";
+
+/* error dialog */
+"The DayMap data file was likely created with a newer version of DayMap. Please check the App Store for updates." = "DayMap 数据文件可能使用新版本 DayMap 创建的。请查看 App Store 下载更新。";
+
+/* error dialog */
+"\n\nYou should restart DayMap before making any further changes." = "\n\n在进行任何更改之前，请重启 DayMap。";
+
+/* error dialog */
+"iCloud Sync Disabled" = "iCloud 同步已禁用";
+

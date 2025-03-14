@@ -1,0 +1,50 @@
+//
+// Prefix header for all source files of the 'DayMap' target in the 'DayMap' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+	#import <CoreData/CoreData.h>
+    #import "UIColor+WS.h"
+	#import "DayMapManagedObjectContext.h"
+#endif
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...) /* */
+#endif
+
+extern DayMapManagedObjectContext *DMCurrentManagedObjectContext;
+
+#define NSApp [UIApplication sharedApplication]
+
+#define TASK_NOT_COMPLETED 0
+#define TASK_COMPLETED 1
+#define TASK_PARTIALLY_COMPLETED -1
+
+#define NSApp [UIApplication sharedApplication]
+#define PREF_USE_ICLOUD_STORAGE @"PrefUseiCloudStorage"
+
+#define PREF_HIDE_COMPLETED_INTERVAL @"hideCompletedInterval"
+#define PREF_RAND_PROJECT_COLOR @"PrefRandomProjectColor"
+
+#define PREF_SHOW_ARCHIVED_PROJECTS @"showArchivedProjects"
+#define PREF_SHOW_EVENTKIT_EVENTS @"showEventKitEvents"
+
+
+#define DMWillChangeManagedObjectContext @"DMWillChangeManagedObjectContext"
+#define DMDidChangeManagedObjectContext @"DMDidChangeManagedObjectContext"
+
+#define DMExpandChildrenOfTaskNotification @"DMExpandChildrenOfTask"
+#define DMMakeTaskVisibleNotification @"DMMakeTaskVisible"
+#define DMMakeTaskVisibleInCalendarNotification @"DMMakeTaskVisibleInCalendar"
+#define DMChildrenDidChangeForParentNotification @"DMChildrenDidChangeForParent"
+#define DMUpdateWeekViewNotification @"DMUpdateWeekView"

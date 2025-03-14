@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="wNg-Re-axX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="oGO-AS-DcV">
+            <objects>
+                <windowController showSeguePresentationStyle="single" id="wNg-Re-axX" customClass="MainWindowController" customModule="DayMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="mainWindow" animationBehavior="default" id="Pgn-e4-51M">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="680" height="370"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+                        <connections>
+                            <outlet property="delegate" destination="wNg-Re-axX" id="qD0-TL-krU"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="FmY-Xi-tUE" kind="relationship" relationship="window.shadowedContentViewController" id="6Mi-qL-i0W"/>
+                    </connections>
+                </windowController>
+                <customObject id="M6g-SS-dub" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--Main Split View Controller-->
+        <scene sceneID="GJv-3b-PIp">
+            <objects>
+                <splitViewController id="FmY-Xi-tUE" customClass="MainSplitViewController" customModule="DayMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <splitViewItems>
+                        <splitViewItem id="oJw-lq-9Zb"/>
+                        <splitViewItem id="ePC-vb-xJt"/>
+                    </splitViewItems>
+                    <splitView key="splitView" dividerStyle="thin" id="mxS-vN-EBG">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <outlet property="delegate" destination="FmY-Xi-tUE" id="8Eo-we-JpQ"/>
+                        </connections>
+                    </splitView>
+                    <connections>
+                        <outlet property="splitView" destination="mxS-vN-EBG" id="zo5-fh-Uwj"/>
+                        <segue destination="j2P-43-1yM" kind="relationship" relationship="splitItems" id="zrE-rf-XpO"/>
+                        <segue destination="SjP-kw-KVe" kind="relationship" relationship="splitItems" id="jeZ-Zc-2Ym"/>
+                    </connections>
+                </splitViewController>
+                <customObject id="O7V-Bw-aJ7" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="721"/>
+        </scene>
+        <!--ProjectOutline-->
+        <scene sceneID="CZT-bM-N9I">
+            <objects>
+                <controllerPlaceholder storyboardName="ProjectOutline" id="j2P-43-1yM" sceneMemberID="viewController"/>
+                <customObject id="ToY-rK-e7G" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502" y="618"/>
+        </scene>
+        <!--CalendarPanel-->
+        <scene sceneID="X75-Gc-YxW">
+            <objects>
+                <controllerPlaceholder storyboardName="CalendarPanel" id="SjP-kw-KVe" sceneMemberID="viewController"/>
+                <customObject id="wBm-yL-osJ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502" y="824"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,1726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038DF1988561373B3DABA275 /* Pods_DayMap_TouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55318D4CAF87582E5D8090F9 /* Pods_DayMap_TouchUITests.framework */; };
+		3E9D0350746049C786833B34 /* Pods_DayMap_Touch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A25E19B35A7A80104A285F /* Pods_DayMap_Touch.framework */; };
+		4526AA9388E7DAA47A7C0E8E /* Pods_DayMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCA3E09DB8A8E328BD1109 /* Pods_DayMapUITests.framework */; };
+		88BFD8150A063F17854F2817 /* Pods_DayMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D481920C80F205495DF8F7 /* Pods_DayMapTests.framework */; };
+		9000FF2E1EEB4BEB0021C62D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9000FF2D1EEB4BEB0021C62D /* CloudKit.framework */; };
+		9000FF301EEB4BF40021C62D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9000FF2F1EEB4BF40021C62D /* CloudKit.framework */; };
+		900F142F223092CF00BDFACA /* ProjectOutlineFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900F142E223092CF00BDFACA /* ProjectOutlineFlowLayout.swift */; };
+		9010B5321FA6641C00654948 /* ProjectCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9010B5301FA6641C00654948 /* ProjectCollectionViewItem.swift */; };
+		9010B5331FA6641C00654948 /* ProjectCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9010B5311FA6641C00654948 /* ProjectCollectionViewItem.xib */; };
+		901509F71D9C91A8005634E4 /* ApplicationPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901509F61D9C91A8005634E4 /* ApplicationPreferences.swift */; };
+		901509F81D9C91A8005634E4 /* ApplicationPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901509F61D9C91A8005634E4 /* ApplicationPreferences.swift */; };
+		9015C7211ECBA09B002E2479 /* CompactWidthWeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015C7201ECBA09B002E2479 /* CompactWidthWeekTableViewController.swift */; };
+		901888801E9C358500FC0DDE /* CompactWidthItemDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9018887F1E9C358500FC0DDE /* CompactWidthItemDetailTableViewController.swift */; };
+		901888821E9C363A00FC0DDE /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901888811E9C363A00FC0DDE /* TaskTableViewCell.swift */; };
+		901EE3F21FB123D5005CF499 /* CascadingHorizontalOnlyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EE3F11FB123D5005CF499 /* CascadingHorizontalOnlyScrollView.swift */; };
+		901EE3F41FB123E5005CF499 /* CascadingVerticalOnlyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EE3F31FB123E5005CF499 /* CascadingVerticalOnlyScrollView.swift */; };
+		901EE3F61FB12A4C005CF499 /* ProjectOutlineFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EE3F51FB12A4C005CF499 /* ProjectOutlineFlowLayout.swift */; };
+		9021D58E1E7462D000E55CB0 /* Project+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021D58D1E7462D000E55CB0 /* Project+Additions.swift */; };
+		9021D58F1E7462D000E55CB0 /* Project+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021D58D1E7462D000E55CB0 /* Project+Additions.swift */; };
+		902643161E61F63600CE20FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041A2581D7F6D3900372CF6 /* AppDelegate.swift */; };
+		9027B402214FFE9800BFD02E /* MainHorizontalDragSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9027B401214FFE9800BFD02E /* MainHorizontalDragSeparator.swift */; };
+		902A2E921EE9A42A00401E04 /* Date+WS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902A2E911EE9A42A00401E04 /* Date+WS.swift */; };
+		902BFCA51C98C58D00D25B93 /* WSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BFCA41C98C58D00D25B93 /* WSLogger.swift */; };
+		902DD71B1E7464EB0048CEC8 /* RecurrenceRule+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DD7191E7464EB0048CEC8 /* RecurrenceRule+Additions.swift */; };
+		902DD71C1E7464EB0048CEC8 /* RecurrenceRule+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DD7191E7464EB0048CEC8 /* RecurrenceRule+Additions.swift */; };
+		902DD71E1E7464EB0048CEC8 /* Task+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DD71A1E7464EB0048CEC8 /* Task+Additions.swift */; };
+		902DD71F1E7464EB0048CEC8 /* Task+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DD71A1E7464EB0048CEC8 /* Task+Additions.swift */; };
+		902E11A11E1B070400E60E41 /* AutolayoutUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA90051E1B060500BEF8E2 /* AutolayoutUtils.swift */; };
+		902E8145219CEA00004D52EC /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8144219CEA00004D52EC /* ProjectCollectionViewCell.swift */; };
+		902E8147219CEB5A004D52EC /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8146219CEB5A004D52EC /* ProjectHeaderView.swift */; };
+		9034333B1F06B63400452A7B /* RecurrenceException+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034333A1F06B63400452A7B /* RecurrenceException+Additions.swift */; };
+		9034333C1F06B63400452A7B /* RecurrenceException+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034333A1F06B63400452A7B /* RecurrenceException+Additions.swift */; };
+		9034333E1F06BA7B00452A7B /* NSManagedObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034333D1F06BA7B00452A7B /* NSManagedObject+Additions.swift */; };
+		9034333F1F06BA7B00452A7B /* NSManagedObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034333D1F06BA7B00452A7B /* NSManagedObject+Additions.swift */; };
+		903433411F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903433401F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift */; };
+		903433421F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903433401F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift */; };
+		903433441F06D35E00452A7B /* AlertStyleRecurrenceQuestionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903433431F06D35E00452A7B /* AlertStyleRecurrenceQuestionHandler.swift */; };
+		90383E751FB279D100D1BBEE /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90383E741FB279D100D1BBEE /* ProjectHeaderView.swift */; };
+		90383E771FB2827C00D1BBEE /* DragHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90383E761FB2827C00D1BBEE /* DragHandleView.swift */; };
+		903982F21EABC46700E4446F /* RecurrenceCompletion+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903982F11EABC46700E4446F /* RecurrenceCompletion+Additions.swift */; };
+		903982F31EABC46700E4446F /* RecurrenceCompletion+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903982F11EABC46700E4446F /* RecurrenceCompletion+Additions.swift */; };
+		903983621EB3DFC900E4446F /* MoveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903983611EB3DFC900E4446F /* MoveTableViewController.swift */; };
+		903983641EB63CEF00E4446F /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903983631EB63CEF00E4446F /* ScheduleTableViewController.swift */; };
+		9041A25B1D7F6D3900372CF6 /* RegularWidthMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041A25A1D7F6D3900372CF6 /* RegularWidthMainViewController.swift */; };
+		9041A25E1D7F6D3900372CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9041A25C1D7F6D3900372CF6 /* Main.storyboard */; };
+		9041A2631D7F6D3900372CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9041A2621D7F6D3900372CF6 /* Assets.xcassets */; };
+		9041A2661D7F6D3900372CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9041A2641D7F6D3900372CF6 /* LaunchScreen.storyboard */; };
+		9041A2711D7F6D3A00372CF6 /* DayMap_TouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041A2701D7F6D3A00372CF6 /* DayMap_TouchTests.swift */; };
+		9041A27C1D7F6D3A00372CF6 /* DayMap_TouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041A27B1D7F6D3A00372CF6 /* DayMap_TouchUITests.swift */; };
+		904F4FFC1E8B498800ACE6F7 /* Color+WS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F4FFB1E8B498800ACE6F7 /* Color+WS.swift */; };
+		904F4FFD1E8B498800ACE6F7 /* Color+WS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F4FFB1E8B498800ACE6F7 /* Color+WS.swift */; };
+		90534BE51FC8A6DD00711E08 /* ProjectTableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90534BE41FC8A6DD00711E08 /* ProjectTableRowView.swift */; };
+		90551AF41E9D9F1E002B3D95 /* AbstractTask+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90551AF31E9D9F1E002B3D95 /* AbstractTask+Additions.swift */; };
+		90551AF51E9D9F1E002B3D95 /* AbstractTask+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90551AF31E9D9F1E002B3D95 /* AbstractTask+Additions.swift */; };
+		90593F7C1FC0CE5D003FF333 /* ProjectOutlineCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90593F7B1FC0CE5D003FF333 /* ProjectOutlineCollectionView.swift */; };
+		905CBFF12013ADF300AEDABB /* DMClearableDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 905CBFEF2013ADF200AEDABB /* DMClearableDatePickerCell.m */; };
+		905CBFF42013B2FC00AEDABB /* DMDatePickerPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 905CBFF22013B2FB00AEDABB /* DMDatePickerPopover.m */; };
+		90605EFF229362CB00B78AEC /* DynamicToolbarItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90605EFE229362CB00B78AEC /* DynamicToolbarItemProvider.swift */; };
+		9062E8C722B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9062E8C622B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel */; };
+		9062E8C822B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9062E8C622B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel */; };
+		9064E56A1EE9A7B200ABD8AD /* Date+WS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902A2E911EE9A42A00401E04 /* Date+WS.swift */; };
+		906B6A761D4979CA00E254C6 /* DayMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 906B6A741D4979CA00E254C6 /* DayMap.xcdatamodeld */; };
+		9072471E1DB04058008C2089 /* LegacyDataMigration_2_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9072471D1DB04058008C2089 /* LegacyDataMigration_2_1_1.swift */; };
+		907247201DB041D1008C2089 /* Demo Data 2.1.1 DayMap.b_storedata in Resources */ = {isa = PBXBuildFile; fileRef = 9072471F1DB041D1008C2089 /* Demo Data 2.1.1 DayMap.b_storedata */; };
+		9076ED631EB2641200E515C7 /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9076ED621EB2641200E515C7 /* UITableView+Additions.swift */; };
+		907913B02183672900B2D29B /* ProjectOutlineCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907913AF2183672900B2D29B /* ProjectOutlineCollectionViewController.swift */; };
+		907ABEE41EB296F5007F02F8 /* UIResponder+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907ABEE31EB296F5007F02F8 /* UIResponder+Additions.swift */; };
+		907D9A781C655E9D00C8C8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D9A771C655E9D00C8C8BA /* AppDelegate.swift */; };
+		907D9A7F1C655E9E00C8C8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907D9A7E1C655E9E00C8C8BA /* Assets.xcassets */; };
+		907D9A821C655E9E00C8C8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907D9A801C655E9E00C8C8BA /* Main.storyboard */; };
+		907D9A8D1C655E9E00C8C8BA /* DayMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D9A8C1C655E9E00C8C8BA /* DayMapTests.swift */; };
+		907D9A981C655E9E00C8C8BA /* DayMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D9A971C655E9E00C8C8BA /* DayMapUITests.swift */; };
+		907D9AA71C65628400C8C8BA /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D9AA61C65628400C8C8BA /* DatabaseManager.swift */; };
+		9094DA161F8ABA9C001E5E9C /* ProjectOutline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9094DA151F8ABA9C001E5E9C /* ProjectOutline.storyboard */; };
+		9094DA181F8ABAC3001E5E9C /* CalendarPanel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9094DA171F8ABAC3001E5E9C /* CalendarPanel.storyboard */; };
+		9094DA1B1F8AC2B9001E5E9C /* HoverScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9094DA1A1F8AC2B9001E5E9C /* HoverScrollView.m */; };
+		9094DA1D1F8AC8A9001E5E9C /* ProjectOutlineCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9094DA1C1F8AC8A9001E5E9C /* ProjectOutlineCollectionViewController.swift */; };
+		9094DA1F1F8ACB1B001E5E9C /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9094DA1E1F8ACB1B001E5E9C /* MainSplitViewController.swift */; };
+		9094DA211F8ACC29001E5E9C /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9094DA201F8ACC29001E5E9C /* MainWindowController.swift */; };
+		9094DA231F8ACEB6001E5E9C /* MainWindow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9094DA221F8ACEB6001E5E9C /* MainWindow.storyboard */; };
+		909A29F11D29C652004A6F9A /* MigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A29F01D29C652004A6F9A /* MigrationManager.swift */; };
+		909A29F41D29C6B6004A6F9A /* ApplicationPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A29F31D29C6B6004A6F9A /* ApplicationPaths.swift */; };
+		909DBD42200E757500913787 /* SheetStyleRecurrenceQuestionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DBD41200E757500913787 /* SheetStyleRecurrenceQuestionHandler.swift */; };
+		90ABFE241E8C7F42007E6044 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ABFE231E8C7F42007E6044 /* ProjectTableViewCell.swift */; };
+		90B367EC1FFC34BC0059321B /* ProjectTableTaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B367EB1FFC34BC0059321B /* ProjectTableTaskCellView.swift */; };
+		90B367F51FFC38420059321B /* SelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B367F41FFC38420059321B /* SelectionManager.swift */; };
+		90B7CE601DB6DD1A009635DD /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D9AA61C65628400C8C8BA /* DatabaseManager.swift */; };
+		90B7CE611DB6DD20009635DD /* MigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A29F01D29C652004A6F9A /* MigrationManager.swift */; };
+		90B7CE621DB6DD2F009635DD /* WSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BFCA41C98C58D00D25B93 /* WSLogger.swift */; };
+		90B7CE631DB6DD34009635DD /* ApplicationPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A29F31D29C6B6004A6F9A /* ApplicationPaths.swift */; };
+		90BAC0B11DEA145700017DA1 /* DayMap+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC0B01DEA145700017DA1 /* DayMap+Additions.swift */; };
+		90BAC0B21DEA145700017DA1 /* DayMap+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC0B01DEA145700017DA1 /* DayMap+Additions.swift */; };
+		90BAC0B71DEDF7BD00017DA1 /* DataObjectProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC0B61DEDF7BD00017DA1 /* DataObjectProtocols.swift */; };
+		90BAC0B81DEDF7BD00017DA1 /* DataObjectProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAC0B61DEDF7BD00017DA1 /* DataObjectProtocols.swift */; };
+		90BAD0E61EBD3D5C005EE489 /* RecurrenceEndingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAD0E41EBD3D5C005EE489 /* RecurrenceEndingTableViewController.swift */; };
+		90BAD0E71EBD3D5C005EE489 /* RecurrenceFrequencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAD0E51EBD3D5C005EE489 /* RecurrenceFrequencyTableViewController.swift */; };
+		90BDFAEE1EA2AF38007AEC5B /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BDFAE51EA2AF38007AEC5B /* ILColorPickerView.m */; };
+		90BDFAEF1EA2AF38007AEC5B /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BDFAE71EA2AF38007AEC5B /* ILHuePickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90BDFAF01EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BDFAE91EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90BDFAF41EA2B45A007AEC5B /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BDFAF31EA2B45A007AEC5B /* ColorPickerViewController.swift */; };
+		90C94D911E89D01F00696F42 /* CompactWidthProjectsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C94D901E89D01F00696F42 /* CompactWidthProjectsListTableViewController.swift */; };
+		90C94D931E89D0D700696F42 /* CompactWidthMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C94D921E89D0D700696F42 /* CompactWidthMainTabBarController.swift */; };
+		90C94D951E89D7BB00696F42 /* ConsumerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C94D941E89D7BB00696F42 /* ConsumerProtocols.swift */; };
+		90C94D961E89D7BB00696F42 /* ConsumerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C94D941E89D7BB00696F42 /* ConsumerProtocols.swift */; };
+		90CC85E020ED1E9F00223CBA /* CompactWidth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CC85DF20ED1E9F00223CBA /* CompactWidth.storyboard */; };
+		90CC85E420ED21B800223CBA /* Regular.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CC85E320ED21B800223CBA /* Regular.storyboard */; };
+		90D079AA2370D73D007B383E /* ProjectOutline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D079A92370D73C007B383E /* ProjectOutline.storyboard */; };
+		90D079AC2370DA90007B383E /* ProjectTableTaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D079AB2370DA90007B383E /* ProjectTableTaskCellView.swift */; };
+		90D079AE2370EA93007B383E /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D079AD2370EA93007B383E /* OutlineView.swift */; };
+		90D34B331DB68D340081B326 /* DayMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 906B6A741D4979CA00E254C6 /* DayMap.xcdatamodeld */; };
+		90D9A3391DCE1A010052EF65 /* MiscUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A3381DCE1A010052EF65 /* MiscUtilities.swift */; };
+		90D9A33A1DCE1A010052EF65 /* MiscUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A3381DCE1A010052EF65 /* MiscUtilities.swift */; };
+		90DD1A831FFD614D00923E0C /* TaskEditPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD1A811FFD614D00923E0C /* TaskEditPopoverViewController.swift */; };
+		90DD1A841FFD614D00923E0C /* TaskEditPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD1A821FFD614D00923E0C /* TaskEditPopoverViewController.xib */; };
+		90DD1A861FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD1A851FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift */; };
+		90DD1A871FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD1A851FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift */; };
+		90DD65D81E89E06600D86A6D /* ValuePropogatingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD65D71E89E06600D86A6D /* ValuePropogatingNavigationController.swift */; };
+		90E70F251EC292C90033E41C /* CompactWidthTodayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E70F241EC292C90033E41C /* CompactWidthTodayTableViewController.swift */; };
+		90E70F7A1EC51AF40033E41C /* CompactWidthInboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E70F791EC51AF40033E41C /* CompactWidthInboxTableViewController.swift */; };
+		981A7719F37F51D6F60FE6F2 /* Pods_DayMap_TouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB19BF209C89915333F3E3C6 /* Pods_DayMap_TouchTests.framework */; };
+		FB390D4E18A6CFE7B5AEE569 /* Pods_DayMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA4BF044720F56A8F4DB3E9 /* Pods_DayMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9041A26D1D7F6D3A00372CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907D9A6C1C655E9D00C8C8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9041A2551D7F6D3900372CF6;
+			remoteInfo = "DayMap Touch";
+		};
+		9041A2781D7F6D3A00372CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907D9A6C1C655E9D00C8C8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9041A2551D7F6D3900372CF6;
+			remoteInfo = "DayMap Touch";
+		};
+		907D9A891C655E9E00C8C8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907D9A6C1C655E9D00C8C8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907D9A731C655E9D00C8C8BA;
+			remoteInfo = DayMap;
+		};
+		907D9A941C655E9E00C8C8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907D9A6C1C655E9D00C8C8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907D9A731C655E9D00C8C8BA;
+			remoteInfo = DayMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1182681EA76680A919C37BD5 /* Pods-DayMap TouchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap TouchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap TouchUITests/Pods-DayMap TouchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A84C55B502EAAC632AE349C /* Pods-DayMap TouchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap TouchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap TouchUITests/Pods-DayMap TouchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		380CA6064283F1DEFC3584A4 /* Pods-DayMap TouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap TouchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap TouchTests/Pods-DayMap TouchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A4E6FCF8CE4424C0A853DA4 /* Pods-DayMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayMapTests/Pods-DayMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		44D481920C80F205495DF8F7 /* Pods_DayMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A99AF5333856BD09D6A181 /* Pods-DayMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayMapUITests/Pods-DayMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55318D4CAF87582E5D8090F9 /* Pods_DayMap_TouchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap_TouchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9072F348A9886D53F564C0 /* Pods-DayMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap/Pods-DayMap.debug.xcconfig"; sourceTree = "<group>"; };
+		64A25E19B35A7A80104A285F /* Pods_DayMap_Touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap_Touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA4BF044720F56A8F4DB3E9 /* Pods_DayMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862B97A0B22CC10F339A09D7 /* Pods-DayMap Touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap Touch.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap Touch/Pods-DayMap Touch.release.xcconfig"; sourceTree = "<group>"; };
+		9000FF2D1EEB4BEB0021C62D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		9000FF2F1EEB4BF40021C62D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		900F142E223092CF00BDFACA /* ProjectOutlineFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOutlineFlowLayout.swift; sourceTree = "<group>"; };
+		9010B5301FA6641C00654948 /* ProjectCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewItem.swift; sourceTree = "<group>"; };
+		9010B5311FA6641C00654948 /* ProjectCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectCollectionViewItem.xib; sourceTree = "<group>"; };
+		901509F61D9C91A8005634E4 /* ApplicationPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationPreferences.swift; sourceTree = "<group>"; };
+		9015C7201ECBA09B002E2479 /* CompactWidthWeekTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactWidthWeekTableViewController.swift; sourceTree = "<group>"; };
+		9018887F1E9C358500FC0DDE /* CompactWidthItemDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactWidthItemDetailTableViewController.swift; sourceTree = "<group>"; };
+		901888811E9C363A00FC0DDE /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		901EE3F11FB123D5005CF499 /* CascadingHorizontalOnlyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadingHorizontalOnlyScrollView.swift; sourceTree = "<group>"; };
+		901EE3F31FB123E5005CF499 /* CascadingVerticalOnlyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadingVerticalOnlyScrollView.swift; sourceTree = "<group>"; };
+		901EE3F51FB12A4C005CF499 /* ProjectOutlineFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOutlineFlowLayout.swift; sourceTree = "<group>"; };
+		9021D58D1E7462D000E55CB0 /* Project+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Project+Additions.swift"; path = "shared/database/Project+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		9026431C1E61FB7A00CE20FE /* DayMap Touch-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DayMap Touch-Bridging-Header.h"; sourceTree = "<group>"; };
+		9027B401214FFE9800BFD02E /* MainHorizontalDragSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHorizontalDragSeparator.swift; sourceTree = "<group>"; };
+		902A2E911EE9A42A00401E04 /* Date+WS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+WS.swift"; path = "shared/Date+WS.swift"; sourceTree = SOURCE_ROOT; };
+		902BFCA41C98C58D00D25B93 /* WSLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSLogger.swift; path = ../shared/WSLogger.swift; sourceTree = "<group>"; };
+		902DD7191E7464EB0048CEC8 /* RecurrenceRule+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Additions.swift"; path = "shared/database/RecurrenceRule+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		902DD71A1E7464EB0048CEC8 /* Task+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Task+Additions.swift"; path = "shared/database/Task+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		902E8144219CEA00004D52EC /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		902E8146219CEB5A004D52EC /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		9034333A1F06B63400452A7B /* RecurrenceException+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RecurrenceException+Additions.swift"; path = "shared/database/RecurrenceException+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		9034333D1F06BA7B00452A7B /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Additions.swift"; path = "../shared/database/NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
+		903433401F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RecurrenceSortIndex+Additions.swift"; path = "shared/database/RecurrenceSortIndex+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		903433431F06D35E00452A7B /* AlertStyleRecurrenceQuestionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStyleRecurrenceQuestionHandler.swift; sourceTree = "<group>"; };
+		90383E741FB279D100D1BBEE /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		90383E761FB2827C00D1BBEE /* DragHandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragHandleView.swift; sourceTree = "<group>"; };
+		903982F11EABC46700E4446F /* RecurrenceCompletion+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RecurrenceCompletion+Additions.swift"; path = "../shared/database/RecurrenceCompletion+Additions.swift"; sourceTree = "<group>"; };
+		903983611EB3DFC900E4446F /* MoveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveTableViewController.swift; sourceTree = "<group>"; };
+		903983631EB63CEF00E4446F /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		9041A2561D7F6D3900372CF6 /* DayMap Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayMap Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9041A2581D7F6D3900372CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9041A25A1D7F6D3900372CF6 /* RegularWidthMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularWidthMainViewController.swift; sourceTree = "<group>"; };
+		9041A25D1D7F6D3900372CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9041A2621D7F6D3900372CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9041A2651D7F6D3900372CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9041A2671D7F6D3900372CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9041A26C1D7F6D3900372CF6 /* DayMap TouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayMap TouchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9041A2701D7F6D3A00372CF6 /* DayMap_TouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMap_TouchTests.swift; sourceTree = "<group>"; };
+		9041A2721D7F6D3A00372CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9041A2771D7F6D3A00372CF6 /* DayMap TouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayMap TouchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9041A27B1D7F6D3A00372CF6 /* DayMap_TouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMap_TouchUITests.swift; sourceTree = "<group>"; };
+		9041A27D1D7F6D3A00372CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904F4FFB1E8B498800ACE6F7 /* Color+WS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Color+WS.swift"; path = "shared/Color+WS.swift"; sourceTree = SOURCE_ROOT; };
+		90534BE41FC8A6DD00711E08 /* ProjectTableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableRowView.swift; sourceTree = "<group>"; };
+		90551AF31E9D9F1E002B3D95 /* AbstractTask+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AbstractTask+Additions.swift"; path = "shared/database/AbstractTask+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		90593F7B1FC0CE5D003FF333 /* ProjectOutlineCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOutlineCollectionView.swift; sourceTree = "<group>"; };
+		905CBFEF2013ADF200AEDABB /* DMClearableDatePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMClearableDatePickerCell.m; sourceTree = "<group>"; };
+		905CBFF02013ADF300AEDABB /* DMClearableDatePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMClearableDatePickerCell.h; sourceTree = "<group>"; };
+		905CBFF22013B2FB00AEDABB /* DMDatePickerPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDatePickerPopover.m; sourceTree = "<group>"; };
+		905CBFF32013B2FC00AEDABB /* DMDatePickerPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDatePickerPopover.h; sourceTree = "<group>"; };
+		90605EFE229362CB00B78AEC /* DynamicToolbarItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicToolbarItemProvider.swift; sourceTree = "<group>"; };
+		9062E8C622B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = Model_2.11_to_3.0.xcmappingmodel; path = shared/database/Migrations/Model_2.11_to_3.0.xcmappingmodel; sourceTree = SOURCE_ROOT; };
+		906B6A751D4979CA00E254C6 /* DayMap2.11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayMap2.11.xcdatamodel; sourceTree = "<group>"; };
+		906B6A771D4979E400E254C6 /* DayMap3.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayMap3.0.xcdatamodel; sourceTree = "<group>"; };
+		9072471D1DB04058008C2089 /* LegacyDataMigration_2_1_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyDataMigration_2_1_1.swift; sourceTree = "<group>"; };
+		9072471F1DB041D1008C2089 /* Demo Data 2.1.1 DayMap.b_storedata */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demo Data 2.1.1 DayMap.b_storedata"; sourceTree = "<group>"; };
+		907247211DB048F8008C2089 /* DayMap Touch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DayMap Touch.entitlements"; sourceTree = "<group>"; };
+		9076ED621EB2641200E515C7 /* UITableView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
+		907913AF2183672900B2D29B /* ProjectOutlineCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOutlineCollectionViewController.swift; sourceTree = "<group>"; };
+		907ABEE31EB296F5007F02F8 /* UIResponder+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Additions.swift"; sourceTree = "<group>"; };
+		907D9A741C655E9D00C8C8BA /* DayMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907D9A771C655E9D00C8C8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		907D9A7E1C655E9E00C8C8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		907D9A811C655E9E00C8C8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		907D9A831C655E9E00C8C8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907D9A881C655E9E00C8C8BA /* DayMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907D9A8C1C655E9E00C8C8BA /* DayMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMapTests.swift; sourceTree = "<group>"; };
+		907D9A8E1C655E9E00C8C8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907D9A931C655E9E00C8C8BA /* DayMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907D9A971C655E9E00C8C8BA /* DayMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMapUITests.swift; sourceTree = "<group>"; };
+		907D9A991C655E9E00C8C8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907D9AA51C655F2100C8C8BA /* DayMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DayMap.entitlements; sourceTree = "<group>"; };
+		907D9AA61C65628400C8C8BA /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseManager.swift; path = ../shared/DatabaseManager.swift; sourceTree = "<group>"; };
+		9094DA151F8ABA9C001E5E9C /* ProjectOutline.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectOutline.storyboard; sourceTree = "<group>"; };
+		9094DA171F8ABAC3001E5E9C /* CalendarPanel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalendarPanel.storyboard; sourceTree = "<group>"; };
+		9094DA191F8AC2B9001E5E9C /* HoverScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoverScrollView.h; sourceTree = "<group>"; };
+		9094DA1A1F8AC2B9001E5E9C /* HoverScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoverScrollView.m; sourceTree = "<group>"; };
+		9094DA1C1F8AC8A9001E5E9C /* ProjectOutlineCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOutlineCollectionViewController.swift; sourceTree = "<group>"; };
+		9094DA1E1F8ACB1B001E5E9C /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
+		9094DA201F8ACC29001E5E9C /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		9094DA221F8ACEB6001E5E9C /* MainWindow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainWindow.storyboard; sourceTree = "<group>"; };
+		909A29F01D29C652004A6F9A /* MigrationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MigrationManager.swift; path = ../shared/MigrationManager.swift; sourceTree = "<group>"; };
+		909A29F31D29C6B6004A6F9A /* ApplicationPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationPaths.swift; path = ../shared/ApplicationPaths.swift; sourceTree = "<group>"; };
+		909DBD41200E757500913787 /* SheetStyleRecurrenceQuestionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStyleRecurrenceQuestionHandler.swift; sourceTree = "<group>"; };
+		90ABFE231E8C7F42007E6044 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		90B367EB1FFC34BC0059321B /* ProjectTableTaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableTaskCellView.swift; sourceTree = "<group>"; };
+		90B367F41FFC38420059321B /* SelectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionManager.swift; sourceTree = "<group>"; };
+		90BAC0B01DEA145700017DA1 /* DayMap+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DayMap+Additions.swift"; path = "shared/database/DayMap+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		90BAC0B61DEDF7BD00017DA1 /* DataObjectProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObjectProtocols.swift; sourceTree = "<group>"; };
+		90BAD0E41EBD3D5C005EE489 /* RecurrenceEndingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecurrenceEndingTableViewController.swift; sourceTree = "<group>"; };
+		90BAD0E51EBD3D5C005EE489 /* RecurrenceFrequencyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecurrenceFrequencyTableViewController.swift; sourceTree = "<group>"; };
+		90BDFAE41EA2AF38007AEC5B /* ILColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerView.h; sourceTree = "<group>"; };
+		90BDFAE51EA2AF38007AEC5B /* ILColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerView.m; sourceTree = "<group>"; };
+		90BDFAE61EA2AF38007AEC5B /* ILHuePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILHuePickerView.h; sourceTree = "<group>"; };
+		90BDFAE71EA2AF38007AEC5B /* ILHuePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILHuePickerView.m; sourceTree = "<group>"; };
+		90BDFAE81EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSaturationBrightnessPickerView.h; sourceTree = "<group>"; };
+		90BDFAE91EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSaturationBrightnessPickerView.m; sourceTree = "<group>"; };
+		90BDFAF31EA2B45A007AEC5B /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		90C94D901E89D01F00696F42 /* CompactWidthProjectsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactWidthProjectsListTableViewController.swift; sourceTree = "<group>"; };
+		90C94D921E89D0D700696F42 /* CompactWidthMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactWidthMainTabBarController.swift; sourceTree = "<group>"; };
+		90C94D941E89D7BB00696F42 /* ConsumerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsumerProtocols.swift; path = shared/ConsumerProtocols.swift; sourceTree = SOURCE_ROOT; };
+		90CA90051E1B060500BEF8E2 /* AutolayoutUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutUtils.swift; sourceTree = "<group>"; };
+		90CC85DF20ED1E9F00223CBA /* CompactWidth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompactWidth.storyboard; sourceTree = "<group>"; };
+		90CC85E320ED21B800223CBA /* Regular.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Regular.storyboard; sourceTree = "<group>"; };
+		90D079A92370D73C007B383E /* ProjectOutline.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProjectOutline.storyboard; sourceTree = "<group>"; };
+		90D079AB2370DA90007B383E /* ProjectTableTaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableTaskCellView.swift; sourceTree = "<group>"; };
+		90D079AD2370EA93007B383E /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
+		90D34B2D1DB68C7B0081B326 /* DayMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		90D9A3381DCE1A010052EF65 /* MiscUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MiscUtilities.swift; path = shared/MiscUtilities.swift; sourceTree = SOURCE_ROOT; };
+		90DD1A811FFD614D00923E0C /* TaskEditPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditPopoverViewController.swift; sourceTree = "<group>"; };
+		90DD1A821FFD614D00923E0C /* TaskEditPopoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskEditPopoverViewController.xib; sourceTree = "<group>"; };
+		90DD1A851FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Additions.swift"; path = "shared/database/NSManagedObjectContext+Additions.swift"; sourceTree = SOURCE_ROOT; };
+		90DD65D71E89E06600D86A6D /* ValuePropogatingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValuePropogatingNavigationController.swift; sourceTree = "<group>"; };
+		90E70F241EC292C90033E41C /* CompactWidthTodayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactWidthTodayTableViewController.swift; sourceTree = "<group>"; };
+		90E70F791EC51AF40033E41C /* CompactWidthInboxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactWidthInboxTableViewController.swift; sourceTree = "<group>"; };
+		90F2C4E11E7473A40063A3A5 /* Model_2_11_to_3_0_DayMapToDayMapPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model_2_11_to_3_0_DayMapToDayMapPolicy.h; path = shared/database/Migrations/Model_2_11_to_3_0_DayMapToDayMapPolicy.h; sourceTree = SOURCE_ROOT; };
+		90F2C4E21E7473A40063A3A5 /* Model_2_11_to_3_0_DayMapToDayMapPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model_2_11_to_3_0_DayMapToDayMapPolicy.m; path = shared/database/Migrations/Model_2_11_to_3_0_DayMapToDayMapPolicy.m; sourceTree = SOURCE_ROOT; };
+		A2708E22042CE85C0591A2F7 /* Pods-DayMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayMapUITests/Pods-DayMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CCA3E09DB8A8E328BD1109 /* Pods_DayMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B468E6B40E1479823CFB09CA /* Pods-DayMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayMapTests/Pods-DayMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B87AA7517FF406E6C302566E /* Pods-DayMap TouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap TouchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap TouchTests/Pods-DayMap TouchTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB611872A24DF621255A6E5B /* Pods-DayMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap/Pods-DayMap.release.xcconfig"; sourceTree = "<group>"; };
+		BCCF2363E7D431A63445CCBC /* Pods-DayMap Touch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayMap Touch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayMap Touch/Pods-DayMap Touch.debug.xcconfig"; sourceTree = "<group>"; };
+		EB19BF209C89915333F3E3C6 /* Pods_DayMap_TouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap_TouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9041A2531D7F6D3900372CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9D0350746049C786833B34 /* Pods_DayMap_Touch.framework in Frameworks */,
+				9000FF2E1EEB4BEB0021C62D /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A2691D7F6D3900372CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981A7719F37F51D6F60FE6F2 /* Pods_DayMap_TouchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A2741D7F6D3A00372CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038DF1988561373B3DABA275 /* Pods_DayMap_TouchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A711C655E9D00C8C8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB390D4E18A6CFE7B5AEE569 /* Pods_DayMap.framework in Frameworks */,
+				9000FF301EEB4BF40021C62D /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A851C655E9E00C8C8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BFD8150A063F17854F2817 /* Pods_DayMapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A901C655E9E00C8C8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4526AA9388E7DAA47A7C0E8E /* Pods_DayMapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900F1430223095A300BDFACA /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				902E8144219CEA00004D52EC /* ProjectCollectionViewCell.swift */,
+				902E8146219CEB5A004D52EC /* ProjectHeaderView.swift */,
+				90D079AB2370DA90007B383E /* ProjectTableTaskCellView.swift */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		9010B5341FA6642900654948 /* Outline Section */ = {
+			isa = PBXGroup;
+			children = (
+				9094DA151F8ABA9C001E5E9C /* ProjectOutline.storyboard */,
+				9094DA1C1F8AC8A9001E5E9C /* ProjectOutlineCollectionViewController.swift */,
+				901EE3F51FB12A4C005CF499 /* ProjectOutlineFlowLayout.swift */,
+				90593F7B1FC0CE5D003FF333 /* ProjectOutlineCollectionView.swift */,
+				90383E731FB279B000D1BBEE /* Project */,
+				901EE3F11FB123D5005CF499 /* CascadingHorizontalOnlyScrollView.swift */,
+				901EE3F31FB123E5005CF499 /* CascadingVerticalOnlyScrollView.swift */,
+			);
+			name = "Outline Section";
+			sourceTree = "<group>";
+		};
+		9010B5351FA6643200654948 /* Calendar Section */ = {
+			isa = PBXGroup;
+			children = (
+				9094DA171F8ABAC3001E5E9C /* CalendarPanel.storyboard */,
+			);
+			name = "Calendar Section";
+			sourceTree = "<group>";
+		};
+		9017F4EA1E6524DE00EFA808 /* Migrations */ = {
+			isa = PBXGroup;
+			children = (
+				9062E8C622B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel */,
+				90F2C4E11E7473A40063A3A5 /* Model_2_11_to_3_0_DayMapToDayMapPolicy.h */,
+				90F2C4E21E7473A40063A3A5 /* Model_2_11_to_3_0_DayMapToDayMapPolicy.m */,
+			);
+			name = Migrations;
+			sourceTree = "<group>";
+		};
+		90383E731FB279B000D1BBEE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				90DD1A801FFD611700923E0C /* Task Edit Popover */,
+				9010B5311FA6641C00654948 /* ProjectCollectionViewItem.xib */,
+				9010B5301FA6641C00654948 /* ProjectCollectionViewItem.swift */,
+				90383E741FB279D100D1BBEE /* ProjectHeaderView.swift */,
+				90383E761FB2827C00D1BBEE /* DragHandleView.swift */,
+				90534BE41FC8A6DD00711E08 /* ProjectTableRowView.swift */,
+				90B367EB1FFC34BC0059321B /* ProjectTableTaskCellView.swift */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		9041A2571D7F6D3900372CF6 /* DayMap Touch */ = {
+			isa = PBXGroup;
+			children = (
+				90CC85E220ED218600223CBA /* Regular Size View Controllers */,
+				90C94D8F1E89CF3200696F42 /* Compact Width View Controllers */,
+				907247211DB048F8008C2089 /* DayMap Touch.entitlements */,
+				9041A2581D7F6D3900372CF6 /* AppDelegate.swift */,
+				9041A25C1D7F6D3900372CF6 /* Main.storyboard */,
+				9041A2621D7F6D3900372CF6 /* Assets.xcassets */,
+				9041A2641D7F6D3900372CF6 /* LaunchScreen.storyboard */,
+				9041A2671D7F6D3900372CF6 /* Info.plist */,
+				9026431C1E61FB7A00CE20FE /* DayMap Touch-Bridging-Header.h */,
+				90BDFAE31EA2AF38007AEC5B /* ILColorPicker */,
+				907ABEE31EB296F5007F02F8 /* UIResponder+Additions.swift */,
+			);
+			path = "DayMap Touch";
+			sourceTree = "<group>";
+		};
+		9041A26F1D7F6D3A00372CF6 /* DayMap TouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				9041A2701D7F6D3A00372CF6 /* DayMap_TouchTests.swift */,
+				9041A2721D7F6D3A00372CF6 /* Info.plist */,
+			);
+			path = "DayMap TouchTests";
+			sourceTree = "<group>";
+		};
+		9041A27A1D7F6D3A00372CF6 /* DayMap TouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9041A27B1D7F6D3A00372CF6 /* DayMap_TouchUITests.swift */,
+				9041A27D1D7F6D3A00372CF6 /* Info.plist */,
+			);
+			path = "DayMap TouchUITests";
+			sourceTree = "<group>";
+		};
+		9062542DC9D8C51A2560AE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9000FF2F1EEB4BF40021C62D /* CloudKit.framework */,
+				9000FF2D1EEB4BEB0021C62D /* CloudKit.framework */,
+				7BA4BF044720F56A8F4DB3E9 /* Pods_DayMap.framework */,
+				64A25E19B35A7A80104A285F /* Pods_DayMap_Touch.framework */,
+				EB19BF209C89915333F3E3C6 /* Pods_DayMap_TouchTests.framework */,
+				55318D4CAF87582E5D8090F9 /* Pods_DayMap_TouchUITests.framework */,
+				44D481920C80F205495DF8F7 /* Pods_DayMapTests.framework */,
+				A5CCA3E09DB8A8E328BD1109 /* Pods_DayMapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		907D9A6B1C655E9D00C8C8BA = {
+			isa = PBXGroup;
+			children = (
+				909A29F21D29C68C004A6F9A /* Utility */,
+				90D2FED11CC03C9700030C6D /* Database */,
+				907D9A761C655E9D00C8C8BA /* DayMap */,
+				9041A2571D7F6D3900372CF6 /* DayMap Touch */,
+				907D9A8B1C655E9E00C8C8BA /* DayMapTests */,
+				907D9A961C655E9E00C8C8BA /* DayMapUITests */,
+				9041A26F1D7F6D3A00372CF6 /* DayMap TouchTests */,
+				9041A27A1D7F6D3A00372CF6 /* DayMap TouchUITests */,
+				907D9A751C655E9D00C8C8BA /* Products */,
+				C2B49C4EF10EA16A6CA0348C /* Pods */,
+				9062542DC9D8C51A2560AE3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		907D9A751C655E9D00C8C8BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907D9A741C655E9D00C8C8BA /* DayMap.app */,
+				907D9A881C655E9E00C8C8BA /* DayMapTests.xctest */,
+				907D9A931C655E9E00C8C8BA /* DayMapUITests.xctest */,
+				9041A2561D7F6D3900372CF6 /* DayMap Touch.app */,
+				9041A26C1D7F6D3900372CF6 /* DayMap TouchTests.xctest */,
+				9041A2771D7F6D3A00372CF6 /* DayMap TouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907D9A761C655E9D00C8C8BA /* DayMap */ = {
+			isa = PBXGroup;
+			children = (
+				9010B5341FA6642900654948 /* Outline Section */,
+				9010B5351FA6643200654948 /* Calendar Section */,
+				907D9AA51C655F2100C8C8BA /* DayMap.entitlements */,
+				907D9A7E1C655E9E00C8C8BA /* Assets.xcassets */,
+				907D9A831C655E9E00C8C8BA /* Info.plist */,
+				90D34B2D1DB68C7B0081B326 /* DayMap-Bridging-Header.h */,
+				907D9A801C655E9E00C8C8BA /* Main.storyboard */,
+				907D9A771C655E9D00C8C8BA /* AppDelegate.swift */,
+				9094DA221F8ACEB6001E5E9C /* MainWindow.storyboard */,
+				9094DA201F8ACC29001E5E9C /* MainWindowController.swift */,
+				9094DA1E1F8ACB1B001E5E9C /* MainSplitViewController.swift */,
+				9094DA191F8AC2B9001E5E9C /* HoverScrollView.h */,
+				9094DA1A1F8AC2B9001E5E9C /* HoverScrollView.m */,
+				90B367F41FFC38420059321B /* SelectionManager.swift */,
+			);
+			path = DayMap;
+			sourceTree = "<group>";
+		};
+		907D9A8B1C655E9E00C8C8BA /* DayMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				907D9A8C1C655E9E00C8C8BA /* DayMapTests.swift */,
+				9072471D1DB04058008C2089 /* LegacyDataMigration_2_1_1.swift */,
+				9072471F1DB041D1008C2089 /* Demo Data 2.1.1 DayMap.b_storedata */,
+				907D9A8E1C655E9E00C8C8BA /* Info.plist */,
+			);
+			path = DayMapTests;
+			sourceTree = "<group>";
+		};
+		907D9A961C655E9E00C8C8BA /* DayMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				907D9A971C655E9E00C8C8BA /* DayMapUITests.swift */,
+				907D9A991C655E9E00C8C8BA /* Info.plist */,
+			);
+			path = DayMapUITests;
+			sourceTree = "<group>";
+		};
+		909A29F21D29C68C004A6F9A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				909A29F31D29C6B6004A6F9A /* ApplicationPaths.swift */,
+				902BFCA41C98C58D00D25B93 /* WSLogger.swift */,
+				901509F61D9C91A8005634E4 /* ApplicationPreferences.swift */,
+				90D9A3381DCE1A010052EF65 /* MiscUtilities.swift */,
+				90CA90051E1B060500BEF8E2 /* AutolayoutUtils.swift */,
+				90C94D941E89D7BB00696F42 /* ConsumerProtocols.swift */,
+				904F4FFB1E8B498800ACE6F7 /* Color+WS.swift */,
+				902A2E911EE9A42A00401E04 /* Date+WS.swift */,
+				905CBFF02013ADF300AEDABB /* DMClearableDatePickerCell.h */,
+				905CBFEF2013ADF200AEDABB /* DMClearableDatePickerCell.m */,
+				905CBFF32013B2FC00AEDABB /* DMDatePickerPopover.h */,
+				905CBFF22013B2FB00AEDABB /* DMDatePickerPopover.m */,
+			);
+			name = Utility;
+			path = DayMap;
+			sourceTree = "<group>";
+		};
+		90BAD0E81EBD3D9F005EE489 /* Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				903983631EB63CEF00E4446F /* ScheduleTableViewController.swift */,
+				90BAD0E41EBD3D5C005EE489 /* RecurrenceEndingTableViewController.swift */,
+				90BAD0E51EBD3D5C005EE489 /* RecurrenceFrequencyTableViewController.swift */,
+			);
+			name = Scheduling;
+			sourceTree = "<group>";
+		};
+		90BAD0E91EBD3DAF005EE489 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				90DD65D71E89E06600D86A6D /* ValuePropogatingNavigationController.swift */,
+				9076ED621EB2641200E515C7 /* UITableView+Additions.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		90BAD0EB1EBD3DD2005EE489 /* Task Detail */ = {
+			isa = PBXGroup;
+			children = (
+				903983611EB3DFC900E4446F /* MoveTableViewController.swift */,
+				90BDFAF31EA2B45A007AEC5B /* ColorPickerViewController.swift */,
+				90BAD0E81EBD3D9F005EE489 /* Scheduling */,
+			);
+			name = "Task Detail";
+			sourceTree = "<group>";
+		};
+		90BDFAE31EA2AF38007AEC5B /* ILColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				90BDFAE41EA2AF38007AEC5B /* ILColorPickerView.h */,
+				90BDFAE51EA2AF38007AEC5B /* ILColorPickerView.m */,
+				90BDFAE61EA2AF38007AEC5B /* ILHuePickerView.h */,
+				90BDFAE71EA2AF38007AEC5B /* ILHuePickerView.m */,
+				90BDFAE81EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.h */,
+				90BDFAE91EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.m */,
+			);
+			path = ILColorPicker;
+			sourceTree = "<group>";
+		};
+		90C94D8F1E89CF3200696F42 /* Compact Width View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90CC85DF20ED1E9F00223CBA /* CompactWidth.storyboard */,
+				90C94D921E89D0D700696F42 /* CompactWidthMainTabBarController.swift */,
+				90E70F241EC292C90033E41C /* CompactWidthTodayTableViewController.swift */,
+				9015C7201ECBA09B002E2479 /* CompactWidthWeekTableViewController.swift */,
+				90E70F791EC51AF40033E41C /* CompactWidthInboxTableViewController.swift */,
+				9018887F1E9C358500FC0DDE /* CompactWidthItemDetailTableViewController.swift */,
+				90C94D901E89D01F00696F42 /* CompactWidthProjectsListTableViewController.swift */,
+				90E70F231EC291150033E41C /* Cells */,
+				90BAD0E91EBD3DAF005EE489 /* Util */,
+				90BAD0EB1EBD3DD2005EE489 /* Task Detail */,
+				903433431F06D35E00452A7B /* AlertStyleRecurrenceQuestionHandler.swift */,
+			);
+			name = "Compact Width View Controllers";
+			sourceTree = "<group>";
+		};
+		90CC85E220ED218600223CBA /* Regular Size View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90D079A42370BEAD007B383E /* Outline Section */,
+				90CC85E320ED21B800223CBA /* Regular.storyboard */,
+				9041A25A1D7F6D3900372CF6 /* RegularWidthMainViewController.swift */,
+				9027B401214FFE9800BFD02E /* MainHorizontalDragSeparator.swift */,
+				90605EFE229362CB00B78AEC /* DynamicToolbarItemProvider.swift */,
+			);
+			name = "Regular Size View Controllers";
+			sourceTree = "<group>";
+		};
+		90D079A42370BEAD007B383E /* Outline Section */ = {
+			isa = PBXGroup;
+			children = (
+				90D079A92370D73C007B383E /* ProjectOutline.storyboard */,
+				907913AF2183672900B2D29B /* ProjectOutlineCollectionViewController.swift */,
+				900F142E223092CF00BDFACA /* ProjectOutlineFlowLayout.swift */,
+				900F1430223095A300BDFACA /* Project */,
+				90D079AD2370EA93007B383E /* OutlineView.swift */,
+			);
+			name = "Outline Section";
+			sourceTree = "<group>";
+		};
+		90D2FED11CC03C9700030C6D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				906B6A741D4979CA00E254C6 /* DayMap.xcdatamodeld */,
+				9017F4EA1E6524DE00EFA808 /* Migrations */,
+				907D9AA61C65628400C8C8BA /* DatabaseManager.swift */,
+				909A29F01D29C652004A6F9A /* MigrationManager.swift */,
+				90BAC0B61DEDF7BD00017DA1 /* DataObjectProtocols.swift */,
+				90BAC0B01DEA145700017DA1 /* DayMap+Additions.swift */,
+				9021D58D1E7462D000E55CB0 /* Project+Additions.swift */,
+				902DD7191E7464EB0048CEC8 /* RecurrenceRule+Additions.swift */,
+				903982F11EABC46700E4446F /* RecurrenceCompletion+Additions.swift */,
+				90551AF31E9D9F1E002B3D95 /* AbstractTask+Additions.swift */,
+				902DD71A1E7464EB0048CEC8 /* Task+Additions.swift */,
+				9034333A1F06B63400452A7B /* RecurrenceException+Additions.swift */,
+				9034333D1F06BA7B00452A7B /* NSManagedObject+Additions.swift */,
+				90DD1A851FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift */,
+				903433401F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift */,
+			);
+			name = Database;
+			path = DayMap;
+			sourceTree = "<group>";
+		};
+		90DD1A801FFD611700923E0C /* Task Edit Popover */ = {
+			isa = PBXGroup;
+			children = (
+				90DD1A821FFD614D00923E0C /* TaskEditPopoverViewController.xib */,
+				90DD1A811FFD614D00923E0C /* TaskEditPopoverViewController.swift */,
+				909DBD41200E757500913787 /* SheetStyleRecurrenceQuestionHandler.swift */,
+			);
+			name = "Task Edit Popover";
+			sourceTree = "<group>";
+		};
+		90E70F231EC291150033E41C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				901888811E9C363A00FC0DDE /* TaskTableViewCell.swift */,
+				90ABFE231E8C7F42007E6044 /* ProjectTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C2B49C4EF10EA16A6CA0348C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A9072F348A9886D53F564C0 /* Pods-DayMap.debug.xcconfig */,
+				BB611872A24DF621255A6E5B /* Pods-DayMap.release.xcconfig */,
+				380CA6064283F1DEFC3584A4 /* Pods-DayMap TouchTests.debug.xcconfig */,
+				B87AA7517FF406E6C302566E /* Pods-DayMap TouchTests.release.xcconfig */,
+				1182681EA76680A919C37BD5 /* Pods-DayMap TouchUITests.debug.xcconfig */,
+				2A84C55B502EAAC632AE349C /* Pods-DayMap TouchUITests.release.xcconfig */,
+				B468E6B40E1479823CFB09CA /* Pods-DayMapTests.debug.xcconfig */,
+				3A4E6FCF8CE4424C0A853DA4 /* Pods-DayMapTests.release.xcconfig */,
+				A2708E22042CE85C0591A2F7 /* Pods-DayMapUITests.debug.xcconfig */,
+				45A99AF5333856BD09D6A181 /* Pods-DayMapUITests.release.xcconfig */,
+				BCCF2363E7D431A63445CCBC /* Pods-DayMap Touch.debug.xcconfig */,
+				862B97A0B22CC10F339A09D7 /* Pods-DayMap Touch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9041A2551D7F6D3900372CF6 /* DayMap Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9041A27E1D7F6D3A00372CF6 /* Build configuration list for PBXNativeTarget "DayMap Touch" */;
+			buildPhases = (
+				5D3FFA5F17E1F0EE22D84D99 /* [CP] Check Pods Manifest.lock */,
+				9041A2521D7F6D3900372CF6 /* Sources */,
+				9041A2531D7F6D3900372CF6 /* Frameworks */,
+				9041A2541D7F6D3900372CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DayMap Touch";
+			productName = "DayMap Touch";
+			productReference = 9041A2561D7F6D3900372CF6 /* DayMap Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9041A26B1D7F6D3900372CF6 /* DayMap TouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9041A2811D7F6D3A00372CF6 /* Build configuration list for PBXNativeTarget "DayMap TouchTests" */;
+			buildPhases = (
+				7CB23DD6B23E12626BD2DF38 /* [CP] Check Pods Manifest.lock */,
+				9041A2681D7F6D3900372CF6 /* Sources */,
+				9041A2691D7F6D3900372CF6 /* Frameworks */,
+				9041A26A1D7F6D3900372CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9041A26E1D7F6D3A00372CF6 /* PBXTargetDependency */,
+			);
+			name = "DayMap TouchTests";
+			productName = "DayMap TouchTests";
+			productReference = 9041A26C1D7F6D3900372CF6 /* DayMap TouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9041A2761D7F6D3A00372CF6 /* DayMap TouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9041A2841D7F6D3A00372CF6 /* Build configuration list for PBXNativeTarget "DayMap TouchUITests" */;
+			buildPhases = (
+				41532AA3852D6400F6B5EC64 /* [CP] Check Pods Manifest.lock */,
+				9041A2731D7F6D3A00372CF6 /* Sources */,
+				9041A2741D7F6D3A00372CF6 /* Frameworks */,
+				9041A2751D7F6D3A00372CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9041A2791D7F6D3A00372CF6 /* PBXTargetDependency */,
+			);
+			name = "DayMap TouchUITests";
+			productName = "DayMap TouchUITests";
+			productReference = 9041A2771D7F6D3A00372CF6 /* DayMap TouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		907D9A731C655E9D00C8C8BA /* DayMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907D9A9C1C655E9E00C8C8BA /* Build configuration list for PBXNativeTarget "DayMap" */;
+			buildPhases = (
+				2144650BF27E50183F7592AE /* [CP] Check Pods Manifest.lock */,
+				907D9A701C655E9D00C8C8BA /* Sources */,
+				907D9A711C655E9D00C8C8BA /* Frameworks */,
+				907D9A721C655E9D00C8C8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayMap;
+			productName = DayMap;
+			productReference = 907D9A741C655E9D00C8C8BA /* DayMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		907D9A871C655E9E00C8C8BA /* DayMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907D9A9F1C655E9E00C8C8BA /* Build configuration list for PBXNativeTarget "DayMapTests" */;
+			buildPhases = (
+				78A2E588488AA6CAF41DEC8F /* [CP] Check Pods Manifest.lock */,
+				907D9A841C655E9E00C8C8BA /* Sources */,
+				907D9A851C655E9E00C8C8BA /* Frameworks */,
+				907D9A861C655E9E00C8C8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907D9A8A1C655E9E00C8C8BA /* PBXTargetDependency */,
+			);
+			name = DayMapTests;
+			productName = DayMapTests;
+			productReference = 907D9A881C655E9E00C8C8BA /* DayMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		907D9A921C655E9E00C8C8BA /* DayMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907D9AA21C655E9E00C8C8BA /* Build configuration list for PBXNativeTarget "DayMapUITests" */;
+			buildPhases = (
+				C4E1FE98F13C0E3BA7F48492 /* [CP] Check Pods Manifest.lock */,
+				907D9A8F1C655E9E00C8C8BA /* Sources */,
+				907D9A901C655E9E00C8C8BA /* Frameworks */,
+				907D9A911C655E9E00C8C8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907D9A951C655E9E00C8C8BA /* PBXTargetDependency */,
+			);
+			name = DayMapUITests;
+			productName = DayMapUITests;
+			productReference = 907D9A931C655E9E00C8C8BA /* DayMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907D9A6C1C655E9D00C8C8BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Whetstone Apps";
+				TargetAttributes = {
+					9041A2551D7F6D3900372CF6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2WFZT4HWJN;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					9041A26B1D7F6D3900372CF6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2WFZT4HWJN;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9041A2551D7F6D3900372CF6;
+					};
+					9041A2761D7F6D3A00372CF6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2WFZT4HWJN;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9041A2551D7F6D3900372CF6;
+					};
+					907D9A731C655E9D00C8C8BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2WFZT4HWJN;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					907D9A871C655E9E00C8C8BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2WFZT4HWJN;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 907D9A731C655E9D00C8C8BA;
+					};
+					907D9A921C655E9E00C8C8BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2WFZT4HWJN;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 907D9A731C655E9D00C8C8BA;
+					};
+				};
+			};
+			buildConfigurationList = 907D9A6F1C655E9D00C8C8BA /* Build configuration list for PBXProject "DayMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 907D9A6B1C655E9D00C8C8BA;
+			productRefGroup = 907D9A751C655E9D00C8C8BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907D9A731C655E9D00C8C8BA /* DayMap */,
+				907D9A871C655E9E00C8C8BA /* DayMapTests */,
+				907D9A921C655E9E00C8C8BA /* DayMapUITests */,
+				9041A2551D7F6D3900372CF6 /* DayMap Touch */,
+				9041A26B1D7F6D3900372CF6 /* DayMap TouchTests */,
+				9041A2761D7F6D3A00372CF6 /* DayMap TouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9041A2541D7F6D3900372CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9041A2661D7F6D3900372CF6 /* LaunchScreen.storyboard in Resources */,
+				90CC85E420ED21B800223CBA /* Regular.storyboard in Resources */,
+				90CC85E020ED1E9F00223CBA /* CompactWidth.storyboard in Resources */,
+				90D079AA2370D73D007B383E /* ProjectOutline.storyboard in Resources */,
+				9041A2631D7F6D3900372CF6 /* Assets.xcassets in Resources */,
+				9041A25E1D7F6D3900372CF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A26A1D7F6D3900372CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A2751D7F6D3A00372CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A721C655E9D00C8C8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9094DA161F8ABA9C001E5E9C /* ProjectOutline.storyboard in Resources */,
+				9094DA181F8ABAC3001E5E9C /* CalendarPanel.storyboard in Resources */,
+				90DD1A841FFD614D00923E0C /* TaskEditPopoverViewController.xib in Resources */,
+				907D9A7F1C655E9E00C8C8BA /* Assets.xcassets in Resources */,
+				9010B5331FA6641C00654948 /* ProjectCollectionViewItem.xib in Resources */,
+				9094DA231F8ACEB6001E5E9C /* MainWindow.storyboard in Resources */,
+				907D9A821C655E9E00C8C8BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A861C655E9E00C8C8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907247201DB041D1008C2089 /* Demo Data 2.1.1 DayMap.b_storedata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A911C655E9E00C8C8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2144650BF27E50183F7592AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41532AA3852D6400F6B5EC64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayMap TouchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3FFA5F17E1F0EE22D84D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayMap Touch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A2E588488AA6CAF41DEC8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB23DD6B23E12626BD2DF38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayMap TouchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E1FE98F13C0E3BA7F48492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9041A2521D7F6D3900372CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90551AF51E9D9F1E002B3D95 /* AbstractTask+Additions.swift in Sources */,
+				902E8147219CEB5A004D52EC /* ProjectHeaderView.swift in Sources */,
+				90ABFE241E8C7F42007E6044 /* ProjectTableViewCell.swift in Sources */,
+				901509F81D9C91A8005634E4 /* ApplicationPreferences.swift in Sources */,
+				9041A25B1D7F6D3900372CF6 /* RegularWidthMainViewController.swift in Sources */,
+				9062E8C822B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel in Sources */,
+				90D079AC2370DA90007B383E /* ProjectTableTaskCellView.swift in Sources */,
+				903982F31EABC46700E4446F /* RecurrenceCompletion+Additions.swift in Sources */,
+				90605EFF229362CB00B78AEC /* DynamicToolbarItemProvider.swift in Sources */,
+				90D9A33A1DCE1A010052EF65 /* MiscUtilities.swift in Sources */,
+				90C94D961E89D7BB00696F42 /* ConsumerProtocols.swift in Sources */,
+				904F4FFD1E8B498800ACE6F7 /* Color+WS.swift in Sources */,
+				901888801E9C358500FC0DDE /* CompactWidthItemDetailTableViewController.swift in Sources */,
+				902DD71C1E7464EB0048CEC8 /* RecurrenceRule+Additions.swift in Sources */,
+				90E70F251EC292C90033E41C /* CompactWidthTodayTableViewController.swift in Sources */,
+				902DD71F1E7464EB0048CEC8 /* Task+Additions.swift in Sources */,
+				903433421F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift in Sources */,
+				90BDFAEE1EA2AF38007AEC5B /* ILColorPickerView.m in Sources */,
+				901888821E9C363A00FC0DDE /* TaskTableViewCell.swift in Sources */,
+				9027B402214FFE9800BFD02E /* MainHorizontalDragSeparator.swift in Sources */,
+				90C94D911E89D01F00696F42 /* CompactWidthProjectsListTableViewController.swift in Sources */,
+				90BAD0E71EBD3D5C005EE489 /* RecurrenceFrequencyTableViewController.swift in Sources */,
+				90D079AE2370EA93007B383E /* OutlineView.swift in Sources */,
+				90BAC0B81DEDF7BD00017DA1 /* DataObjectProtocols.swift in Sources */,
+				903433441F06D35E00452A7B /* AlertStyleRecurrenceQuestionHandler.swift in Sources */,
+				9021D58F1E7462D000E55CB0 /* Project+Additions.swift in Sources */,
+				902E11A11E1B070400E60E41 /* AutolayoutUtils.swift in Sources */,
+				9034333F1F06BA7B00452A7B /* NSManagedObject+Additions.swift in Sources */,
+				903983641EB63CEF00E4446F /* ScheduleTableViewController.swift in Sources */,
+				90E70F7A1EC51AF40033E41C /* CompactWidthInboxTableViewController.swift in Sources */,
+				902643161E61F63600CE20FE /* AppDelegate.swift in Sources */,
+				90B7CE631DB6DD34009635DD /* ApplicationPaths.swift in Sources */,
+				9034333C1F06B63400452A7B /* RecurrenceException+Additions.swift in Sources */,
+				90BDFAEF1EA2AF38007AEC5B /* ILHuePickerView.m in Sources */,
+				903983621EB3DFC900E4446F /* MoveTableViewController.swift in Sources */,
+				90BAD0E61EBD3D5C005EE489 /* RecurrenceEndingTableViewController.swift in Sources */,
+				90DD1A871FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift in Sources */,
+				90B7CE621DB6DD2F009635DD /* WSLogger.swift in Sources */,
+				907913B02183672900B2D29B /* ProjectOutlineCollectionViewController.swift in Sources */,
+				90D34B331DB68D340081B326 /* DayMap.xcdatamodeld in Sources */,
+				902E8145219CEA00004D52EC /* ProjectCollectionViewCell.swift in Sources */,
+				90BDFAF01EA2AF38007AEC5B /* ILSaturationBrightnessPickerView.m in Sources */,
+				90BDFAF41EA2B45A007AEC5B /* ColorPickerViewController.swift in Sources */,
+				9015C7211ECBA09B002E2479 /* CompactWidthWeekTableViewController.swift in Sources */,
+				90DD65D81E89E06600D86A6D /* ValuePropogatingNavigationController.swift in Sources */,
+				90B7CE611DB6DD20009635DD /* MigrationManager.swift in Sources */,
+				90C94D931E89D0D700696F42 /* CompactWidthMainTabBarController.swift in Sources */,
+				90B7CE601DB6DD1A009635DD /* DatabaseManager.swift in Sources */,
+				90BAC0B21DEA145700017DA1 /* DayMap+Additions.swift in Sources */,
+				9076ED631EB2641200E515C7 /* UITableView+Additions.swift in Sources */,
+				900F142F223092CF00BDFACA /* ProjectOutlineFlowLayout.swift in Sources */,
+				9064E56A1EE9A7B200ABD8AD /* Date+WS.swift in Sources */,
+				907ABEE41EB296F5007F02F8 /* UIResponder+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A2681D7F6D3900372CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9041A2711D7F6D3A00372CF6 /* DayMap_TouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A2731D7F6D3A00372CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9041A27C1D7F6D3A00372CF6 /* DayMap_TouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A701C655E9D00C8C8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90593F7C1FC0CE5D003FF333 /* ProjectOutlineCollectionView.swift in Sources */,
+				90BAC0B11DEA145700017DA1 /* DayMap+Additions.swift in Sources */,
+				9034333B1F06B63400452A7B /* RecurrenceException+Additions.swift in Sources */,
+				902DD71B1E7464EB0048CEC8 /* RecurrenceRule+Additions.swift in Sources */,
+				906B6A761D4979CA00E254C6 /* DayMap.xcdatamodeld in Sources */,
+				90B367EC1FFC34BC0059321B /* ProjectTableTaskCellView.swift in Sources */,
+				901EE3F61FB12A4C005CF499 /* ProjectOutlineFlowLayout.swift in Sources */,
+				90383E751FB279D100D1BBEE /* ProjectHeaderView.swift in Sources */,
+				909A29F11D29C652004A6F9A /* MigrationManager.swift in Sources */,
+				9034333E1F06BA7B00452A7B /* NSManagedObject+Additions.swift in Sources */,
+				90DD1A861FFFFEB700923E0C /* NSManagedObjectContext+Additions.swift in Sources */,
+				901EE3F41FB123E5005CF499 /* CascadingVerticalOnlyScrollView.swift in Sources */,
+				9094DA1F1F8ACB1B001E5E9C /* MainSplitViewController.swift in Sources */,
+				909DBD42200E757500913787 /* SheetStyleRecurrenceQuestionHandler.swift in Sources */,
+				90DD1A831FFD614D00923E0C /* TaskEditPopoverViewController.swift in Sources */,
+				9062E8C722B438EE000734BD /* Model_2.11_to_3.0.xcmappingmodel in Sources */,
+				902BFCA51C98C58D00D25B93 /* WSLogger.swift in Sources */,
+				902A2E921EE9A42A00401E04 /* Date+WS.swift in Sources */,
+				905CBFF12013ADF300AEDABB /* DMClearableDatePickerCell.m in Sources */,
+				907D9AA71C65628400C8C8BA /* DatabaseManager.swift in Sources */,
+				902DD71E1E7464EB0048CEC8 /* Task+Additions.swift in Sources */,
+				9094DA1B1F8AC2B9001E5E9C /* HoverScrollView.m in Sources */,
+				9010B5321FA6641C00654948 /* ProjectCollectionViewItem.swift in Sources */,
+				90BAC0B71DEDF7BD00017DA1 /* DataObjectProtocols.swift in Sources */,
+				9094DA1D1F8AC8A9001E5E9C /* ProjectOutlineCollectionViewController.swift in Sources */,
+				907D9A781C655E9D00C8C8BA /* AppDelegate.swift in Sources */,
+				90383E771FB2827C00D1BBEE /* DragHandleView.swift in Sources */,
+				90534BE51FC8A6DD00711E08 /* ProjectTableRowView.swift in Sources */,
+				90B367F51FFC38420059321B /* SelectionManager.swift in Sources */,
+				903433411F06CDA300452A7B /* RecurrenceSortIndex+Additions.swift in Sources */,
+				9094DA211F8ACC29001E5E9C /* MainWindowController.swift in Sources */,
+				904F4FFC1E8B498800ACE6F7 /* Color+WS.swift in Sources */,
+				90C94D951E89D7BB00696F42 /* ConsumerProtocols.swift in Sources */,
+				903982F21EABC46700E4446F /* RecurrenceCompletion+Additions.swift in Sources */,
+				90D9A3391DCE1A010052EF65 /* MiscUtilities.swift in Sources */,
+				901EE3F21FB123D5005CF499 /* CascadingHorizontalOnlyScrollView.swift in Sources */,
+				901509F71D9C91A8005634E4 /* ApplicationPreferences.swift in Sources */,
+				9021D58E1E7462D000E55CB0 /* Project+Additions.swift in Sources */,
+				909A29F41D29C6B6004A6F9A /* ApplicationPaths.swift in Sources */,
+				905CBFF42013B2FC00AEDABB /* DMDatePickerPopover.m in Sources */,
+				90551AF41E9D9F1E002B3D95 /* AbstractTask+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A841C655E9E00C8C8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907D9A8D1C655E9E00C8C8BA /* DayMapTests.swift in Sources */,
+				9072471E1DB04058008C2089 /* LegacyDataMigration_2_1_1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907D9A8F1C655E9E00C8C8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907D9A981C655E9E00C8C8BA /* DayMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9041A26E1D7F6D3A00372CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9041A2551D7F6D3900372CF6 /* DayMap Touch */;
+			targetProxy = 9041A26D1D7F6D3A00372CF6 /* PBXContainerItemProxy */;
+		};
+		9041A2791D7F6D3A00372CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9041A2551D7F6D3900372CF6 /* DayMap Touch */;
+			targetProxy = 9041A2781D7F6D3A00372CF6 /* PBXContainerItemProxy */;
+		};
+		907D9A8A1C655E9E00C8C8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907D9A731C655E9D00C8C8BA /* DayMap */;
+			targetProxy = 907D9A891C655E9E00C8C8BA /* PBXContainerItemProxy */;
+		};
+		907D9A951C655E9E00C8C8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907D9A731C655E9D00C8C8BA /* DayMap */;
+			targetProxy = 907D9A941C655E9E00C8C8BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9041A25C1D7F6D3900372CF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9041A25D1D7F6D3900372CF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9041A2641D7F6D3900372CF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9041A2651D7F6D3900372CF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		907D9A801C655E9E00C8C8BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907D9A811C655E9E00C8C8BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9041A27F1D7F6D3A00372CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCF2363E7D431A63445CCBC /* Pods-DayMap Touch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DayMap Touch/DayMap Touch.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = "DayMap Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.DayMap-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "DayMap Touch/DayMap Touch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9041A2801D7F6D3A00372CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862B97A0B22CC10F339A09D7 /* Pods-DayMap Touch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DayMap Touch/DayMap Touch.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = "DayMap Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.DayMap-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DayMap Touch/DayMap Touch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9041A2821D7F6D3A00372CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380CA6064283F1DEFC3584A4 /* Pods-DayMap TouchTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = "DayMap TouchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.DayMap-TouchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayMap Touch.app/DayMap Touch";
+			};
+			name = Debug;
+		};
+		9041A2831D7F6D3A00372CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87AA7517FF406E6C302566E /* Pods-DayMap TouchTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = "DayMap TouchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.DayMap-TouchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayMap Touch.app/DayMap Touch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9041A2851D7F6D3A00372CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1182681EA76680A919C37BD5 /* Pods-DayMap TouchUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = "DayMap TouchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.DayMap-TouchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DayMap Touch";
+			};
+			name = Debug;
+		};
+		9041A2861D7F6D3A00372CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A84C55B502EAAC632AE349C /* Pods-DayMap TouchUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = "DayMap TouchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.DayMap-TouchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DayMap Touch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907D9A9A1C655E9E00C8C8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		907D9A9B1C655E9E00C8C8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		907D9A9D1C655E9E00C8C8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9072F348A9886D53F564C0 /* Pods-DayMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DayMap/DayMap.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DayMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whetstoneapps.daymap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DayMap/DayMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		907D9A9E1C655E9E00C8C8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB611872A24DF621255A6E5B /* Pods-DayMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DayMap/DayMap.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DayMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whetstoneapps.daymap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DayMap/DayMap-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		907D9AA01C655E9E00C8C8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B468E6B40E1479823CFB09CA /* Pods-DayMapTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = DayMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whetstoneapps.DayMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayMap.app/Contents/MacOS/DayMap";
+			};
+			name = Debug;
+		};
+		907D9AA11C655E9E00C8C8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4E6FCF8CE4424C0A853DA4 /* Pods-DayMapTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = DayMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whetstoneapps.DayMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayMap.app/Contents/MacOS/DayMap";
+			};
+			name = Release;
+		};
+		907D9AA31C655E9E00C8C8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2708E22042CE85C0591A2F7 /* Pods-DayMapUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = DayMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whetstoneapps.DayMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DayMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		907D9AA41C655E9E00C8C8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A99AF5333856BD09D6A181 /* Pods-DayMapUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WFZT4HWJN;
+				INFOPLIST_FILE = DayMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whetstoneapps.DayMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DayMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9041A27E1D7F6D3A00372CF6 /* Build configuration list for PBXNativeTarget "DayMap Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9041A27F1D7F6D3A00372CF6 /* Debug */,
+				9041A2801D7F6D3A00372CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9041A2811D7F6D3A00372CF6 /* Build configuration list for PBXNativeTarget "DayMap TouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9041A2821D7F6D3A00372CF6 /* Debug */,
+				9041A2831D7F6D3A00372CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9041A2841D7F6D3A00372CF6 /* Build configuration list for PBXNativeTarget "DayMap TouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9041A2851D7F6D3A00372CF6 /* Debug */,
+				9041A2861D7F6D3A00372CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907D9A6F1C655E9D00C8C8BA /* Build configuration list for PBXProject "DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907D9A9A1C655E9E00C8C8BA /* Debug */,
+				907D9A9B1C655E9E00C8C8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907D9A9C1C655E9E00C8C8BA /* Build configuration list for PBXNativeTarget "DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907D9A9D1C655E9E00C8C8BA /* Debug */,
+				907D9A9E1C655E9E00C8C8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907D9A9F1C655E9E00C8C8BA /* Build configuration list for PBXNativeTarget "DayMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907D9AA01C655E9E00C8C8BA /* Debug */,
+				907D9AA11C655E9E00C8C8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907D9AA21C655E9E00C8C8BA /* Build configuration list for PBXNativeTarget "DayMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907D9AA31C655E9E00C8C8BA /* Debug */,
+				907D9AA41C655E9E00C8C8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		906B6A741D4979CA00E254C6 /* DayMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				906B6A771D4979E400E254C6 /* DayMap3.0.xcdatamodel */,
+				906B6A751D4979CA00E254C6 /* DayMap2.11.xcdatamodel */,
+			);
+			currentVersion = 906B6A771D4979E400E254C6 /* DayMap3.0.xcdatamodel */;
+			name = DayMap.xcdatamodeld;
+			path = ../shared/database/DayMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 907D9A6C1C655E9D00C8C8BA /* Project object */;
+}

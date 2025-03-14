@@ -1,0 +1,110 @@
+body {
+	font-family: "Helvetica Neue", Helvetica;
+	font-size:  12px;
+} 
+
+p {
+	font-size: 12px;
+}
+
+div {
+	padding: 2mm 0mm 0mm 0mm;
+}
+
+.name {
+}
+
+.project .name {
+	/*background: #666;
+	 color: #fff;*/
+	font-size:14px; 
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+.day .name {
+	/*background: #666;
+	 color: #fff;*/
+	font-size:14px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.day_date {
+	/*background: #666;
+	 color: #fff;*/
+	font-size:14px;
+	font-weight: bold;
+	/*	padding-left: 20px;
+	 padding-right: 20px;*/
+	text-align: center;
+	padding-top: 2mm;
+	padding-bottom: 1mm;
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: rgb(70,70,70);
+}
+
+.ekeventheader {
+	/*background: #fff;
+	 color: #000;*/
+	font-weight: lighter;
+	font-size: 12px;
+	text-decoration: underline;
+	display:inline;
+}
+
+.task .name {
+	/*background: #fff;
+	 color: #000;*/
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+	display:inline;
+}
+
+.ekevent .name {
+	/*background: #fff;
+	 color: #000;*/
+	font-weight: lighter;
+	font-size: 12px;
+	text-decoration: none;
+	display:inline;
+} 
+
+.children {
+	padding: 0mm 0mm 0mm 5mm;
+}
+
+.completed .name {
+	text-decoration: line-through;
+}
+
+.details {
+	color: #888;
+	font-weight: normal;
+	font-size: 10px;
+	font-style: italic;
+	padding-top: 0mm;
+	padding-bottom: 0mm;
+}
+
+.completedDate {
+	color: #888;
+	font-weight: normal;
+	font-size: 10px;
+	font-style: italic;
+	padding-top: 0mm;
+	padding-bottom: 0mm;
+	display:inline;
+}
+
+.scheduledDate {
+	color: #888;
+	font-weight: normal;
+	font-size: 10px;
+	font-style: italic;
+	padding-top: 0mm;
+	padding-bottom: 0mm;
+	display:inline
+}

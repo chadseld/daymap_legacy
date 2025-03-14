@@ -1,0 +1,21 @@
+----------------------
+UPDATE VERSION IN CODE
+----------------------
+Edit Main.m
+	set global_bundleVersion
+Edit Info.plist 
+	change Bundle versions string, short
+	change Bundle version
+Edit Demo Info.plist same as above
+
+---------------------------
+BUILD VERSION FOR APP STORE
+---------------------------
+Switch to DayMap Appstore project
+Create an Archive
+
+------------------
+TAG VERSION IN GIT
+------------------
+system("git tag -a --force release-mac-#{@@full_version} -m \"Tag for release #{@@full_version}\"")
+system("git push --tags")

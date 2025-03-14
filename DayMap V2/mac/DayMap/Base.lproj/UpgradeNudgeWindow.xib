@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="UpgradeNudgeWindowController">
+            <connections>
+                <outlet property="reasonTextField" destination="H4M-aq-40i" id="dc8-Wp-Txi"/>
+                <outlet property="window" destination="1" id="3"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="400" height="316"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="316"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView translatesAutoresizingMaskIntoConstraints="NO" id="w3w-q8-Mcj">
+                        <rect key="frame" x="170" y="-195" width="384" height="401"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="401" id="2a3-PO-xbH"/>
+                            <constraint firstAttribute="width" constant="384" id="QQM-a6-7lt"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="DayMap1024" id="Cbq-an-0if"/>
+                    </imageView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zaQ-9o-p9Q">
+                        <rect key="frame" x="14" y="79" width="166" height="32"/>
+                        <buttonCell key="cell" type="push" title="Show in App Store" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1Lh-NP-r38">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="purchaseNow:" target="-2" id="zoz-wY-2ns"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PQ3-9d-iFU">
+                        <rect key="frame" x="14" y="46" width="166" height="32"/>
+                        <buttonCell key="cell" type="push" title="Not Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xUT-pQ-K15">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="notNow:" target="-2" id="YPU-CD-1l6"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XB0-ZP-ddd">
+                        <rect key="frame" x="14" y="13" width="166" height="32"/>
+                        <buttonCell key="cell" type="push" title="More Information…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hzP-0X-twl">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="moreInformation:" target="-2" id="5FS-XT-Riw"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H4M-aq-40i">
+                        <rect key="frame" x="18" y="249" width="364" height="18"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Multiline Label" id="POe-5g-jft">
+                            <font key="font" metaFont="system" size="15"/>
+                            <color key="textColor" white="0.1827445652173913" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C6v-hm-a03">
+                        <rect key="frame" x="18" y="275" width="364" height="21"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Upgrade to the full version of DayMap…" id="w51-0t-uxq">
+                            <font key="font" metaFont="systemBold" size="17"/>
+                            <color key="textColor" white="0.1827445652173913" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8X-q4-6Tf">
+                        <rect key="frame" x="18" y="187" width="364" height="54"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" id="UYo-Cx-Y2L">
+                            <font key="font" metaFont="system" size="15"/>
+                            <string key="title">• Recurring / Repeating Tasks
+• iCloud Syncing with DayMap for iOS
+• System-wide Quick Add shortcut</string>
+                            <color key="textColor" white="0.1827445652173913" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XB0-ZP-ddd" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="1hi-Ut-is8"/>
+                    <constraint firstItem="PQ3-9d-iFU" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="Bjo-jV-8rE"/>
+                    <constraint firstAttribute="bottom" secondItem="XB0-ZP-ddd" secondAttribute="bottom" constant="20" id="CO8-Y0-H4U"/>
+                    <constraint firstAttribute="bottom" secondItem="w3w-q8-Mcj" secondAttribute="bottom" constant="-195" id="Ccn-6y-y4o"/>
+                    <constraint firstItem="zaQ-9o-p9Q" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="Csr-DJ-e51"/>
+                    <constraint firstItem="PQ3-9d-iFU" firstAttribute="top" secondItem="zaQ-9o-p9Q" secondAttribute="bottom" constant="12" id="EYh-kv-t59"/>
+                    <constraint firstItem="PQ3-9d-iFU" firstAttribute="width" secondItem="XB0-ZP-ddd" secondAttribute="width" id="FZh-Qu-RjP"/>
+                    <constraint firstItem="z8X-q4-6Tf" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="GWS-KK-ddm"/>
+                    <constraint firstItem="z8X-q4-6Tf" firstAttribute="top" secondItem="H4M-aq-40i" secondAttribute="bottom" constant="8" id="Gia-tl-sJ2"/>
+                    <constraint firstItem="XB0-ZP-ddd" firstAttribute="top" secondItem="PQ3-9d-iFU" secondAttribute="bottom" constant="12" id="NaY-DD-RUv"/>
+                    <constraint firstAttribute="trailing" secondItem="z8X-q4-6Tf" secondAttribute="trailing" constant="20" id="Wlg-Yr-908"/>
+                    <constraint firstItem="C6v-hm-a03" firstAttribute="top" secondItem="2" secondAttribute="top" constant="20" id="Xiz-Gf-6KL"/>
+                    <constraint firstAttribute="trailing" secondItem="C6v-hm-a03" secondAttribute="trailing" constant="20" id="bGa-Pe-yKx"/>
+                    <constraint firstItem="H4M-aq-40i" firstAttribute="top" secondItem="C6v-hm-a03" secondAttribute="bottom" constant="8" id="jbz-RY-YtW"/>
+                    <constraint firstItem="PQ3-9d-iFU" firstAttribute="width" secondItem="zaQ-9o-p9Q" secondAttribute="width" id="lkW-kt-xLH"/>
+                    <constraint firstItem="zaQ-9o-p9Q" firstAttribute="top" secondItem="z8X-q4-6Tf" secondAttribute="bottom" constant="80" id="qTX-JM-k2P"/>
+                    <constraint firstAttribute="trailing" secondItem="H4M-aq-40i" secondAttribute="trailing" constant="20" id="utk-Gd-0kq"/>
+                    <constraint firstAttribute="trailing" secondItem="w3w-q8-Mcj" secondAttribute="trailing" constant="-154" id="wZN-MM-k6d"/>
+                    <constraint firstItem="C6v-hm-a03" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="y7K-We-o2U"/>
+                    <constraint firstItem="H4M-aq-40i" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="yav-0E-zzf"/>
+                    <constraint firstItem="w3w-q8-Mcj" firstAttribute="leading" secondItem="XB0-ZP-ddd" secondAttribute="trailing" constant="-4" id="z5P-qH-fXp"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="4"/>
+                <outlet property="initialFirstResponder" destination="zaQ-9o-p9Q" id="jIY-L7-OCL"/>
+            </connections>
+        </window>
+    </objects>
+    <resources>
+        <image name="DayMap1024" width="1024" height="1024"/>
+    </resources>
+</document>

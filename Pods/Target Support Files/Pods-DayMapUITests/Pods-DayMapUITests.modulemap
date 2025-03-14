@@ -1,0 +1,6 @@
+framework module Pods_DayMapUITests {
+  umbrella header "Pods-DayMapUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,69 @@
+/* Class = "NSButtonCell"; title = "Expand"; ObjectID = "3ih-2a-8lt"; */
+"3ih-2a-8lt.title" = "Aufklappen";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "6"; */
+"6.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Notes"; ObjectID = "8"; */
+"8.title" = "Notizen";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "16"; */
+"16.title" = "Fertig";
+
+/* Class = "NSButtonCell"; title = "Completed"; ObjectID = "51"; */
+"51.title" = "Abgeschlossen";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "136"; */
+"136.title" = "Andere Ansichten";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "137"; */
+"137.title" = "Keine";
+
+/* Class = "NSMenuItem"; title = "Every day"; ObjectID = "138"; */
+"138.title" = "Jeden Tag";
+
+/* Class = "NSMenuItem"; title = "Every week"; ObjectID = "139"; */
+"139.title" = "Jede Woche";
+
+/* Class = "NSTextFieldCell"; title = "Repeat"; ObjectID = "144"; */
+"144.title" = "Wiederholen";
+
+/* Class = "NSTextFieldCell"; title = "End"; ObjectID = "148"; */
+"148.title" = "Ende";
+
+/* Class = "NSMenuItem"; title = "Every month"; ObjectID = "151"; */
+"151.title" = "Jeden Monat";
+
+/* Class = "NSMenuItem"; title = "Every year"; ObjectID = "152"; */
+"152.title" = "Jedes Jahr";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "167"; */
+"167.title" = "Andere Ansichten";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "168"; */
+"168.title" = "Niemals";
+
+/* Class = "NSMenuItem"; title = "After"; ObjectID = "169"; */
+"169.title" = "Nach";
+
+/* Class = "NSMenuItem"; title = "On date"; ObjectID = "170"; */
+"170.title" = "Am Datum";
+
+/* Class = "NSTextFieldCell"; title = "Scheduled"; ObjectID = "195"; */
+"195.title" = "Geplant";
+
+/* Class = "NSTextFieldCell"; title = "3"; ObjectID = "309"; */
+"309.title" = "3";
+
+/* Class = "NSTextFieldCell"; title = "times"; ObjectID = "314"; */
+"314.title" = "Mal";
+
+/* Class = "NSButtonCell"; title = "Clear"; ObjectID = "484"; */
+"484.title" = "Löschen";
+
+/* Class = "NSButtonCell"; title = "Today"; ObjectID = "537"; */
+"537.title" = "Heute";
+
+/* Class = "NSMenuItem"; title = "Every other week"; ObjectID = "V9s-ry-zP5"; */
+"V9s-ry-zP5.title" = "Jede zweite Woche";
+

@@ -1,0 +1,261 @@
+/* file size */
+"%.1f GB" = "%.1f Go";
+
+/* file size */
+"%.1f MB" = "%.1f Mo";
+
+/* month view */
+"%d more…" = "encore %d...";
+
+/* month view */
+"%d task" = "%d tâche";
+
+/* month view */
+"%d tasks" = "%d tâches";
+
+/* file size */
+"%llu KB" = "%llu Ko";
+
+/* file size */
+"%llu bytes" = "%llu octets";
+
+/* menu item */
+"About %@" = "À propos de %@";
+
+/* button */
+"All Occurrences" = "Toutes les occurrences";
+
+/* context menu */
+"Archive" = "Archive";
+
+/* alert text */
+"Archived projects and their subtasks are hidden from view. You can show your archived projects by choosing “Show Archived Projects” from the View menu." = "Les projets archivés et les tâches secondaires correspondantes sont masquées. Pour afficher vos projets archivés, sélectionnez";
+
+/* (No Commment) */
+"Cancel" = "Annuler";
+
+/* button */
+"Change All" = "Modifier tout";
+
+/* button */
+"Change All Occurrences" = "Modifier toutes les occurrences";
+
+/* context menu */
+"Collapse All Tasks" = "Réduire toutes les tâches";
+
+/* context menu */
+"Complete" = "Compléter";
+
+/* sharing service menu */
+"Copy" = "Copier";
+
+/* error dialog */
+"Could not enable iCloud" = "Impossible d'activer iCloud";
+
+/* Quit without saves error question message */
+"Could not save changes while quitting. Quit anyway?" = "Impossible d'enregistrer les modifications en quittant. Quitter quand même ?";
+
+/* import alert */
+"DayMap has located data from DayMap Lite. Would you like to import this data?" = "DayMap a détecté des données provenant de DayMap Lite. Voulez-vous les importer ?";
+
+/* (No Commment) */
+"Delete" = "Supprimer";
+
+/* delete project message */
+"Delete '%@'?" = "Supprimer '%@' ?";
+
+/* context menu */
+"Delete…" = "Suppression...";
+
+/* delete project message info */
+"Deleting this Project will also delete its Tasks and Subtasks." = "La suppression de ce projet entraînera celle des tâches et des sous-tâches qui y sont associées.";
+
+/* alert question */
+"Do you want to change all occurrences?" = "Modifier toutes les occurrences ?";
+
+/* alert question */
+"Do you want to change all occurrences?\n(Use the Calendar view to change a specific occurrence.)" = "Modifier toutes les occurrences ?\n(Utilisez la vue Calendrier pour modifier une occurrence précise.)";
+
+/* alert question */
+"Do you want to change only this occurrence, or change this and all occurrences?" = "Voulez-vous modifier seulement cette occurrence, ou toutes les occurrences dont celle-ci ?";
+
+/* alert question */
+"Do you want to reschedule all occurrences, or reschedule only this occurrence by creating a new task?" = "Voulez-vous modifier la date de toutes les occurrences, ou seulement de celle-ci en créant une nouvelle tâche ?";
+
+/* import alert */
+"Don't Import" = "Ne pas importer";
+
+/* error dialog */
+"Don't Overwrite" = "Ne pas écraser";
+
+/* hide completed popover */
+"Don't hide completed" = "Ne pas masquer les tâches terminées";
+
+/* context menu */
+"Edit…" = "Modifier...";
+
+/* error dialog */
+"Error loading DayMap data" = "Erreur pendant le chargement des données de DayMap";
+
+/* error dialog */
+"Error saving DayMap data" = "Erreur pendant l'enregistrement des données de DayMap";
+
+/* error dialog */
+"Error saving data." = "Erreur pendant l'enregistrement des données.";
+
+/* context menu */
+"Expand All Tasks" = "Développer toutes les tâches";
+
+/* error dialog */
+"Failed to restore backup.\n%@" = "La restauration de la sauvegarde a échoué.\n%@";
+
+/* menu item */
+"Hide %@" = "Masquer %@";
+
+/* menu item */
+"Hide Calendar View" = "Masquer la vue Calendrier";
+
+/* hide completed popover */
+"Hide all completed" = "Masquer toutes les tâches terminées";
+
+/* hide completed popover. Singular. */
+"Hide completed after %ld day" = "Masquer les tâches terminées après %ld jour";
+
+/* hide completed popover. Plural. */
+"Hide completed after %ld days" = "Masquer les tâches terminées après %ld jours";
+
+/* import alert */
+"Import" = "Importer";
+
+/* import alert */
+"Import data from DayMap Lite?" = "Importer des données depuis DayMap Lite ?";
+
+/* context menu */
+"Insert Project…" = "Insérer projet...";
+
+/* error dialog */
+"Merge" = "Fusionner";
+
+/* context menu */
+"Move To" = "Déplacer vers";
+
+/* context menu */
+"New Subtask…" = "Nouvelle sous-tâche…";
+
+/* context menu */
+"New Task…" = "Nouvelle tâche...";
+
+/* error dialog */
+"Not logged in to iCloud" = "Non connecté à iCloud";
+
+/* error dialog */
+"OK" = "OK";
+
+/* button */
+"Only this Occurrence" = "Seulement cette occurrence";
+
+/* error dialog */
+"Overwrite" = "Écraser";
+
+/* error dialog */
+"Overwrite DayMap data on iCloud?" = "Écraser les données de DayMap sur iCloud ?";
+
+/* error dialog */
+"Overwrite DayMap data?" = "Écraser les données de DayMap ?";
+
+/* error dialog */
+"Overwrite and Restore" = "Écraser et restaurer";
+
+/* error dialog */
+"Overwrite data on iCloud with your current DayMap data?\nThis can not be undone." = "Écraser les données sur iCloud par les données actuelles de DayMap ?\nCette action est irréversible.";
+
+/* error dialog */
+"Overwrite your existing DayMap and restore with data from the selected backup?\nThis can not be undone." = "Écraser vos données DayMap et restaurer les données de la sauvegarde sélectionnée ?\nCette action est irréversible.";
+
+/* sharing service menu */
+"Print" = "Imprimer";
+
+/* alert title */
+"Project Archived" = "Projet archivé";
+
+/* menu item */
+"Quit %@" = "Quitter %@";
+
+/* Quit anyway button title */
+"Quit anyway" = "Quitter quand même";
+
+/* Quit without saves error question info */
+"Quitting now will lose any changes you have made since the last successful save" = "En quittant maintenant, vous perdrez toutes les modifications faites depuis le dernier enregistrement réussi";
+
+/* error dialog */
+"Restoration Failed" = "Échec de la restauration";
+
+/* context menu */
+"Select All" = "Tout sélectionner";
+
+/* context menu */
+"Show" = "Afficher";
+
+/* menu item */
+"Show Calendar View" = "Afficher en vue Calendrier";
+
+/* context menu */
+"Show in Calendar" = "Afficher dans le calendrier";
+
+/* context menu */
+"Show in Outline" = "Afficher dans le plan";
+
+/* error dialog */
+"The system is not permitting access to the DayMap iCloud file. This could be caused by a sync in progress. If this problem persists, wait a few minutes or reboot your Mac." = "Le système interdit l'accès au fichier iCloud de DayMap. Ceci est peut-être dû à une synchronisation en cours. Si le problème persistes, attendez quelques minutes ou redémarrez votre Mac.";
+
+/* error dialog */
+"There is already DayMap data on iCloud" = "Il y a déjà des données DayMap dans iCloud";
+
+/* error dialog */
+"There was a problem merging local data with iCloud data.\nYou may need try again and overwrite iCloud data instead." = "Une erreur s'est produite en fusionnant les données locales avec les données d'iCloud.\nVous devrez peut-être réessayer et écraser les données d'iCloud.";
+
+/* error dialog */
+"There was an error saving your DayMap data. If this problem persists, restart DayMap." = "Une erreur s'est produite en enregistrant vos données DayMap. Si le problème persiste, redémarrez DayMap.";
+
+/* error dialog */
+"There was an error saving your DayMap data. The system is not permitting acces to the DayMap data file. This could be related to iCloud syncing. If this problem persists, restart DayMap or reboot your Mac." = "Une erreur s'est produite en enregistrant vos données DayMap. Le système interdit l'accès au fichier de données de DayMap. La synchronisation iCloud est peut-être en cause. Si le problème persiste, redémarrez DayMap ou votre Mac.";
+
+/* error dialog */
+"This Mac has been logged out of iCloud. iCloud synced DayMap data will not be available unless iCloud is enabled in System Preferences and DayMap Preferences. " = "Ce Mac est déconnecté d'iCloud. Les données de DayMap synchronisées par iCloud ne seront pas disponibles tant qu'iCloud n'est pas activé dans Réglages et dans les Préférences de DayMap. ";
+
+/* error dialog */
+"This Mac has not been logged in to iCloud. Please log in to your iCloud account.\n\n(System Preferences > iCloud)\n\nAlso make sure the Documents & Data option is enabled." = "Ce Mac n'est pas connecté à iCloud. Connectez-vous à votre compte iCloud.\n\n(Préférences système &gt; iCloud)\n\nAssurez-vous que l'option Documents &amp; Données est activée.";
+
+/* error dialog */
+"This device has been logged out of iCloud. iCloud synced DayMap data will not be available unless iCloud is enabled in Settings and DayMap Preferences. " = "Cet appareil n'est pas déconnecté d'iCloud. Les données de DayMap synchronisées par iCloud ne seront pas disponibles tant qu'iCloud n'est pas activé dans Réglages et dans les Préférences de DayMap. ";
+
+/* error dialog */
+"This device has not been logged in to iCloud. Please log in to your iCloud account via Settings > iCloud." = "Cet appareil n'est pas connecté à iCloud. Veuillez vous connecter à votre compte iCloud via Réglages &gt; iCloud.";
+
+/* error dialog */
+"This is already DayMap data on iCloud. Would you like to merge it or overwrite it?" = "Il y a déjà des données DayMap dans iCloud. Voulez-vous les fusionner ou les écraser ?";
+
+/* error dialog */
+"Unable to merge iCloud data" = "Impossible de fusionner les données iCloud";
+
+/* context menu */
+"Unarchive" = "Ne plus archiver";
+
+/* context menu */
+"Unschedule" = "Déprogrammer";
+
+/* alert question */
+"You're changing a repeating task." = "Vous êtes en train de modifier une tâche récurrente.";
+
+/* alert question */
+"You're rescheduling a repeating task." = "Vous êtes en train de modifier la date d'une tâche récurrente.";
+
+/* error dialog */
+"The DayMap data file was likely created with a newer version of DayMap. Please check the App Store for updates." = "Le fichier de données DayMap semble avoir été créé avec une version plus récente de DayMap. Vérifiez la disponibilité de mises à jour dans l'App Store.";
+
+/* error dialog */
+"\n\nYou should restart DayMap before making any further changes." = "\n\nRedémarrez DayMap avant de faire d'autres modifications.";
+
+/* error dialog */
+"iCloud Sync Disabled" = "Synchronisation iCloud désactivée";
+

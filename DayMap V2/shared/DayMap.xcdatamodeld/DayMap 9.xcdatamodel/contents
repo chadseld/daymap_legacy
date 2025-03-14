@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="2.1.1" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.5" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AbstractTask" representedClassName="AbstractTask" isAbstract="YES" syncable="YES">
+        <attribute name="attributedDetails" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="completedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortIndex" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="sortIndexInDay" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Attachment" inverseName="task" inverseEntity="Attachment" indexed="YES" syncable="YES"/>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AbstractTask" inverseName="parent" inverseEntity="AbstractTask" indexed="YES" syncable="YES"/>
+        <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="AbstractTask" inverseName="children" inverseEntity="AbstractTask" indexed="YES" syncable="YES"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="task" inverseEntity="Tag" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Attachment" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AbstractTask" inverseName="attachments" inverseEntity="AbstractTask" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="DayMap" representedClassName="DayMap" syncable="YES">
+        <attribute name="dataModelVersion" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="inbox" minCount="1" maxCount="1" deletionRule="Cascade" ordered="YES" destinationEntity="Project" indexed="YES" syncable="YES"/>
+        <relationship name="projects" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Project" inverseName="dayMap" inverseEntity="Project" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" parentEntity="AbstractTask" syncable="YES">
+        <attribute name="archived" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="dayMap" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DayMap" inverseName="projects" inverseEntity="DayMap" indexed="YES" syncable="YES"/>
+        <relationship name="displayAttributes" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="ProjectDisplayAttributes" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="ProjectDisplayAttributes" representedClassName="ProjectDisplayAttributes" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RecurrenceCompletion" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Integer 32" minValueString="-1" maxValueString="1" defaultValueString="0" syncable="YES"/>
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="recurrenceIndex" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="recurrenceRule" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecurrenceRule" inverseName="completions" inverseEntity="RecurrenceRule" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="RecurrenceException" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="recurrenceIndex" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="recurrenceRule" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecurrenceRule" inverseName="exceptions" inverseEntity="RecurrenceRule" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="RecurrenceRule" representedClassName="RecurrenceRule" syncable="YES">
+        <attribute name="endAfterCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="endAfterDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="interval" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="completions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RecurrenceCompletion" inverseName="recurrenceRule" inverseEntity="RecurrenceCompletion" indexed="YES" syncable="YES"/>
+        <relationship name="exceptions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RecurrenceException" inverseName="recurrenceRule" inverseEntity="RecurrenceException" indexed="YES" syncable="YES"/>
+        <relationship name="sortIndexes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RecurrenceSortIndex" inverseName="recurrenceRule" inverseEntity="RecurrenceSortIndex" indexed="YES" syncable="YES"/>
+        <relationship name="task" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="repeat" inverseEntity="Task" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="RecurrenceSortIndex" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="recurrenceIndex" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortIndexInDay" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="recurrenceRule" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecurrenceRule" inverseName="sortIndexes" inverseEntity="RecurrenceRule" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Reminder" representedClassName="Reminder" syncable="YES">
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="relativeTo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="task" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="reminders" inverseEntity="Task" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Tag" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="modifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="task" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AbstractTask" inverseName="tags" inverseEntity="AbstractTask" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" parentEntity="AbstractTask" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Integer 32" minValueString="-1" maxValueString="1" defaultValueString="0" syncable="YES"/>
+        <attribute name="scheduledDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="reminders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Reminder" inverseName="task" inverseEntity="Reminder" indexed="YES" syncable="YES"/>
+        <relationship name="repeat" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="RecurrenceRule" inverseName="task" inverseEntity="RecurrenceRule" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Tombstone" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="AllProjects" entity="Project" predicateString="isInbox == 0"/>
+    <fetchRequest name="CompletedProjects" entity="Project" predicateString="isInbox == 0 AND completedDate &gt; CAST(-63113978040.459259, &quot;NSDate&quot;)"/>
+    <fetchRequest name="UncompletedProjects" entity="Project" predicateString="isInbox == 0 AND completedDate &lt; CAST(-31521760.356186, &quot;NSDate&quot;)"/>
+    <elements>
+        <element name="AbstractTask" positionX="-10467" positionY="-4041" width="128" height="223"/>
+        <element name="Attachment" positionX="-10235" positionY="-4068" width="128" height="103"/>
+        <element name="DayMap" positionX="-10793" positionY="-3807" width="128" height="103"/>
+        <element name="Project" positionX="-10557" positionY="-3771" width="128" height="88"/>
+        <element name="ProjectDisplayAttributes" positionX="-10487" positionY="-3642" width="128" height="88"/>
+        <element name="RecurrenceCompletion" positionX="-9965" positionY="-3636" width="128" height="118"/>
+        <element name="RecurrenceException" positionX="-9965" positionY="-3496" width="128" height="103"/>
+        <element name="RecurrenceRule" positionX="-10143" positionY="-3645" width="128" height="193"/>
+        <element name="RecurrenceSortIndex" positionX="-10134" positionY="-3411" width="128" height="118"/>
+        <element name="Reminder" positionX="-10145" positionY="-3825" width="128" height="133"/>
+        <element name="Tag" positionX="-10235" positionY="-3949" width="128" height="103"/>
+        <element name="Task" positionX="-10334" positionY="-3774" width="128" height="103"/>
+        <element name="Tombstone" positionX="-10649" positionY="-3987" width="128" height="73"/>
+    </elements>
+</model>

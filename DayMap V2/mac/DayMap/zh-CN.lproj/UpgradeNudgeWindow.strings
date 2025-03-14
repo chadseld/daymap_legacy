@@ -1,0 +1,21 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "窗口";
+
+/* Class = "NSButtonCell"; title = "Show in App Store"; ObjectID = "1Lh-NP-r38"; */
+"1Lh-NP-r38.title" = "在应用程序商店中显示";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label"; ObjectID = "POe-5g-jft"; */
+"POe-5g-jft.title" = "多行标签";
+
+/* Class = "NSTextFieldCell"; title = "• Recurring / Repeating Tasks\n• iCloud Syncing with DayMap for iOS\n• System-wide Quick Add shortcut"; ObjectID = "UYo-Cx-Y2L"; */
+"UYo-Cx-Y2L.title" = "•定期/重复任务\n •iCloud为iOS与DayMap同步\n•系统范围内快速添加快捷方式";
+
+/* Class = "NSButtonCell"; title = "More Information…"; ObjectID = "hzP-0X-twl"; */
+"hzP-0X-twl.title" = "更多信息...";
+
+/* Class = "NSTextFieldCell"; title = "Upgrade to the full version of DayMap…"; ObjectID = "w51-0t-uxq"; */
+"w51-0t-uxq.title" = "升级到当日地图的完整版本...";
+
+/* Class = "NSButtonCell"; title = "Not Now"; ObjectID = "xUT-pQ-K15"; */
+"xUT-pQ-K15.title" = "现在不要";
+

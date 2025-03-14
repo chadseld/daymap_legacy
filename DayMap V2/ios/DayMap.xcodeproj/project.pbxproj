@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900AB651199C23E000AF0D11 /* DMEventKitBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 900AB650199C23E000AF0D11 /* DMEventKitBridge.m */; };
+		900AB653199C246100AF0D11 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900AB652199C246100AF0D11 /* EventKit.framework */; };
+		90166A5C14CF56AC000F2C81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A5B14CF56AC000F2C81 /* UIKit.framework */; };
+		90166A5E14CF56AC000F2C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A5D14CF56AC000F2C81 /* Foundation.framework */; };
+		90166A6014CF56AC000F2C81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A5F14CF56AC000F2C81 /* CoreGraphics.framework */; };
+		90166A6214CF56AC000F2C81 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A6114CF56AC000F2C81 /* CoreData.framework */; };
+		90166A6814CF56AC000F2C81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90166A6614CF56AC000F2C81 /* InfoPlist.strings */; };
+		90166A6A14CF56AC000F2C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90166A6914CF56AC000F2C81 /* main.m */; };
+		90166A6E14CF56AC000F2C81 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90166A6D14CF56AC000F2C81 /* WSAppDelegate.m */; };
+		90166A7114CF56AC000F2C81 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90166A6F14CF56AC000F2C81 /* MainStoryboard_iPhone.storyboard */; };
+		90166A7414CF56AC000F2C81 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90166A7214CF56AC000F2C81 /* MainStoryboard_iPad.storyboard */; };
+		90166A7D14CF56AC000F2C81 /* WSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90166A7C14CF56AC000F2C81 /* WSDetailViewController.m */; };
+		90166A8614CF56AC000F2C81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A5B14CF56AC000F2C81 /* UIKit.framework */; };
+		90166A8714CF56AC000F2C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A5D14CF56AC000F2C81 /* Foundation.framework */; };
+		90166A8814CF56AC000F2C81 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90166A6114CF56AC000F2C81 /* CoreData.framework */; };
+		90166A9014CF56AC000F2C81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90166A8E14CF56AC000F2C81 /* InfoPlist.strings */; };
+		90166A9314CF56AC000F2C81 /* DayMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90166A9214CF56AC000F2C81 /* DayMapTests.m */; };
+		90208FA218B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90208FA018B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.m */; };
+		90208FA318B41AAD009A410A /* Data5To6MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 90208FA118B41AAD009A410A /* Data5To6MappingModel.xcmappingmodel */; };
+		9036E9AF155584DC0014E237 /* DayMapManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9036E9AE155584DB0014E237 /* DayMapManagedObjectContext.m */; };
+		9036E9B0155584DC0014E237 /* DayMapManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9036E9AE155584DB0014E237 /* DayMapManagedObjectContext.m */; };
+		904641231555D17B0086F8EB /* WSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904641221555D17B0086F8EB /* WSSettingsViewController.m */; };
+		9048D92917130C1C0007A125 /* Data4to5MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9048D92817130C1C0007A125 /* Data4to5MappingModel.xcmappingmodel */; };
+		9048D92C17130D140007A125 /* DayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D92B17130D140007A125 /* DayMap.m */; };
+		9048D93D17130DAF0007A125 /* RecurrenceRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D93A17130DAF0007A125 /* RecurrenceRule.m */; };
+		9048D93E17130DAF0007A125 /* RecurrenceRule+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D93C17130DAF0007A125 /* RecurrenceRule+Additions.m */; };
+		9048D94B17130DDB0007A125 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D94817130DDA0007A125 /* Project.m */; };
+		9048D94C17130DDB0007A125 /* Project+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D94A17130DDB0007A125 /* Project+Additions.m */; };
+		9048D95917130DFD0007A125 /* AbstractTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D95617130DFD0007A125 /* AbstractTask.m */; };
+		9048D95A17130DFD0007A125 /* AbstractTask+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D95817130DFD0007A125 /* AbstractTask+Additions.m */; };
+		9048D96717130E210007A125 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D96417130E200007A125 /* Task.m */; };
+		9048D96817130E210007A125 /* Task+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D96617130E200007A125 /* Task+Additions.m */; };
+		9048D96F17130E3C0007A125 /* ProjectDisplayAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D96E17130E3C0007A125 /* ProjectDisplayAttributes.m */; };
+		9048D97217130F480007A125 /* NSString+WS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9048D97117130F480007A125 /* NSString+WS.m */; };
+		9066B85E164099990018B258 /* Data2To3MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9066B85A164099990018B258 /* Data2To3MappingModel.xcmappingmodel */; };
+		9066B85F164099990018B258 /* Data2To3MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9066B85A164099990018B258 /* Data2To3MappingModel.xcmappingmodel */; };
+		9066B860164099990018B258 /* Data2To3TaskMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066B85C164099990018B258 /* Data2To3TaskMigrationPolicy.m */; };
+		9066B861164099990018B258 /* Data2To3TaskMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9066B85C164099990018B258 /* Data2To3TaskMigrationPolicy.m */; };
+		9066B862164099990018B258 /* Data3To4MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9066B85D164099990018B258 /* Data3To4MappingModel.xcmappingmodel */; };
+		9066B863164099990018B258 /* Data3To4MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9066B85D164099990018B258 /* Data3To4MappingModel.xcmappingmodel */; };
+		906D840C183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D840B183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.m */; };
+		90744DB8165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90744DB7165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m */; };
+		90744DB9165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90744DB7165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m */; };
+		90A6094D156330BB0058B392 /* WSAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A6094B156330BB0058B392 /* WSAboutViewController.m */; };
+		90B07E3116387F39003CDA1C /* WSRootAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B07E3016387F39003CDA1C /* WSRootAppDelegate.m */; };
+		90B07E3216387F39003CDA1C /* WSRootAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B07E3016387F39003CDA1C /* WSRootAppDelegate.m */; };
+		90B07E421639C175003CDA1C /* MiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B07E411639C175003CDA1C /* MiscUtils.m */; };
+		90B07E431639C175003CDA1C /* MiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B07E411639C175003CDA1C /* MiscUtils.m */; };
+		90BF924019159CFA008D56D6 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF923F19159CFA008D56D6 /* UIAlertView+Blocks.m */; };
+		90BFD2A4155EEF9E0016C80B /* WSAbstractTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BFD2A3155EEF9E0016C80B /* WSAbstractTaskTableViewController.m */; };
+		90BFD2B2155EF68C0016C80B /* NSDate+WS.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BFD2B1155EF68C0016C80B /* NSDate+WS.m */; };
+		90BFD2B3155EF68C0016C80B /* NSDate+WS.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BFD2B1155EF68C0016C80B /* NSDate+WS.m */; };
+		90E067091BE5742300F87B40 /* DayMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90E067001BE5742300F87B40 /* DayMap.xcdatamodeld */; };
+		90E76405171DE5B800A408BC /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E763FC171DE5B800A408BC /* ILColorPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90E76406171DE5B800A408BC /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E763FE171DE5B800A408BC /* ILHuePickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90E76407171DE5B800A408BC /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E76400171DE5B800A408BC /* ILSaturationBrightnessPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90E76408171DE5B800A408BC /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E76402171DE5B800A408BC /* ILView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90E76409171DE5B800A408BC /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E76404171DE5B800A408BC /* UIColor+GetHSB.m */; };
+		90E7640B171DEAB600A408BC /* WSProjectColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E7640A171DEAB600A408BC /* WSProjectColorPickerViewController.xib */; };
+		90E7640E171DEAE900A408BC /* WSProjectColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7640D171DEAE900A408BC /* WSProjectColorPickerViewController.m */; };
+		90E76410171DF3F400A408BC /* WSScheduledDatePickerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E7640F171DF3F400A408BC /* WSScheduledDatePickerStoryboard.storyboard */; };
+		90E7641A171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E76419171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.m */; };
+		90E7641D171E158100A408BC /* WSDatePickerEndDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7641C171E158100A408BC /* WSDatePickerEndDateViewController.m */; };
+		90E76420171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7641F171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.m */; };
+		90F91E71156D37B4004EDF4B /* WSRichTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F91E70156D37B4004EDF4B /* WSRichTextTableViewCell.m */; };
+		AB12EC30167189CD00B88402 /* WSProjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12EC2F167189CD00B88402 /* WSProjectTableViewCell.m */; };
+		AB21A60019B4E94A009EC84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB21A5FF19B4E94A009EC84E /* Assets.xcassets */; };
+		AB26D43314FF16D600A0B673 /* WSProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB26D43214FF16D600A0B673 /* WSProjectViewController.m */; };
+		AB2DFA49151037260078FBE7 /* WSInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFA48151037260078FBE7 /* WSInboxViewController.m */; };
+		AB63741315548B8E0050E4BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB63741215548B8E0050E4BB /* QuartzCore.framework */; };
+		AB75232D152BDFD100F64957 /* WSTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB75232B152BDFD100F64957 /* WSTodayViewController.m */; };
+		AB86272A157DA5EF001879E4 /* WSWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB862729157DA5EF001879E4 /* WSWeekViewController.m */; };
+		AB9DB96E156B3D550063AEF9 /* WSMovePickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DB96D156B3D550063AEF9 /* WSMovePickerTableViewController.m */; };
+		ABA5C36C161541B50097565C /* WSDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C36A161541B50097565C /* WSDatePickerViewController.m */; };
+		ABB75AAB17CC510600DB72BA /* UIColor+WS.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB75AAA17CC510600DB72BA /* UIColor+WS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90166A8914CF56AC000F2C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90166A4E14CF56AB000F2C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90166A5614CF56AC000F2C81;
+			remoteInfo = DayMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900AB64F199C23E000AF0D11 /* DMEventKitBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMEventKitBridge.h; path = ../../shared/DMEventKitBridge.h; sourceTree = "<group>"; };
+		900AB650199C23E000AF0D11 /* DMEventKitBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMEventKitBridge.m; path = ../../shared/DMEventKitBridge.m; sourceTree = "<group>"; };
+		900AB652199C246100AF0D11 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		90166A5714CF56AC000F2C81 /* DayMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90166A5B14CF56AC000F2C81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90166A5D14CF56AC000F2C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90166A5F14CF56AC000F2C81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90166A6114CF56AC000F2C81 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		90166A6514CF56AC000F2C81 /* DayMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayMap-Info.plist"; sourceTree = "<group>"; };
+		90166A6714CF56AC000F2C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90166A6914CF56AC000F2C81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90166A6B14CF56AC000F2C81 /* DayMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayMap-Prefix.pch"; sourceTree = "<group>"; };
+		90166A6C14CF56AC000F2C81 /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		90166A6D14CF56AC000F2C81 /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		90166A7014CF56AC000F2C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		90166A7314CF56AC000F2C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		90166A7B14CF56AC000F2C81 /* WSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSDetailViewController.h; sourceTree = "<group>"; };
+		90166A7C14CF56AC000F2C81 /* WSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSDetailViewController.m; sourceTree = "<group>"; };
+		90166A8314CF56AC000F2C81 /* DayMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90166A8D14CF56AC000F2C81 /* DayMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayMapTests-Info.plist"; sourceTree = "<group>"; };
+		90166A8F14CF56AC000F2C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90166A9114CF56AC000F2C81 /* DayMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayMapTests.h; sourceTree = "<group>"; };
+		90166A9214CF56AC000F2C81 /* DayMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayMapTests.m; sourceTree = "<group>"; };
+		90208F9F18B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data5To6AbstractTaskMigrationPolicy.h; path = ../shared/Data5To6AbstractTaskMigrationPolicy.h; sourceTree = "<group>"; };
+		90208FA018B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data5To6AbstractTaskMigrationPolicy.m; path = ../shared/Data5To6AbstractTaskMigrationPolicy.m; sourceTree = "<group>"; };
+		90208FA118B41AAD009A410A /* Data5To6MappingModel.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = Data5To6MappingModel.xcmappingmodel; path = ../shared/Data5To6MappingModel.xcmappingmodel; sourceTree = "<group>"; };
+		9036E9AD155584DB0014E237 /* DayMapManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DayMapManagedObjectContext.h; path = ../../shared/DayMapManagedObjectContext.h; sourceTree = "<group>"; };
+		9036E9AE155584DB0014E237 /* DayMapManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DayMapManagedObjectContext.m; path = ../../shared/DayMapManagedObjectContext.m; sourceTree = "<group>"; };
+		904641211555D17B0086F8EB /* WSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSettingsViewController.h; sourceTree = "<group>"; };
+		904641221555D17B0086F8EB /* WSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSettingsViewController.m; sourceTree = "<group>"; };
+		904641241555DF2B0086F8EB /* DayMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DayMap.entitlements; sourceTree = "<group>"; };
+		9048D92817130C1C0007A125 /* Data4to5MappingModel.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = Data4to5MappingModel.xcmappingmodel; path = ../shared/Data4to5MappingModel.xcmappingmodel; sourceTree = "<group>"; };
+		9048D92A17130D140007A125 /* DayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DayMap.h; path = ../shared/DayMap.h; sourceTree = "<group>"; };
+		9048D92B17130D140007A125 /* DayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DayMap.m; path = ../shared/DayMap.m; sourceTree = "<group>"; };
+		9048D93917130DAF0007A125 /* RecurrenceRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecurrenceRule.h; path = ../shared/RecurrenceRule.h; sourceTree = "<group>"; };
+		9048D93A17130DAF0007A125 /* RecurrenceRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecurrenceRule.m; path = ../shared/RecurrenceRule.m; sourceTree = "<group>"; };
+		9048D93B17130DAF0007A125 /* RecurrenceRule+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RecurrenceRule+Additions.h"; path = "../shared/RecurrenceRule+Additions.h"; sourceTree = "<group>"; };
+		9048D93C17130DAF0007A125 /* RecurrenceRule+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RecurrenceRule+Additions.m"; path = "../shared/RecurrenceRule+Additions.m"; sourceTree = "<group>"; };
+		9048D94717130DDA0007A125 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = ../shared/Project.h; sourceTree = "<group>"; };
+		9048D94817130DDA0007A125 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = ../shared/Project.m; sourceTree = "<group>"; };
+		9048D94917130DDB0007A125 /* Project+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Project+Additions.h"; path = "../shared/Project+Additions.h"; sourceTree = "<group>"; };
+		9048D94A17130DDB0007A125 /* Project+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Project+Additions.m"; path = "../shared/Project+Additions.m"; sourceTree = "<group>"; };
+		9048D95517130DFC0007A125 /* AbstractTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractTask.h; path = ../shared/AbstractTask.h; sourceTree = "<group>"; };
+		9048D95617130DFD0007A125 /* AbstractTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractTask.m; path = ../shared/AbstractTask.m; sourceTree = "<group>"; };
+		9048D95717130DFD0007A125 /* AbstractTask+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AbstractTask+Additions.h"; path = "../shared/AbstractTask+Additions.h"; sourceTree = "<group>"; };
+		9048D95817130DFD0007A125 /* AbstractTask+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AbstractTask+Additions.m"; path = "../shared/AbstractTask+Additions.m"; sourceTree = "<group>"; };
+		9048D96317130E200007A125 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = ../shared/Task.h; sourceTree = "<group>"; };
+		9048D96417130E200007A125 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = ../shared/Task.m; sourceTree = "<group>"; };
+		9048D96517130E200007A125 /* Task+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Task+Additions.h"; path = "../shared/Task+Additions.h"; sourceTree = "<group>"; };
+		9048D96617130E200007A125 /* Task+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Task+Additions.m"; path = "../shared/Task+Additions.m"; sourceTree = "<group>"; };
+		9048D96D17130E3C0007A125 /* ProjectDisplayAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectDisplayAttributes.h; path = ../shared/ProjectDisplayAttributes.h; sourceTree = "<group>"; };
+		9048D96E17130E3C0007A125 /* ProjectDisplayAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectDisplayAttributes.m; path = ../shared/ProjectDisplayAttributes.m; sourceTree = "<group>"; };
+		9048D97017130F480007A125 /* NSString+WS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+WS.h"; path = "../../shared/NSString+WS.h"; sourceTree = "<group>"; };
+		9048D97117130F480007A125 /* NSString+WS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+WS.m"; path = "../../shared/NSString+WS.m"; sourceTree = "<group>"; };
+		9066B85A164099990018B258 /* Data2To3MappingModel.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = Data2To3MappingModel.xcmappingmodel; path = ../shared/Data2To3MappingModel.xcmappingmodel; sourceTree = "<group>"; };
+		9066B85B164099990018B258 /* Data2To3TaskMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data2To3TaskMigrationPolicy.h; path = ../shared/Data2To3TaskMigrationPolicy.h; sourceTree = "<group>"; };
+		9066B85C164099990018B258 /* Data2To3TaskMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data2To3TaskMigrationPolicy.m; path = ../shared/Data2To3TaskMigrationPolicy.m; sourceTree = "<group>"; };
+		9066B85D164099990018B258 /* Data3To4MappingModel.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; name = Data3To4MappingModel.xcmappingmodel; path = ../shared/Data3To4MappingModel.xcmappingmodel; sourceTree = "<group>"; };
+		906D840A183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data3to4UUIDMigrationPolicy.h; path = ../shared/Data3to4UUIDMigrationPolicy.h; sourceTree = "<group>"; };
+		906D840B183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data3to4UUIDMigrationPolicy.m; path = ../shared/Data3to4UUIDMigrationPolicy.m; sourceTree = "<group>"; };
+		90744DB6165D6E31000DE686 /* ProjectDisplayAttributes+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ProjectDisplayAttributes+Additions.h"; path = "../shared/ProjectDisplayAttributes+Additions.h"; sourceTree = "<group>"; };
+		90744DB7165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ProjectDisplayAttributes+Additions.m"; path = "../shared/ProjectDisplayAttributes+Additions.m"; sourceTree = "<group>"; };
+		90A6094A156330BB0058B392 /* WSAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAboutViewController.h; sourceTree = "<group>"; };
+		90A6094B156330BB0058B392 /* WSAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAboutViewController.m; sourceTree = "<group>"; };
+		90B07E2F16387F39003CDA1C /* WSRootAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSRootAppDelegate.h; path = ../../shared/WSRootAppDelegate.h; sourceTree = "<group>"; };
+		90B07E3016387F39003CDA1C /* WSRootAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSRootAppDelegate.m; path = ../../shared/WSRootAppDelegate.m; sourceTree = "<group>"; };
+		90B07E401639C175003CDA1C /* MiscUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiscUtils.h; path = ../../shared/MiscUtils.h; sourceTree = "<group>"; };
+		90B07E411639C175003CDA1C /* MiscUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiscUtils.m; path = ../../shared/MiscUtils.m; sourceTree = "<group>"; };
+		90BF923E19159CFA008D56D6 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		90BF923F19159CFA008D56D6 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		90BFD2A2155EEF9E0016C80B /* WSAbstractTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAbstractTaskTableViewController.h; sourceTree = "<group>"; };
+		90BFD2A3155EEF9E0016C80B /* WSAbstractTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAbstractTaskTableViewController.m; sourceTree = "<group>"; };
+		90BFD2B0155EF68C0016C80B /* NSDate+WS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+WS.h"; path = "../../shared/NSDate+WS.h"; sourceTree = "<group>"; };
+		90BFD2B1155EF68C0016C80B /* NSDate+WS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+WS.m"; path = "../../shared/NSDate+WS.m"; sourceTree = "<group>"; };
+		90E067011BE5742300F87B40 /* DayMap 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 2.xcdatamodel"; sourceTree = "<group>"; };
+		90E067021BE5742300F87B40 /* DayMap 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 3.xcdatamodel"; sourceTree = "<group>"; };
+		90E067031BE5742300F87B40 /* DayMap 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 4.xcdatamodel"; sourceTree = "<group>"; };
+		90E067041BE5742300F87B40 /* DayMap 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 5.xcdatamodel"; sourceTree = "<group>"; };
+		90E067051BE5742300F87B40 /* DayMap 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 6.xcdatamodel"; sourceTree = "<group>"; };
+		90E067061BE5742300F87B40 /* DayMap 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 7.xcdatamodel"; sourceTree = "<group>"; };
+		90E067071BE5742300F87B40 /* DayMap 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DayMap 9.xcdatamodel"; sourceTree = "<group>"; };
+		90E067081BE5742300F87B40 /* DayMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayMap.xcdatamodel; sourceTree = "<group>"; };
+		90E763FB171DE5B800A408BC /* ILColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILColorPickerView.h; path = ILColorPicker/ILColorPickerView.h; sourceTree = "<group>"; };
+		90E763FC171DE5B800A408BC /* ILColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILColorPickerView.m; path = ILColorPicker/ILColorPickerView.m; sourceTree = "<group>"; };
+		90E763FD171DE5B800A408BC /* ILHuePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILHuePickerView.h; path = ILColorPicker/ILHuePickerView.h; sourceTree = "<group>"; };
+		90E763FE171DE5B800A408BC /* ILHuePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILHuePickerView.m; path = ILColorPicker/ILHuePickerView.m; sourceTree = "<group>"; };
+		90E763FF171DE5B800A408BC /* ILSaturationBrightnessPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILSaturationBrightnessPickerView.h; path = ILColorPicker/ILSaturationBrightnessPickerView.h; sourceTree = "<group>"; };
+		90E76400171DE5B800A408BC /* ILSaturationBrightnessPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILSaturationBrightnessPickerView.m; path = ILColorPicker/ILSaturationBrightnessPickerView.m; sourceTree = "<group>"; };
+		90E76401171DE5B800A408BC /* ILView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILView.h; path = ILColorPicker/ILView.h; sourceTree = "<group>"; };
+		90E76402171DE5B800A408BC /* ILView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILView.m; path = ILColorPicker/ILView.m; sourceTree = "<group>"; };
+		90E76403171DE5B800A408BC /* UIColor+GetHSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+GetHSB.h"; path = "ILColorPicker/UIColor+GetHSB.h"; sourceTree = "<group>"; };
+		90E76404171DE5B800A408BC /* UIColor+GetHSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GetHSB.m"; path = "ILColorPicker/UIColor+GetHSB.m"; sourceTree = "<group>"; };
+		90E7640A171DEAB600A408BC /* WSProjectColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSProjectColorPickerViewController.xib; sourceTree = "<group>"; };
+		90E7640C171DEAE900A408BC /* WSProjectColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProjectColorPickerViewController.h; sourceTree = "<group>"; };
+		90E7640D171DEAE900A408BC /* WSProjectColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProjectColorPickerViewController.m; sourceTree = "<group>"; };
+		90E7640F171DF3F400A408BC /* WSScheduledDatePickerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSScheduledDatePickerStoryboard.storyboard; sourceTree = "<group>"; };
+		90E76418171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerRecurringSettingsViewController.h; sourceTree = "<group>"; };
+		90E76419171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerRecurringSettingsViewController.m; sourceTree = "<group>"; };
+		90E7641B171E158100A408BC /* WSDatePickerEndDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerEndDateViewController.h; sourceTree = "<group>"; };
+		90E7641C171E158100A408BC /* WSDatePickerEndDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerEndDateViewController.m; sourceTree = "<group>"; };
+		90E7641E171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerEndNumberOfTimesViewController.h; sourceTree = "<group>"; };
+		90E7641F171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerEndNumberOfTimesViewController.m; sourceTree = "<group>"; };
+		90F91E6F156D37B4004EDF4B /* WSRichTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRichTextTableViewCell.h; sourceTree = "<group>"; };
+		90F91E70156D37B4004EDF4B /* WSRichTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRichTextTableViewCell.m; sourceTree = "<group>"; };
+		AB12EC2E167189CD00B88402 /* WSProjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProjectTableViewCell.h; sourceTree = "<group>"; };
+		AB12EC2F167189CD00B88402 /* WSProjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProjectTableViewCell.m; sourceTree = "<group>"; };
+		AB21A5FF19B4E94A009EC84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB26D43114FF16D600A0B673 /* WSProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProjectViewController.h; sourceTree = "<group>"; };
+		AB26D43214FF16D600A0B673 /* WSProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProjectViewController.m; sourceTree = "<group>"; };
+		AB2DFA47151037260078FBE7 /* WSInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSInboxViewController.h; sourceTree = "<group>"; };
+		AB2DFA48151037260078FBE7 /* WSInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSInboxViewController.m; sourceTree = "<group>"; };
+		AB63741215548B8E0050E4BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB75232A152BDFD100F64957 /* WSTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTodayViewController.h; sourceTree = "<group>"; };
+		AB75232B152BDFD100F64957 /* WSTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTodayViewController.m; sourceTree = "<group>"; };
+		AB862728157DA5EF001879E4 /* WSWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWeekViewController.h; sourceTree = "<group>"; };
+		AB862729157DA5EF001879E4 /* WSWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWeekViewController.m; sourceTree = "<group>"; };
+		AB9DB96C156B3D550063AEF9 /* WSMovePickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMovePickerTableViewController.h; sourceTree = "<group>"; };
+		AB9DB96D156B3D550063AEF9 /* WSMovePickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMovePickerTableViewController.m; sourceTree = "<group>"; };
+		ABA5C369161541B50097565C /* WSDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerViewController.h; sourceTree = "<group>"; };
+		ABA5C36A161541B50097565C /* WSDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerViewController.m; sourceTree = "<group>"; };
+		ABB75AA917CC510600DB72BA /* UIColor+WS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WS.h"; sourceTree = "<group>"; };
+		ABB75AAA17CC510600DB72BA /* UIColor+WS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WS.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90166A5414CF56AC000F2C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900AB653199C246100AF0D11 /* EventKit.framework in Frameworks */,
+				AB63741315548B8E0050E4BB /* QuartzCore.framework in Frameworks */,
+				90166A5C14CF56AC000F2C81 /* UIKit.framework in Frameworks */,
+				90166A5E14CF56AC000F2C81 /* Foundation.framework in Frameworks */,
+				90166A6014CF56AC000F2C81 /* CoreGraphics.framework in Frameworks */,
+				90166A6214CF56AC000F2C81 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90166A7F14CF56AC000F2C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90166A8614CF56AC000F2C81 /* UIKit.framework in Frameworks */,
+				90166A8714CF56AC000F2C81 /* Foundation.framework in Frameworks */,
+				90166A8814CF56AC000F2C81 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900AB64E199C23D800AF0D11 /* EventKit */ = {
+			isa = PBXGroup;
+			children = (
+				900AB64F199C23E000AF0D11 /* DMEventKitBridge.h */,
+				900AB650199C23E000AF0D11 /* DMEventKitBridge.m */,
+			);
+			name = EventKit;
+			sourceTree = "<group>";
+		};
+		90166A4C14CF56AB000F2C81 = {
+			isa = PBXGroup;
+			children = (
+				90166A6314CF56AC000F2C81 /* DayMap */,
+				90166A8B14CF56AC000F2C81 /* DayMapTests */,
+				90166A5A14CF56AC000F2C81 /* Frameworks */,
+				90166A5814CF56AC000F2C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90166A5814CF56AC000F2C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90166A5714CF56AC000F2C81 /* DayMap.app */,
+				90166A8314CF56AC000F2C81 /* DayMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90166A5A14CF56AC000F2C81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				900AB652199C246100AF0D11 /* EventKit.framework */,
+				AB63741215548B8E0050E4BB /* QuartzCore.framework */,
+				90166A5B14CF56AC000F2C81 /* UIKit.framework */,
+				90166A5D14CF56AC000F2C81 /* Foundation.framework */,
+				90166A5F14CF56AC000F2C81 /* CoreGraphics.framework */,
+				90166A6114CF56AC000F2C81 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90166A6314CF56AC000F2C81 /* DayMap */ = {
+			isa = PBXGroup;
+			children = (
+				900AB64E199C23D800AF0D11 /* EventKit */,
+				904641241555DF2B0086F8EB /* DayMap.entitlements */,
+				AB21A5FF19B4E94A009EC84E /* Assets.xcassets */,
+				90166A6414CF56AC000F2C81 /* Supporting Files */,
+				AB75230D15262EE600F64957 /* Data */,
+				90B07E2F16387F39003CDA1C /* WSRootAppDelegate.h */,
+				90B07E3016387F39003CDA1C /* WSRootAppDelegate.m */,
+				90166A6C14CF56AC000F2C81 /* WSAppDelegate.h */,
+				90166A6D14CF56AC000F2C81 /* WSAppDelegate.m */,
+				9036E9AD155584DB0014E237 /* DayMapManagedObjectContext.h */,
+				9036E9AE155584DB0014E237 /* DayMapManagedObjectContext.m */,
+				90BFD2B4155EF6BC0016C80B /* UI iPad */,
+				9036E9A8155584800014E237 /* UI iPhone */,
+				90BFD2AF155EF6790016C80B /* Util */,
+			);
+			path = DayMap;
+			sourceTree = "<group>";
+		};
+		90166A6414CF56AC000F2C81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90166A6514CF56AC000F2C81 /* DayMap-Info.plist */,
+				90166A6614CF56AC000F2C81 /* InfoPlist.strings */,
+				90166A6914CF56AC000F2C81 /* main.m */,
+				90166A6B14CF56AC000F2C81 /* DayMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90166A8B14CF56AC000F2C81 /* DayMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				90166A9114CF56AC000F2C81 /* DayMapTests.h */,
+				90166A9214CF56AC000F2C81 /* DayMapTests.m */,
+				90166A8C14CF56AC000F2C81 /* Supporting Files */,
+			);
+			path = DayMapTests;
+			sourceTree = "<group>";
+		};
+		90166A8C14CF56AC000F2C81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90166A8D14CF56AC000F2C81 /* DayMapTests-Info.plist */,
+				90166A8E14CF56AC000F2C81 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9036E9A8155584800014E237 /* UI iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				90E76414171DF4C500A408BC /* Color Picker */,
+				90E76413171DF49900A408BC /* List Views */,
+				90E76412171DF47600A408BC /* Date Picker */,
+				90E76411171DF45500A408BC /* Table Cells */,
+				90166A6F14CF56AC000F2C81 /* MainStoryboard_iPhone.storyboard */,
+				AB9DB96C156B3D550063AEF9 /* WSMovePickerTableViewController.h */,
+				AB9DB96D156B3D550063AEF9 /* WSMovePickerTableViewController.m */,
+				904641211555D17B0086F8EB /* WSSettingsViewController.h */,
+				904641221555D17B0086F8EB /* WSSettingsViewController.m */,
+				90A6094A156330BB0058B392 /* WSAboutViewController.h */,
+				90A6094B156330BB0058B392 /* WSAboutViewController.m */,
+			);
+			name = "UI iPhone";
+			sourceTree = "<group>";
+		};
+		9066B859164099900018B258 /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				9066B85A164099990018B258 /* Data2To3MappingModel.xcmappingmodel */,
+				9066B85B164099990018B258 /* Data2To3TaskMigrationPolicy.h */,
+				9066B85C164099990018B258 /* Data2To3TaskMigrationPolicy.m */,
+				906D840A183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.h */,
+				906D840B183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.m */,
+				9066B85D164099990018B258 /* Data3To4MappingModel.xcmappingmodel */,
+				9048D92817130C1C0007A125 /* Data4to5MappingModel.xcmappingmodel */,
+				90208FA118B41AAD009A410A /* Data5To6MappingModel.xcmappingmodel */,
+				90208F9F18B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.h */,
+				90208FA018B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.m */,
+			);
+			name = Migration;
+			sourceTree = "<group>";
+		};
+		90BFD2AF155EF6790016C80B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				90E763FA171DE5AB00A408BC /* ILColorPicker */,
+				90BFD2B0155EF68C0016C80B /* NSDate+WS.h */,
+				90BFD2B1155EF68C0016C80B /* NSDate+WS.m */,
+				9048D97017130F480007A125 /* NSString+WS.h */,
+				9048D97117130F480007A125 /* NSString+WS.m */,
+				90B07E401639C175003CDA1C /* MiscUtils.h */,
+				90B07E411639C175003CDA1C /* MiscUtils.m */,
+				ABB75AA917CC510600DB72BA /* UIColor+WS.h */,
+				ABB75AAA17CC510600DB72BA /* UIColor+WS.m */,
+				90BF923E19159CFA008D56D6 /* UIAlertView+Blocks.h */,
+				90BF923F19159CFA008D56D6 /* UIAlertView+Blocks.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		90BFD2B4155EF6BC0016C80B /* UI iPad */ = {
+			isa = PBXGroup;
+			children = (
+				90166A7214CF56AC000F2C81 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = "UI iPad";
+			sourceTree = "<group>";
+		};
+		90E763FA171DE5AB00A408BC /* ILColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				90E763FB171DE5B800A408BC /* ILColorPickerView.h */,
+				90E763FC171DE5B800A408BC /* ILColorPickerView.m */,
+				90E763FD171DE5B800A408BC /* ILHuePickerView.h */,
+				90E763FE171DE5B800A408BC /* ILHuePickerView.m */,
+				90E763FF171DE5B800A408BC /* ILSaturationBrightnessPickerView.h */,
+				90E76400171DE5B800A408BC /* ILSaturationBrightnessPickerView.m */,
+				90E76401171DE5B800A408BC /* ILView.h */,
+				90E76402171DE5B800A408BC /* ILView.m */,
+				90E76403171DE5B800A408BC /* UIColor+GetHSB.h */,
+				90E76404171DE5B800A408BC /* UIColor+GetHSB.m */,
+			);
+			name = ILColorPicker;
+			sourceTree = "<group>";
+		};
+		90E76411171DF45500A408BC /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				90F91E6F156D37B4004EDF4B /* WSRichTextTableViewCell.h */,
+				90F91E70156D37B4004EDF4B /* WSRichTextTableViewCell.m */,
+				AB12EC2E167189CD00B88402 /* WSProjectTableViewCell.h */,
+				AB12EC2F167189CD00B88402 /* WSProjectTableViewCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		90E76412171DF47600A408BC /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				90E7640F171DF3F400A408BC /* WSScheduledDatePickerStoryboard.storyboard */,
+				ABA5C369161541B50097565C /* WSDatePickerViewController.h */,
+				ABA5C36A161541B50097565C /* WSDatePickerViewController.m */,
+				90E76418171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.h */,
+				90E76419171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.m */,
+				90E7641B171E158100A408BC /* WSDatePickerEndDateViewController.h */,
+				90E7641C171E158100A408BC /* WSDatePickerEndDateViewController.m */,
+				90E7641E171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.h */,
+				90E7641F171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.m */,
+			);
+			name = "Date Picker";
+			sourceTree = "<group>";
+		};
+		90E76413171DF49900A408BC /* List Views */ = {
+			isa = PBXGroup;
+			children = (
+				90BFD2A2155EEF9E0016C80B /* WSAbstractTaskTableViewController.h */,
+				90BFD2A3155EEF9E0016C80B /* WSAbstractTaskTableViewController.m */,
+				90166A7B14CF56AC000F2C81 /* WSDetailViewController.h */,
+				90166A7C14CF56AC000F2C81 /* WSDetailViewController.m */,
+				AB862728157DA5EF001879E4 /* WSWeekViewController.h */,
+				AB862729157DA5EF001879E4 /* WSWeekViewController.m */,
+				AB75232A152BDFD100F64957 /* WSTodayViewController.h */,
+				AB75232B152BDFD100F64957 /* WSTodayViewController.m */,
+				AB2DFA47151037260078FBE7 /* WSInboxViewController.h */,
+				AB2DFA48151037260078FBE7 /* WSInboxViewController.m */,
+				AB26D43114FF16D600A0B673 /* WSProjectViewController.h */,
+				AB26D43214FF16D600A0B673 /* WSProjectViewController.m */,
+			);
+			name = "List Views";
+			sourceTree = "<group>";
+		};
+		90E76414171DF4C500A408BC /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				90E7640A171DEAB600A408BC /* WSProjectColorPickerViewController.xib */,
+				90E7640C171DEAE900A408BC /* WSProjectColorPickerViewController.h */,
+				90E7640D171DEAE900A408BC /* WSProjectColorPickerViewController.m */,
+			);
+			name = "Color Picker";
+			sourceTree = "<group>";
+		};
+		AB75230D15262EE600F64957 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				90E067001BE5742300F87B40 /* DayMap.xcdatamodeld */,
+				9066B859164099900018B258 /* Migration */,
+				9048D92A17130D140007A125 /* DayMap.h */,
+				9048D92B17130D140007A125 /* DayMap.m */,
+				9048D94717130DDA0007A125 /* Project.h */,
+				9048D94817130DDA0007A125 /* Project.m */,
+				9048D93917130DAF0007A125 /* RecurrenceRule.h */,
+				9048D93A17130DAF0007A125 /* RecurrenceRule.m */,
+				9048D93B17130DAF0007A125 /* RecurrenceRule+Additions.h */,
+				9048D93C17130DAF0007A125 /* RecurrenceRule+Additions.m */,
+				9048D94917130DDB0007A125 /* Project+Additions.h */,
+				9048D94A17130DDB0007A125 /* Project+Additions.m */,
+				9048D95517130DFC0007A125 /* AbstractTask.h */,
+				9048D95617130DFD0007A125 /* AbstractTask.m */,
+				9048D95717130DFD0007A125 /* AbstractTask+Additions.h */,
+				9048D95817130DFD0007A125 /* AbstractTask+Additions.m */,
+				9048D96317130E200007A125 /* Task.h */,
+				9048D96417130E200007A125 /* Task.m */,
+				9048D96517130E200007A125 /* Task+Additions.h */,
+				9048D96617130E200007A125 /* Task+Additions.m */,
+				9048D96D17130E3C0007A125 /* ProjectDisplayAttributes.h */,
+				9048D96E17130E3C0007A125 /* ProjectDisplayAttributes.m */,
+				90744DB6165D6E31000DE686 /* ProjectDisplayAttributes+Additions.h */,
+				90744DB7165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m */,
+			);
+			name = Data;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90166A5614CF56AC000F2C81 /* DayMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90166A9614CF56AC000F2C81 /* Build configuration list for PBXNativeTarget "DayMap" */;
+			buildPhases = (
+				90166A5314CF56AC000F2C81 /* Sources */,
+				90166A5414CF56AC000F2C81 /* Frameworks */,
+				90166A5514CF56AC000F2C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayMap;
+			productName = DayMap;
+			productReference = 90166A5714CF56AC000F2C81 /* DayMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90166A8214CF56AC000F2C81 /* DayMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90166A9914CF56AC000F2C81 /* Build configuration list for PBXNativeTarget "DayMapTests" */;
+			buildPhases = (
+				90166A7E14CF56AC000F2C81 /* Sources */,
+				90166A7F14CF56AC000F2C81 /* Frameworks */,
+				90166A8014CF56AC000F2C81 /* Resources */,
+				90166A8114CF56AC000F2C81 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90166A8A14CF56AC000F2C81 /* PBXTargetDependency */,
+			);
+			name = DayMapTests;
+			productName = DayMapTests;
+			productReference = 90166A8314CF56AC000F2C81 /* DayMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90166A4E14CF56AB000F2C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Monk Software LLC";
+				TargetAttributes = {
+					90166A5614CF56AC000F2C81 = {
+						DevelopmentTeam = 2WFZT4HWJN;
+					};
+				};
+			};
+			buildConfigurationList = 90166A5114CF56AB000F2C81 /* Build configuration list for PBXProject "DayMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90166A4C14CF56AB000F2C81;
+			productRefGroup = 90166A5814CF56AC000F2C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90166A5614CF56AC000F2C81 /* DayMap */,
+				90166A8214CF56AC000F2C81 /* DayMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90166A5514CF56AC000F2C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90166A6814CF56AC000F2C81 /* InfoPlist.strings in Resources */,
+				90166A7114CF56AC000F2C81 /* MainStoryboard_iPhone.storyboard in Resources */,
+				90166A7414CF56AC000F2C81 /* MainStoryboard_iPad.storyboard in Resources */,
+				AB21A60019B4E94A009EC84E /* Assets.xcassets in Resources */,
+				90E7640B171DEAB600A408BC /* WSProjectColorPickerViewController.xib in Resources */,
+				90E76410171DF3F400A408BC /* WSScheduledDatePickerStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90166A8014CF56AC000F2C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90166A9014CF56AC000F2C81 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90166A8114CF56AC000F2C81 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90166A5314CF56AC000F2C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90166A6A14CF56AC000F2C81 /* main.m in Sources */,
+				90166A6E14CF56AC000F2C81 /* WSAppDelegate.m in Sources */,
+				90166A7D14CF56AC000F2C81 /* WSDetailViewController.m in Sources */,
+				AB26D43314FF16D600A0B673 /* WSProjectViewController.m in Sources */,
+				AB2DFA49151037260078FBE7 /* WSInboxViewController.m in Sources */,
+				AB75232D152BDFD100F64957 /* WSTodayViewController.m in Sources */,
+				90208FA318B41AAD009A410A /* Data5To6MappingModel.xcmappingmodel in Sources */,
+				9036E9AF155584DC0014E237 /* DayMapManagedObjectContext.m in Sources */,
+				904641231555D17B0086F8EB /* WSSettingsViewController.m in Sources */,
+				90BFD2A4155EEF9E0016C80B /* WSAbstractTaskTableViewController.m in Sources */,
+				90208FA218B41AAD009A410A /* Data5To6AbstractTaskMigrationPolicy.m in Sources */,
+				90BFD2B2155EF68C0016C80B /* NSDate+WS.m in Sources */,
+				90A6094D156330BB0058B392 /* WSAboutViewController.m in Sources */,
+				AB9DB96E156B3D550063AEF9 /* WSMovePickerTableViewController.m in Sources */,
+				90F91E71156D37B4004EDF4B /* WSRichTextTableViewCell.m in Sources */,
+				AB86272A157DA5EF001879E4 /* WSWeekViewController.m in Sources */,
+				ABA5C36C161541B50097565C /* WSDatePickerViewController.m in Sources */,
+				90B07E3116387F39003CDA1C /* WSRootAppDelegate.m in Sources */,
+				90B07E421639C175003CDA1C /* MiscUtils.m in Sources */,
+				9066B85E164099990018B258 /* Data2To3MappingModel.xcmappingmodel in Sources */,
+				9066B860164099990018B258 /* Data2To3TaskMigrationPolicy.m in Sources */,
+				9066B862164099990018B258 /* Data3To4MappingModel.xcmappingmodel in Sources */,
+				90744DB8165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m in Sources */,
+				AB12EC30167189CD00B88402 /* WSProjectTableViewCell.m in Sources */,
+				9048D92917130C1C0007A125 /* Data4to5MappingModel.xcmappingmodel in Sources */,
+				9048D92C17130D140007A125 /* DayMap.m in Sources */,
+				9048D93D17130DAF0007A125 /* RecurrenceRule.m in Sources */,
+				9048D93E17130DAF0007A125 /* RecurrenceRule+Additions.m in Sources */,
+				9048D94B17130DDB0007A125 /* Project.m in Sources */,
+				ABB75AAB17CC510600DB72BA /* UIColor+WS.m in Sources */,
+				9048D94C17130DDB0007A125 /* Project+Additions.m in Sources */,
+				9048D95917130DFD0007A125 /* AbstractTask.m in Sources */,
+				9048D95A17130DFD0007A125 /* AbstractTask+Additions.m in Sources */,
+				9048D96717130E210007A125 /* Task.m in Sources */,
+				906D840C183D5EC200B9D071 /* Data3to4UUIDMigrationPolicy.m in Sources */,
+				90BF924019159CFA008D56D6 /* UIAlertView+Blocks.m in Sources */,
+				9048D96817130E210007A125 /* Task+Additions.m in Sources */,
+				9048D96F17130E3C0007A125 /* ProjectDisplayAttributes.m in Sources */,
+				9048D97217130F480007A125 /* NSString+WS.m in Sources */,
+				90E067091BE5742300F87B40 /* DayMap.xcdatamodeld in Sources */,
+				900AB651199C23E000AF0D11 /* DMEventKitBridge.m in Sources */,
+				90E76405171DE5B800A408BC /* ILColorPickerView.m in Sources */,
+				90E76406171DE5B800A408BC /* ILHuePickerView.m in Sources */,
+				90E76407171DE5B800A408BC /* ILSaturationBrightnessPickerView.m in Sources */,
+				90E76408171DE5B800A408BC /* ILView.m in Sources */,
+				90E76409171DE5B800A408BC /* UIColor+GetHSB.m in Sources */,
+				90E7640E171DEAE900A408BC /* WSProjectColorPickerViewController.m in Sources */,
+				90E7641A171E08AE00A408BC /* WSDatePickerRecurringSettingsViewController.m in Sources */,
+				90E7641D171E158100A408BC /* WSDatePickerEndDateViewController.m in Sources */,
+				90E76420171E1B7400A408BC /* WSDatePickerEndNumberOfTimesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90166A7E14CF56AC000F2C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90166A9314CF56AC000F2C81 /* DayMapTests.m in Sources */,
+				9036E9B0155584DC0014E237 /* DayMapManagedObjectContext.m in Sources */,
+				90BFD2B3155EF68C0016C80B /* NSDate+WS.m in Sources */,
+				90B07E3216387F39003CDA1C /* WSRootAppDelegate.m in Sources */,
+				90B07E431639C175003CDA1C /* MiscUtils.m in Sources */,
+				9066B85F164099990018B258 /* Data2To3MappingModel.xcmappingmodel in Sources */,
+				9066B861164099990018B258 /* Data2To3TaskMigrationPolicy.m in Sources */,
+				9066B863164099990018B258 /* Data3To4MappingModel.xcmappingmodel in Sources */,
+				90744DB9165D6E31000DE686 /* ProjectDisplayAttributes+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90166A8A14CF56AC000F2C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90166A5614CF56AC000F2C81 /* DayMap */;
+			targetProxy = 90166A8914CF56AC000F2C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90166A6614CF56AC000F2C81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90166A6714CF56AC000F2C81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90166A6F14CF56AC000F2C81 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90166A7014CF56AC000F2C81 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		90166A7214CF56AC000F2C81 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90166A7314CF56AC000F2C81 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		90166A8E14CF56AC000F2C81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90166A8F14CF56AC000F2C81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90166A9414CF56AC000F2C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90166A9514CF56AC000F2C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Whetstone Apps, LLC (2WFZT4HWJN)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90166A9714CF56AC000F2C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DayMap/DayMap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayMap/DayMap-Prefix.pch";
+				INFOPLIST_FILE = "DayMap/DayMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.daymap-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90166A9814CF56AC000F2C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DayMap/DayMap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayMap/DayMap-Prefix.pch";
+				INFOPLIST_FILE = "DayMap/DayMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.daymap-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90166A9A14CF56AC000F2C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DayMap.app/DayMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayMap/DayMap-Prefix.pch";
+				INFOPLIST_FILE = "DayMapTests/DayMapTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		90166A9B14CF56AC000F2C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DayMap.app/DayMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayMap/DayMap-Prefix.pch";
+				INFOPLIST_FILE = "DayMapTests/DayMapTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		90FD23B01721D05900780FE8 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-Hoc";
+		};
+		90FD23B11721D05900780FE8 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DayMap/DayMap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayMap/DayMap-Prefix.pch";
+				INFOPLIST_FILE = "DayMap/DayMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.daymap-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-Hoc";
+		};
+		90FD23B21721D05900780FE8 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DayMap.app/DayMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayMap/DayMap-Prefix.pch";
+				INFOPLIST_FILE = "DayMapTests/DayMapTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whetstoneapps.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = "Ad-Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90166A5114CF56AB000F2C81 /* Build configuration list for PBXProject "DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90166A9414CF56AC000F2C81 /* Debug */,
+				90166A9514CF56AC000F2C81 /* Release */,
+				90FD23B01721D05900780FE8 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90166A9614CF56AC000F2C81 /* Build configuration list for PBXNativeTarget "DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90166A9714CF56AC000F2C81 /* Debug */,
+				90166A9814CF56AC000F2C81 /* Release */,
+				90FD23B11721D05900780FE8 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90166A9914CF56AC000F2C81 /* Build configuration list for PBXNativeTarget "DayMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90166A9A14CF56AC000F2C81 /* Debug */,
+				90166A9B14CF56AC000F2C81 /* Release */,
+				90FD23B21721D05900780FE8 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90E067001BE5742300F87B40 /* DayMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90E067011BE5742300F87B40 /* DayMap 2.xcdatamodel */,
+				90E067021BE5742300F87B40 /* DayMap 3.xcdatamodel */,
+				90E067031BE5742300F87B40 /* DayMap 4.xcdatamodel */,
+				90E067041BE5742300F87B40 /* DayMap 5.xcdatamodel */,
+				90E067051BE5742300F87B40 /* DayMap 6.xcdatamodel */,
+				90E067061BE5742300F87B40 /* DayMap 7.xcdatamodel */,
+				90E067071BE5742300F87B40 /* DayMap 9.xcdatamodel */,
+				90E067081BE5742300F87B40 /* DayMap.xcdatamodel */,
+			);
+			currentVersion = 90E067071BE5742300F87B40 /* DayMap 9.xcdatamodel */;
+			name = DayMap.xcdatamodeld;
+			path = ../shared/DayMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90166A4E14CF56AB000F2C81 /* Project object */;
+}

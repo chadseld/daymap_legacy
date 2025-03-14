@@ -1,0 +1,45 @@
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "2z5-ML-oaP"; */
+"2z5-ML-oaP.title" = "前置全部窗口";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "7WR-0c-F1X"; */
+"7WR-0c-F1X.title" = "隐藏其他";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "9EE-mp-x4x"; */
+"9EE-mp-x4x.title" = "文件";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "63K-Eg-TxA"; */
+"63K-Eg-TxA.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "Quit DayMap"; ObjectID = "AJi-yn-AeZ"; */
+"AJi-yn-AeZ.title" = "退出 DayMap";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "Ebs-PQ-lHH"; */
+"Ebs-PQ-lHH.title" = "关闭";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "Fyk-Lf-qxg"; */
+"Fyk-Lf-qxg.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "HNj-oR-IeH"; */
+"HNj-oR-IeH.title" = "窗口";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "JJJ-Ss-MCI"; */
+"JJJ-Ss-MCI.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "About DayMap"; ObjectID = "Kd9-Tb-r02"; */
+"Kd9-Tb-r02.title" = "关于 DayMap";
+
+/* Class = "NSMenuItem"; title = "Hide DayMap"; ObjectID = "PqU-rc-wDQ"; */
+"PqU-rc-wDQ.title" = "隐藏 DayMap";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "RxO-GV-5xW"; */
+"RxO-GV-5xW.title" = "退出";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "f3W-gz-tt1"; */
+"f3W-gz-tt1.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "fbA-m1-qof"; */
+"fbA-m1-qof.title" = "服务";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "uf5-mM-EKA"; */
+"uf5-mM-EKA.title" = "服务";
+

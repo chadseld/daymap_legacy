@@ -1,0 +1,513 @@
+/* Class = "NSMenu"; title = "Task"; ObjectID = "0j8-cN-wrW"; */
+"0j8-cN-wrW.title" = "任务";
+
+/* Class = "NSMenuItem"; title = "Go to Today"; ObjectID = "2sa-6r-qno"; */
+"2sa-6r-qno.title" = "去往今天";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "前置全部窗口";
+
+/* Class = "NSMenuItem"; title = "Show Colors"; ObjectID = "5Ol-lU-iGi"; */
+"5Ol-lU-iGi.title" = "显示颜色";
+
+/* Class = "NSMenu"; title = "Baseline"; ObjectID = "6YV-qP-UB1"; */
+"6YV-qP-UB1.title" = "底线";
+
+/* Class = "NSMenuItem"; title = "Align Left"; ObjectID = "6cA-6H-WK3"; */
+"6cA-6H-WK3.title" = "左对齐";
+
+/* Class = "NSMenuItem"; title = "Center"; ObjectID = "6hS-YN-q6F"; */
+"6hS-YN-q6F.title" = "中间";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "6y8-Uc-lcS"; */
+"6y8-Uc-lcS.title" = "更小";
+
+/* Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "7kA-RF-NHd"; */
+"7kA-RF-NHd.title" = "\tDefault";
+
+/* Class = "NSMenuItem"; title = "Tighten"; ObjectID = "7pd-YS-x2c"; */
+"7pd-YS-x2c.title" = "紧缩";
+
+/* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "9l1-lN-Njw"; */
+"9l1-lN-Njw.title" = "拷贝样式";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "最小化";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "窗口";
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
+"29.title" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "DayMap"; ObjectID = "56"; */
+"56.title" = "当天地图";
+
+/* Class = "NSMenu"; title = "DayMap"; ObjectID = "57"; */
+"57.title" = "当天地图";
+
+/* Class = "NSMenuItem"; title = "About DayMap"; ObjectID = "58"; */
+"58.title" = "关于 DayMap";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "关闭";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "New Project…"; ObjectID = "82"; */
+"82.title" = "新项目...";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "Upgrade to Full Version…"; ObjectID = "92o-6b-zzk"; */
+"92o-6b-zzk.title" = "升级到完整版本...";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "99S-Zv-F3I"; */
+"99S-Zv-F3I.title" = "显示字体";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Hide DayMap"; ObjectID = "134"; */
+"134.title" = "隐藏 DayMap";
+
+/* Class = "NSMenuItem"; title = "Quit DayMap"; ObjectID = "136"; */
+"136.title" = "退出 DayMap";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "隐藏其他";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "显示全部";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "195"; */
+"195.title" = "停止讲话";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "196"; */
+"196.title" = "开始讲话";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; */
+"197.title" = "复制";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; */
+"198.title" = "全选";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; */
+"199.title" = "剪切";
+
+/* Class = "NSMenu"; title = "Spelling and Grammar"; ObjectID = "200"; */
+"200.title" = "拼写和语法";
+
+/* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "201"; */
+"201.title" = "立即检查文稿";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "202"; */
+"202.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; */
+"203.title" = "粘贴";
+
+/* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "204"; */
+"204.title" = "显示拼写和语法";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "205"; */
+"205.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; */
+"207.title" = "撤销";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "208"; */
+"208.title" = "查找下一个";
+
+/* Class = "NSMenuItem"; title = "Find in DayMap…"; ObjectID = "209"; */
+"209.title" = "查找当天地图...";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "210"; */
+"210.title" = "跳转到选择";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "211"; */
+"211.title" = "语音";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "212"; */
+"212.title" = "语音";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "213"; */
+"213.title" = "查找上一个";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "215"; */
+"215.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "216"; */
+"216.title" = "拼写和语法";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; */
+"217.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "218"; */
+"218.title" = "查找";
+
+/* Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "219"; */
+"219.title" = "当键入时，检查拼写";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "220"; */
+"220.title" = "查找";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "221"; */
+"221.title" = "使用所选内容查找";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; */
+"239.title" = "放大";
+
+/* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "346"; */
+"346.title" = "用拼写检查语法";
+
+/* Class = "NSToolbarItem"; label = "Share"; ObjectID = "348-sc-PV1"; */
+"348-sc-PV1.label" = "共享";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Share"; ObjectID = "348-sc-PV1"; */
+"348-sc-PV1.paletteLabel" = "共享";
+
+/* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "348"; */
+"348.title" = "替换";
+
+/* Class = "NSMenu"; title = "Substitutions"; ObjectID = "349"; */
+"349.title" = "替换";
+
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "350"; */
+"350.title" = "智能复制/粘贴";
+
+/* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "351"; */
+"351.title" = "智能援引";
+
+/* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "354"; */
+"354.title" = "智能链接";
+
+/* Class = "NSWindow"; title = "DayMap"; ObjectID = "371"; */
+"371.title" = "当天地图";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "450"; */
+"450.title" = "转换";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "451"; */
+"451.title" = "转换";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "452"; */
+"452.title" = "使大写";
+
+/* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "454"; */
+"454.title" = "自动修正拼写";
+
+/* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "457"; */
+"457.title" = "显示替换";
+
+/* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "460"; */
+"460.title" = "智能破折号";
+
+/* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "462"; */
+"462.title" = "文本替换";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "465"; */
+"465.title" = "使小写";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "466"; */
+"466.title" = "大写";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "485"; */
+"485.title" = "粘贴并匹配样式";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; */
+"490.title" = "帮助";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
+"491.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "DayMap Help"; ObjectID = "492"; */
+"492.title" = "当日地图帮助";
+
+/* Class = "NSMenuItem"; title = "Bold"; ObjectID = "623-XS-pxt"; */
+"623-XS-pxt.title" = "黑体";
+
+/* Class = "NSMenuItem"; title = "New Task…"; ObjectID = "682"; */
+"682.title" = "新建任务...";
+
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "702"; */
+"702.title" = "复制";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "706"; */
+"706.title" = "偏好设置…";
+
+/* Class = "NSMenuItem"; title = "Indent Task"; ObjectID = "710"; */
+"710.title" = "缩进任务";
+
+/* Class = "NSMenuItem"; title = "Outdent Task"; ObjectID = "711"; */
+"711.title" = "凸出任务";
+
+/* Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "714"; */
+"714.title" = "页面设置...";
+
+/* Class = "NSMenuItem"; title = "Print Selected Project…"; ObjectID = "715"; */
+"715.title" = "打印所选项目...";
+
+/* Class = "NSMenuItem"; title = "Print All Projects…"; ObjectID = "717"; */
+"717.title" = "打印所有项目...";
+
+/* Class = "NSMenuItem"; title = "Print Calendar…"; ObjectID = "721"; */
+"721.title" = "打印日历...";
+
+/* Class = "NSMenuItem"; title = "Move Overdue Tasks to Today"; ObjectID = "726"; */
+"726.title" = "将逾期任务移动到今天";
+
+/* Class = "NSMenuItem"; title = "Quick Add…"; ObjectID = "738"; */
+"738.title" = "快速添加...";
+
+/* Class = "NSPanel"; title = "Window"; ObjectID = "743"; */
+"743.title" = "窗口";
+
+/* Class = "NSButtonCell"; title = "Credits…"; ObjectID = "752"; */
+"752.title" = "积分...";
+
+/* Class = "NSTextFieldCell"; title = "DayMap"; ObjectID = "754"; */
+"754.title" = "当天地图";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label"; ObjectID = "767"; */
+"767.title" = "多行标签";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "769"; */
+"769.title" = "窗口";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "776"; */
+"776.title" = "关闭";
+
+/* Class = "NSMenuItem"; title = "Main Window"; ObjectID = "789"; */
+"789.title" = "主窗口";
+
+/* Class = "NSMenuItem"; title = "Advanced Preferences…"; ObjectID = "804"; */
+"804.title" = "高级首选...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "822"; */
+"822.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "832"; */
+"832.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "835"; */
+"835.title" = "标签";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "837"; */
+"837.title" = "查找…";
+
+/* Class = "NSMenuItem"; title = "Show Backups…"; ObjectID = "842"; */
+"842.title" = "显示备份...";
+
+/* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "A3D-oa-v1o"; */
+"A3D-oa-v1o.title" = "\tRight 靠左";
+
+/* Class = "NSMenuItem"; title = "Hide Calendar"; ObjectID = "ALe-7T-J6N"; */
+"ALe-7T-J6N.title" = "隐藏日历";
+
+/* Class = "NSMenuItem"; title = "Paragraph"; ObjectID = "AOB-1N-kco"; */
+"AOB-1N-kco.title" = "段落";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "Ajc-Qs-0G3"; */
+"Ajc-Qs-0G3.title" = "使用默认";
+
+/* Class = "NSMenuItem"; title = "Font"; ObjectID = "B8v-Dd-LUD"; */
+"B8v-Dd-LUD.title" = "字体";
+
+/* Class = "NSMenuItem"; title = "Use All"; ObjectID = "CEr-Za-Xuq"; */
+"CEr-Za-Xuq.title" = "使用所有";
+
+/* Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "Cdd-Pv-brD"; */
+"Cdd-Pv-brD.title" = "\tDefault";
+
+/* Class = "NSMenu"; title = "Text"; ObjectID = "Cfp-Ot-GT0"; */
+"Cfp-Ot-GT0.title" = "问吧";
+
+/* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "Cj7-YG-aki"; */
+"Cj7-YG-aki.title" = "\tLeft 靠右";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Search"; ObjectID = "E2J-51-Mry"; */
+"E2J-51-Mry.placeholderString" = "搜索";
+
+/* Class = "NSMenuItem"; title = "Kern"; ObjectID = "EIR-7x-vpz"; */
+"EIR-7x-vpz.title" = "核心";
+
+/* Class = "NSMenuItem"; title = "Show Apple Calendar Events"; ObjectID = "EXn-xQ-J8z"; */
+"EXn-xQ-J8z.title" = "显示苹果日历事件";
+
+/* Class = "NSMenuItem"; title = "Format"; ObjectID = "Fbh-fF-CvU"; */
+"Fbh-fF-CvU.title" = "格式";
+
+/* Class = "NSMenu"; title = "Format"; ObjectID = "GP4-eA-dm1"; */
+"GP4-eA-dm1.title" = "格式";
+
+/* Class = "NSButtonCell"; title = "New Project"; ObjectID = "Gq7-bA-Sdn"; */
+"Gq7-bA-Sdn.title" = "新项目";
+
+/* Class = "NSToolbarItem"; label = "Hide Completed"; ObjectID = "GqE-JJ-G8r"; */
+"GqE-JJ-G8r.label" = "隐藏已完成项目";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Hide Completed"; ObjectID = "GqE-JJ-G8r"; */
+"GqE-JJ-G8r.paletteLabel" = "隐藏已完成项目";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "HDd-gi-IZY"; */
+"HDd-gi-IZY.title" = "使用默认";
+
+/* Class = "NSMenuItem"; title = "Paste Ruler"; ObjectID = "Hmx-80-iH1"; */
+"Hmx-80-iH1.title" = "粘贴标尺";
+
+/* Class = "NSMenuItem"; title = "Writing Direction"; ObjectID = "HuQ-a6-3Zb"; */
+"HuQ-a6-3Zb.title" = "书写方向";
+
+/* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "IO8-CS-gJY"; */
+"IO8-CS-gJY.title" = "\tRight 靠左";
+
+/* Class = "NSMenuItem"; title = "Back"; ObjectID = "J89-Gf-djg"; */
+"J89-Gf-djg.title" = "反向";
+
+/* Class = "NSMenuItem"; title = "Lower"; ObjectID = "JMf-MT-lLB"; */
+"JMf-MT-lLB.title" = "更低";
+
+/* Class = "NSMenuItem"; title = "Copy Ruler"; ObjectID = "JjM-wk-idk"; */
+"JjM-wk-idk.title" = "复制标尺";
+
+/* Class = "NSMenuItem"; title = "Task"; ObjectID = "LkF-WR-2Ob"; */
+"LkF-WR-2Ob.title" = "任务";
+
+/* Class = "NSMenuItem"; title = "Justify"; ObjectID = "MDf-b8-qvQ"; */
+"MDf-b8-qvQ.title" = "辩解";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "NHw-LP-g7E"; */
+"NHw-LP-g7E.title" = "视图";
+
+/* Class = "NSMenu"; title = "Kern"; ObjectID = "Nl0-98-tAR"; */
+"Nl0-98-tAR.title" = "核心";
+
+/* Class = "NSToolbarItem"; label = "Search"; ObjectID = "Ozx-wb-Q3x"; */
+"Ozx-wb-Q3x.label" = "搜索";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Search"; ObjectID = "Ozx-wb-Q3x"; */
+"Ozx-wb-Q3x.paletteLabel" = "搜索";
+
+/* Class = "NSMenuItem"; title = "Week"; ObjectID = "QJL-KD-cVl"; */
+"QJL-KD-cVl.title" = "周";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "QNQ-xC-Gxw"; */
+"QNQ-xC-Gxw.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "Rc0-Hu-SRT"; */
+"Rc0-Hu-SRT.title" = "不使用任何一个";
+
+/* Class = "NSButtonCell"; title = "New Task"; ObjectID = "Ruu-6V-w8D"; */
+"Ruu-6V-w8D.title" = "新建任务";
+
+/* Class = "NSMenuItem"; title = "Loosen"; ObjectID = "Tcx-p6-B90"; */
+"Tcx-p6-B90.title" = "放松";
+
+/* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "UAI-pf-hkY"; */
+"UAI-pf-hkY.title" = "\tLeft 靠右";
+
+/* Class = "NSMenuItem"; title = "New Subtask…"; ObjectID = "UYU-qd-b7e"; */
+"UYU-qd-b7e.title" = "新的子任务...";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "Uj6-tZ-Npy"; */
+"Uj6-tZ-Npy.title" = "不使用任何一个";
+
+/* Class = "NSMenuItem"; title = "Show Archived Projects"; ObjectID = "XEM-YL-He4"; */
+"XEM-YL-He4.title" = "显示存档项目";
+
+/* Class = "NSMenuItem"; title = "Raise"; ObjectID = "ZLN-2x-DWy"; */
+"ZLN-2x-DWy.title" = "募集";
+
+/* Class = "NSMenuItem"; title = "Complete"; ObjectID = "Zpz-t0-Evy"; */
+"Zpz-t0-Evy.title" = "完成";
+
+/* Class = "NSToolbarItem"; label = "Upgrade DayMap"; ObjectID = "Zr8-jf-ESK"; */
+"Zr8-jf-ESK.label" = "升级当日地图";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Upgrade"; ObjectID = "Zr8-jf-ESK"; */
+"Zr8-jf-ESK.paletteLabel" = "升级";
+
+/* Class = "NSMenuItem"; title = "Show Ruler"; ObjectID = "a1o-BI-yJF"; */
+"a1o-BI-yJF.title" = "显示标尺";
+
+/* Class = "NSMenuItem"; title = "Baseline"; ObjectID = "aGQ-Q9-KUm"; */
+"aGQ-Q9-KUm.title" = "底线";
+
+/* Class = "NSMenuItem"; title = "Paste Style"; ObjectID = "aZW-Ot-zEX"; */
+"aZW-Ot-zEX.title" = "粘贴样式";
+
+/* Class = "NSMenuItem"; title = "Superscript"; ObjectID = "bpX-uJ-gtx"; */
+"bpX-uJ-gtx.title" = "铭文";
+
+/* Class = "NSMenu"; title = "Ligatures"; ObjectID = "cnv-Vd-pmF"; */
+"cnv-Vd-pmF.title" = "连字";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "dee-Lk-oVv"; */
+"dee-Lk-oVv.title" = "视图";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "f0r-Jc-bcl"; */
+"f0r-Jc-bcl.title" = "更大";
+
+/* Class = "NSMenu"; title = "Writing Direction"; ObjectID = "fkd-k0-oFC"; */
+"fkd-k0-oFC.title" = "书写方向";
+
+/* Class = "NSButtonCell"; title = "Upgrade"; ObjectID = "gGX-Fp-AeA"; */
+"gGX-Fp-AeA.title" = "升级";
+
+/* Class = "NSMenuItem"; title = "Subscript"; ObjectID = "gwS-gl-cDb"; */
+"gwS-gl-cDb.title" = "下标";
+
+/* Class = "NSMenuItem"; title = "Italic"; ObjectID = "hmh-KO-Phk"; */
+"hmh-KO-Phk.title" = "斜体";
+
+/* Class = "NSMenuItem"; title = "Month"; ObjectID = "i85-30-fNx"; */
+"i85-30-fNx.title" = "月";
+
+/* Class = "NSMenuItem"; title = "Align Right"; ObjectID = "k25-BZ-Oyh"; */
+"k25-BZ-Oyh.title" = "右对齐";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "ojx-5Z-TGD"; */
+"ojx-5Z-TGD.title" = "使用默认";
+
+/* Class = "NSMenuItem"; title = "Text"; ObjectID = "pPY-cJ-nfr"; */
+"pPY-cJ-nfr.title" = "问吧";
+
+/* Class = "NSMenuItem"; title = "Show in"; ObjectID = "qiT-zH-SmX"; */
+"qiT-zH-SmX.title" = "显示";
+
+/* Class = "NSMenuItem"; title = "Underline"; ObjectID = "suJ-3K-yYv"; */
+"suJ-3K-yYv.title" = "下划线";
+
+/* Class = "NSMenuItem"; title = "Ligatures"; ObjectID = "upF-Eh-8VD"; */
+"upF-Eh-8VD.title" = "连字";
+
+/* Class = "NSMenuItem"; title = "Forward"; ObjectID = "xNV-bx-STc"; */
+"xNV-bx-STc.title" = "向前";
+
+/* Class = "NSToolbarItem"; label = "New Project"; ObjectID = "xV2-O1-cjx"; */
+"xV2-O1-cjx.label" = "新项目";
+
+/* Class = "NSToolbarItem"; paletteLabel = "New Project"; ObjectID = "xV2-O1-cjx"; */
+"xV2-O1-cjx.paletteLabel" = "新项目";
+
+/* Class = "NSToolbarItem"; label = "New Task"; ObjectID = "zRx-SG-rwd"; */
+"zRx-SG-rwd.label" = "新建任务";
+
+/* Class = "NSToolbarItem"; paletteLabel = "New Task"; ObjectID = "zRx-SG-rwd"; */
+"zRx-SG-rwd.paletteLabel" = "新建任务";
+
+/* Class = "NSMenu"; title = "Font"; ObjectID = "znh-qO-cHJ"; */
+"znh-qO-cHJ.title" = "字体";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "zwo-sN-hav"; */
+"zwo-sN-hav.title" = "选择";
+

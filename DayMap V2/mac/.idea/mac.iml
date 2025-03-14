@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/DayMap-57d8b593/Build/Products/Debug/DayMap.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/DayMap-57d8b593/Build/Products/Debug/DayMap.app" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/AbstractTask+Additions.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/AbstractTask+Additions.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/AbstractTask+Additions.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/AbstractTask+Additions.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/AbstractTask.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/AbstractTask.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/AbstractTask.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/AbstractTask.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Data2To3TaskMigrationPolicy.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Data2To3TaskMigrationPolicy.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Data2To3TaskMigrationPolicy.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Data2To3TaskMigrationPolicy.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/DayMap.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/DayMap.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/DayMap.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/DayMap.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/DayMap.xcdatamodeld">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/DayMap.xcdatamodeld" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/DayMapManagedObjectContext.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/DayMapManagedObjectContext.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/DayMapManagedObjectContext.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/DayMapManagedObjectContext.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/MiscUtils.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/MiscUtils.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/MiscUtils.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/MiscUtils.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/NSDate+WS.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/NSDate+WS.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/NSDate+WS.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/NSDate+WS.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/NSString+WS.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/NSString+WS.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/NSString+WS.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/NSString+WS.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Project+Additions.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Project+Additions.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Project+Additions.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Project+Additions.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Project.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Project.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Project.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Project.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes+Additions.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes+Additions.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes+Additions.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes+Additions.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/ProjectDisplayAttributes.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/RecurrenceRule+Additions.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/RecurrenceRule+Additions.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/RecurrenceRule+Additions.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/RecurrenceRule+Additions.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/RecurrenceRule.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/RecurrenceRule.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/RecurrenceRule.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/RecurrenceRule.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Task+Additions.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Task+Additions.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Task+Additions.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Task+Additions.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Task.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Task.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/Task.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/Task.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/WSRootAppDelegate.h">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/WSRootAppDelegate.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../shared/WSRootAppDelegate.m">
+      <sourceFolder url="file://$MODULE_DIR$/../shared/WSRootAppDelegate.m" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

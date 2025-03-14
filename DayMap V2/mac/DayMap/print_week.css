@@ -1,0 +1,63 @@
+body {
+	font-family: "Helvetica Neue", Helvetica;
+	font-size:  12px;
+} 
+
+p {
+	font-size: 12px;
+}
+
+div {
+	padding: 0mm 0mm 0mm 0mm;
+}
+
+.day {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(128,128,128);
+	float:left;
+	margin-right:-1px;
+	height: 95%;
+	width: 14%;
+}
+
+.day_date {
+	/*background: #666;
+	 color: #fff;*/
+	font-size:14px; 
+	font-weight: bold;
+	/*	padding-left: 20px;
+	 padding-right: 20px;*/
+	text-align: center;
+	padding-top: 2mm;
+	padding-bottom: 1mm;
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: rgb(70,70,70);
+} 
+
+.task {
+	padding-left: 5px;
+	margin-top: 2mm;	
+}
+
+.task .name {
+	/*background: #fff;
+	 color: #000;*/
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+} 
+
+.completed .name {
+	text-decoration: line-through;
+}
+
+.details {
+	color: #888;
+	font-weight: normal;
+	font-size: 10px;
+	font-style: italic;
+	padding-top: 0mm;
+	padding-bottom: 0mm;
+}

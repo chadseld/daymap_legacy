@@ -1,0 +1,60 @@
+//
+// Prefix header for all source files of the 'DayMap' target in the 'DayMap' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+	#import "DayMapManagedObjectContext.h"
+#endif
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...) /* */
+#endif
+
+extern DayMapManagedObjectContext *DMCurrentManagedObjectContext;
+
+#define TASK_NOT_COMPLETED 0
+#define TASK_COMPLETED 1
+#define TASK_PARTIALLY_COMPLETED -1
+
+#define NUMBER_OF_WEEKS_IN_MONTH_VIEW 5
+
+#define WS_ROUNDED_CORNER_RADIUS 4.0
+
+typedef enum {
+    DMCalendarViewByWeek = 0,
+    DMCalendarViewByMonth
+} DMCalendarViewByMode;
+
+// Preferences
+#define PREF_HIDE_COMPLETED_INTERVAL @"hideCompletedInterval"
+#define PREF_USE_HIGH_CONTRAST_FONTS @"PrefUseHighContrastFonts"
+#define COLUMN_WIDTHS_PREFERENCE @"ProjectsTableViewColumnWidths"
+#define COLUMN_MINIMIZED_PREFERENCE @"ProjectColumnMinimized "
+#define PREF_USE_ICLOUD_STORAGE @"PrefUseiCloudStorage"
+#define PREF_SHOULD_DELETE_COMPLETED_ITEMS_AFTER_TIME @"PrefShouldDeleteCompletedItemsAfterTime"
+#define PREF_DELETE_COMPLETED_ITEMS_AFTER_TIME_DAYS @"PrefDeleteCompletedItemsAfterTimeDays"
+#define PREF_RAND_PROJECT_COLOR @"PrefRandomProjectColor"
+#define PREF_CALENDAR_VIEW_MODE @"PrefCalendarViewByMode"
+#define PREF_CURRENTLY_SELECTED_WEEK @"PrefCurrentlySelectedWeek"
+#define PREF_LAST_IMPORTED_DAYMAP_LITE_SHA @"LastImportedDayMapLiteSHA"
+#define PREF_SHOW_ARCHIVED_PROJECTS @"showArchivedProjects"
+#define PREF_SHOW_EVENTKIT_EVENTS @"showEventKitEvents"
+#define PREF_SHOW_NOTES_IN_OUTLINE @"showNotesInOutline"
+
+#define DMWillChangeManagedObjectContext @"DMWillChangeManagedObjectContext"
+#define DMDidChangeManagedObjectContext @"DMDidChangeManagedObjectContext"
+
+#define DMExpandChildrenOfTaskNotification @"DMExpandChildrenOfTask"
+#define DMMakeTaskVisibleNotification @"DMMakeTaskVisible"
+#define DMMakeTaskVisibleInCalendarNotification @"DMMakeTaskVisibleInCalendar"
+#define DMChildrenDidChangeForParentNotification @"DMChildrenDidChangeForParent"
+#define DMResizeRowForTaskNotification @"DMResizeRowForTaskNotification"
+#define DMUpdateWeekViewNotification @"DMUpdateWeekView"
+
+#define DMMacAppStoreURL [NSURL URLWithString:@"macappstore://itunes.apple.com/us/app/daymap/id460983177?mt=12"]
+#define DMWhetstoneAppsURL [NSURL URLWithString:@"http://www.whetstoneapps.com/"]
+#define DMWhetstoneAppsSupportURL [NSURL URLWithString:@"http://www.whetstoneapps.com/support/"]
+#define DMWhetstoneAppsTourURL [NSURL URLWithString:@"http://whetstoneapps.com/tour/"]

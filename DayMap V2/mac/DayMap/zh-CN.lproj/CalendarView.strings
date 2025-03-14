@@ -1,0 +1,9 @@
+/* Class = "NSButtonCell"; title = "Today"; ObjectID = "84"; */
+"84.title" = "今天";
+
+/* Class = "NSSegmentedCell"; Ixe-K4-R63.ibShadowedLabels[0] = "Week"; ObjectID = "Ixe-K4-R63"; */
+"Ixe-K4-R63.ibShadowedLabels[0]" = "周";
+
+/* Class = "NSSegmentedCell"; Ixe-K4-R63.ibShadowedLabels[1] = "Month"; ObjectID = "Ixe-K4-R63"; */
+"Ixe-K4-R63.ibShadowedLabels[1]" = "月";
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSViewController">
+            <connections>
+                <outlet property="view" destination="1" id="4"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="1" customClass="CalendarTaskTableCellView">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="25"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" id="2" customClass="ClickThroughTextField">
+                    <rect key="frame" x="34" y="1" width="124" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Foo" id="3">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="5" name="value" keyPath="selection.task.name" id="8"/>
+                        <binding destination="5" name="textColor" keyPath="selection.textColor" id="O81-qZ-3fR"/>
+                    </connections>
+                </textField>
+                <button id="9">
+                    <rect key="frame" x="8" y="4" width="28" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="only" alignment="left" allowsMixedState="YES" inset="2" id="10">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="toggleCompleted:" target="1" id="11"/>
+                    </connections>
+                </button>
+            </subviews>
+            <connections>
+                <outlet property="completedCheckbox" destination="9" id="14"/>
+                <outlet property="titleLabel" destination="2" id="8gI-0d-fFa"/>
+            </connections>
+        </customView>
+        <objectController objectClassName="CalendarTaskTableCellView" id="5">
+            <connections>
+                <outlet property="content" destination="1" id="7"/>
+            </connections>
+        </objectController>
+    </objects>
+</document>

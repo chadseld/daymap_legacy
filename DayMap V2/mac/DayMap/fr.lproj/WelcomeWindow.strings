@@ -1,0 +1,18 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "Fenêtre";
+
+/* Class = "NSButtonCell"; title = "Start with Sample Data"; ObjectID = "1a9-9G-7Ix"; */
+"1a9-9G-7Ix.title" = "Commencer avec données d'échantillon";
+
+/* Class = "NSTextFieldCell"; title = "DayMap is a new way to organize your projects and tasks visually. Use the Project Outliner at the top\nto organize your tasks. Use the Calendar\nat the bottom to schedule tasks in your\nweek.\n\n"; ObjectID = "BKh-4c-F5y"; */
+"BKh-4c-F5y.title" = "DayMap est une nouvelle façon d'organiser vos projets et tâches visuellement. Use the l'Outliner de projets au sommet pour organiser vos tâches. Utilisez le Calendrier en bas pour planifier des tâches dans votre semaine.";
+
+/* Class = "NSButtonCell"; title = "Lets Go!"; ObjectID = "KhQ-uL-5yJ"; */
+"KhQ-uL-5yJ.title" = "Allons-y !";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to DayMap! "; ObjectID = "RFF-oO-QFy"; */
+"RFF-oO-QFy.title" = "Bienvenue dans DayMap! ";
+
+/* Class = "NSButtonCell"; title = "Video Tour"; ObjectID = "Ve1-19-AzT"; */
+"Ve1-19-AzT.title" = "Visite vidéo";
+

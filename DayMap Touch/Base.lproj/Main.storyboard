@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Regular Width Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RegularWidthMainViewController" customModule="DayMap_Touch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="343" placeholderIntrinsicHeight="450" translatesAutoresizingMaskIntoConstraints="NO" id="biy-GM-ax9">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <connections>
+                                    <segue destination="K3U-bg-ZWC" kind="embed" id="8ua-dy-a02"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thj-68-kPx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <connections>
+                                    <segue destination="wZe-W0-BWi" kind="embed" id="aqX-mZ-JdA"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="biy-GM-ax9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5UM-O2-oVq"/>
+                            <constraint firstItem="thj-68-kPx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AMt-I8-yGy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="thj-68-kPx" secondAttribute="bottom" id="Gfh-nc-odh"/>
+                            <constraint firstItem="thj-68-kPx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Kec-13-Ifg"/>
+                            <constraint firstItem="biy-GM-ax9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gpB-Xp-smS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="biy-GM-ax9" secondAttribute="bottom" id="i2q-hE-b5A"/>
+                            <constraint firstAttribute="trailing" secondItem="biy-GM-ax9" secondAttribute="trailing" id="o67-NF-koL"/>
+                            <constraint firstAttribute="trailing" secondItem="thj-68-kPx" secondAttribute="trailing" id="xBj-OD-PG1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="thj-68-kPx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="biy-GM-ax9"/>
+                                <include reference="thj-68-kPx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2392.96875" y="186.328125"/>
+        </scene>
+        <!--Regular-->
+        <scene sceneID="pCF-AR-12F">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Regular" id="K3U-bg-ZWC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Jy-xW-CjL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1875" y="186"/>
+        </scene>
+        <!--CompactWidth-->
+        <scene sceneID="CPs-kd-7pF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CompactWidth" id="wZe-W0-BWi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lbM-va-ouw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2354" y="829"/>
+        </scene>
+    </scenes>
+</document>

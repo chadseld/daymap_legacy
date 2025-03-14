@@ -1,0 +1,93 @@
+/* Class = "NSMenuItem"; title = "DayMap"; ObjectID = "0Z4-Ta-SuP"; */
+"0Z4-Ta-SuP.title" = "当天地图";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "2z5-ML-oaP"; */
+"2z5-ML-oaP.title" = "前置全部窗口";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "7WR-0c-F1X"; */
+"7WR-0c-F1X.title" = "隐藏其他";
+
+/* Class = "NSTableColumn"; headerCell.title = "Size on Disk"; ObjectID = "7nb-7p-0KH"; */
+"7nb-7p-0KH.headerCell.title" = "在磁盘上的大小";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "9EE-mp-x4x"; */
+"9EE-mp-x4x.title" = "文件";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "63K-Eg-TxA"; */
+"63K-Eg-TxA.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "72P-Dz-F19"; */
+"72P-Dz-F19.title" = "最小化";
+
+/* Class = "NSMenuItem"; title = "Quit DayMap"; ObjectID = "AJi-yn-AeZ"; */
+"AJi-yn-AeZ.title" = "退出 DayMap";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "Ebs-PQ-lHH"; */
+"Ebs-PQ-lHH.title" = "关闭";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "Fyk-Lf-qxg"; */
+"Fyk-Lf-qxg.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "HNj-oR-IeH"; */
+"HNj-oR-IeH.title" = "窗口";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "JJJ-Ss-MCI"; */
+"JJJ-Ss-MCI.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "About DayMap"; ObjectID = "Kd9-Tb-r02"; */
+"Kd9-Tb-r02.title" = "关于 DayMap";
+
+/* Class = "NSMenuItem"; title = "Show Backups…"; ObjectID = "OWF-zY-XAC"; */
+"OWF-zY-XAC.title" = "显示备份...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Oyu-7s-JNb"; */
+"Oyu-7s-JNb.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Hide DayMap"; ObjectID = "PqU-rc-wDQ"; */
+"PqU-rc-wDQ.title" = "隐藏 DayMap";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "RxO-GV-5xW"; */
+"RxO-GV-5xW.title" = "退出";
+
+/* Class = "NSTableColumn"; headerCell.title = "Backup Date"; ObjectID = "UtQ-on-URM"; */
+"UtQ-on-URM.headerCell.title" = "备份日期";
+
+/* Class = "NSWindow"; title = "DayMap Recovery"; ObjectID = "Zg7-8c-Wyu"; */
+"Zg7-8c-Wyu.title" = "当日地图恢复";
+
+/* Class = "NSButtonCell"; title = "Show Files"; ObjectID = "afl-GT-vYO"; */
+"afl-GT-vYO.title" = "显示文件";
+
+/* Class = "NSMenu"; title = "RecoveryMenu"; ObjectID = "dII-Iu-8n3"; */
+"dII-Iu-8n3.title" = "恢复菜单";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "f3W-gz-tt1"; */
+"f3W-gz-tt1.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "fbA-m1-qof"; */
+"fbA-m1-qof.title" = "服务";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "gGj-MP-wrp"; */
+"gGj-MP-wrp.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Backups:"; ObjectID = "gQ5-4E-RsV"; */
+"gQ5-4E-RsV.title" = "备份:";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "okF-cM-bYt"; */
+"okF-cM-bYt.title" = "放大";
+
+/* Class = "NSMenu"; title = "DayMap"; ObjectID = "tKh-v3-ZSH"; */
+"tKh-v3-ZSH.title" = "当天地图";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "tPK-RT-v7N"; */
+"tPK-RT-v7N.title" = "显示全部";
+
+/* Class = "NSMenuItem"; title = "DayMap Help"; ObjectID = "uTS-Kd-VNS"; */
+"uTS-Kd-VNS.title" = "当日地图帮助";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "uf5-mM-EKA"; */
+"uf5-mM-EKA.title" = "服务";
+
+/* Class = "NSButtonCell"; title = "Restore"; ObjectID = "vlQ-ah-BHv"; */
+"vlQ-ah-BHv.title" = "恢复";
+

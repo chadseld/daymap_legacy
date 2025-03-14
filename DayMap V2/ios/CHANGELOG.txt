@@ -1,0 +1,132 @@
+VERSION 1.6.4
+
+[NEW] Each occurrence of a recurring task can be sorted in the the Today and Week view independently.
+[IMPROVEMENT] Improved list font sizes. Fonts not support iOS system-wide dynamic text size settings.
+[FIXED] Fixed swiped date on Today view adding to the wrong day.
+
+----
+VERSION 1.6.3
+
+[FIXED] Fixed problem where tasks could only be moved to the Inbox.
+
+----
+VERSION 1.6.2
+
+[FIXED] Fixed more problems where the "Today" highlighting would sometimes be incorrect.
+
+----
+VERSION 1.6.1
+
+[FIXED] Fixed problem where the "Today" highlighting would sometimes be incorrect.
+
+----
+VERSION 1.6.0
+
+[NEW] Updated to be fully compatible with iOS 8.
+[FIXED] Fixed problem with scheduled dates shifting with certain time zone changes.
+[IMPROVEMENT] Improved reliability of initial iCloud sync.
+
+----
+VERSION 1.5.2
+
+[FIXED] Fixed crash when moving tasks.
+[FIXED] Fixed crash updating UI after sync update.
+[FIXED] Fixed crash navigating in the UI after sync update.
+
+----
+VERSION 1.5.1
+
+[FIXED] Fixed problem updating Database for some users, which was causing DayMap to hang on launch.
+
+----
+VERSION 1.5.0
+
+This version includes improvements to Recurring tasks, iCloud syncing, and more…
+
+[NEW] Task and project titles are automatically capitalized.
+[NEW] Individual occurrences of recurring tasks can now be completed separately. Previously, all occurrences of a task were completed up until a date.
+[NEW] Individual occurrences of recurring tasks can now be rescheduled separately by dragging to another day. Previously, all occurrences of a task were rescheduled to start at the new date.
+[IMPROVED] Improved reliability of iCloud syncing.
+[IMPROVED] Improved stability.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 1.4.2
+
+[IMPROVED] Improved reliability of iCloud syncing.
+[IMPROVED] DayMap is far less ‘chatty’ when syncing with iCloud. No longer causing unnecessary syncing when navigating between items.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 1.4.1
+
+[FIXED] Fixed problem migrating task description text from version 1.7 and earlier.
+[IMPROVED] Improved reliability of iCloud syncing. Fixed frequent update loop which could occur in some situations.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+
+----
+VERSION 1.4.0
+
+[IMPROVEMENT] Improved iCloud sync merging when enabling or disabling sync.
+[IMPROVEMENT] Improved stability and reliability during iCloud sync.
+[FIXED] Fixed bug preventing the movement of Tasks back to the Inbox.
+
+—---
+VERSION 1.3.1
+
+[NEW] Can now repeat tasks every other week.
+[IMPROVEMENT] Improved performance and reliability.
+[IMPROVEMENT] Several improvements to iCloud sync.
+
+----
+VERSION 1.3.0
+
+[NEW] All new look. This streamlined professional look.
+[NEW] Can now sort tasks in the inbox.
+[IMPROVED] Improved workflow when adding tasks.
+[FIXED] Fixed crash deleting tasks from week view.
+
+----
+VERSION 1.2.1
+
+[FIXED] Fixed crash scheduling a task to repeat Monthly.
+[FIXED] Fixed crash moving tasks between days in the Week view.
+
+----
+VERSION 1.2
+
+This update includes numerous usability improvements and support for Recurring Tasks.
+
+[NEW] Recurring tasks! Tasks can be scheduled to repeat daily, weekly, monthly etc...
+[NEW] New simplified look. Reduced skeuomorphism textures in the design.
+[NEW] Tasks can be marked as completed directly in the list without entering edit.
+[NEW] Task titles can be edited directly in the list with a long touch on the tile.
+[NEW] Projects are now color coded.
+[NEW] Ability to hide completed tasks via a slider in the settings.
+
+----
+VERSION 1.1
+
+This update is includes numerous usability and stability improvements.
+
+We are interesting in hearing what you think, so share your feedback with us on our website.
+
+Follow our blog for up-to-date information regarding DayMap releases.
+
+Note #1: 
+
+[NEW] Better workflow when viewing and editing tasks. It is no longer necessary to toggle edit mode.
+[CHANGED] Date schedule clear and set buttons reversed.
+[CHANGED] Not scheduled text changed to Tap to schedule.
+[IMPROVED] iCloud sync conflict resolution and merging is now automatic.
+[FIXED] Stability improvements.
+
+
+----
+VERSION 1.0
+
+This is the initial release of DayMap on the iOS App Store.

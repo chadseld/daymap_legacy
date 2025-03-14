@@ -1,0 +1,13 @@
+Here's the procedure that I use to obtain a sample receipt for debugging:
+ 
+Create a test user in iTunes Connect (under "Manage Users")
+Create a new version of the application in iTunes Connect (adding descritpion/screenshots is enough, you don't have to click "ready to upload binary")
+Make sure the app version number matches exactly the one of your debug build
+Do a clean build of your application in Xcode
+Now launch your app in Finder (important, if you launch it from Xcode it will just die with exit code 173)
+Finder notices that there's no receipt and prompts you for you iTunes username and password
+Enter your test user credentials
+Finder will download a valid reciept and put it inside the appliation package
+App launches
+ 
+Once that's done, open the application package in Finder and copy the "receipt" file into a folder in your project. In your debug build you can then load that receipt instead of the real one.

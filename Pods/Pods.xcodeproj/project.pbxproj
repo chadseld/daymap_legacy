@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B86D0CB13A18A11DB2724421CA91B8D /* Pods-DayMap TouchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BAFDEC624417BAF4A33851174B863A /* Pods-DayMap TouchUITests-dummy.m */; };
+		483880DA7174CB80FC74EF3B04280A61 /* Pods-DayMapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE739FB19339C30B2DB98A5BE8CD28A8 /* Pods-DayMapTests-dummy.m */; };
+		4A738AF2A827F70AE6E70B629C5C3144 /* Pods-DayMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC974B736A54DF37921E49DDBCFFC45 /* Pods-DayMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6BED8BFB4F4EB4AB6A45BEF326AFDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775514A45716DF6E46F6DFCCE53DE3F1 /* Foundation.framework */; };
+		6CBE2EA205822C233108C00CF9FF7C4A /* Pods-DayMapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8F2592CA0DCEF25A16577A28A6582 /* Pods-DayMapUITests-dummy.m */; };
+		7A85F7F9F932BB76D57027A6261DA018 /* Pods-DayMap TouchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6457909C38EC038C195C0C3DA14A2B /* Pods-DayMap TouchTests-dummy.m */; };
+		860A127123944F4E22F5F2D004B8A192 /* Pods-DayMap TouchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7884E72D518221F962100693E4EED535 /* Pods-DayMap TouchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F69B490A15A8D6C212E219966EB3EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D3DABABADC039A52F24265E6743FD3 /* Cocoa.framework */; };
+		8EAB70AE24A3D9D6DC74CD1B6F9683AD /* Pods-DayMap Touch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E16509AA759A1BBB6A8FBE227923CA /* Pods-DayMap Touch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D103A39FC11AA6A16453DFCA05AFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775514A45716DF6E46F6DFCCE53DE3F1 /* Foundation.framework */; };
+		A2054739F3102A204ED3F774997031C8 /* Pods-DayMap Touch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7720C906E7533167E76AA6CBE60481 /* Pods-DayMap Touch-dummy.m */; };
+		BD22B5AF3CD697B6D7BE5E7A3C237D7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D3DABABADC039A52F24265E6743FD3 /* Cocoa.framework */; };
+		C670E0CB2E4852C131B6058323675227 /* Pods-DayMap TouchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B8941C1822281570515A37975084C1 /* Pods-DayMap TouchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEF93A17C8C7387A2CD8D6BD1C902871 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D3DABABADC039A52F24265E6743FD3 /* Cocoa.framework */; };
+		E67675019C5AE54C7E17356456D0FFE7 /* Pods-DayMapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFC8ECC8FD013331CF7851A2B7D4EF7 /* Pods-DayMapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA071E2A67AC7400DDD68E8D98E4F6A2 /* Pods-DayMapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3582E5C42A94EF0DB7F58087412A6C0 /* Pods-DayMapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8452F9D2990B5CCB7E2278D42A6D04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775514A45716DF6E46F6DFCCE53DE3F1 /* Foundation.framework */; };
+		F551DC8899C2E9720B0BC1AC9E9D1439 /* Pods-DayMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF898233AAA5C6645000368E9B4DA57 /* Pods-DayMap-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B27762A7A240C850B343D578844E918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E31B81380E5C7B240999F80C010C665;
+			remoteInfo = "Pods-DayMap";
+		};
+		6FB89EA1431EB5D11A0721054C87C3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1958158EBAE0331445D8DD3287F4B8;
+			remoteInfo = "Pods-DayMap Touch";
+		};
+		972D707CC66CF1234B0CC2A09D70EC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E31B81380E5C7B240999F80C010C665;
+			remoteInfo = "Pods-DayMap";
+		};
+		B0995771F13E6B8F24AB5848A259962C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1958158EBAE0331445D8DD3287F4B8;
+			remoteInfo = "Pods-DayMap Touch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081CB8A79AE36DDACD08182C758399E7 /* Pods-DayMap Touch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap Touch-acknowledgements.plist"; sourceTree = "<group>"; };
+		083D00A9425C9C8B5C72169719988E82 /* Pods-DayMap Touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap Touch.release.xcconfig"; sourceTree = "<group>"; };
+		0ABCED82FDA2969E93B5D9FAA525D3FC /* Pods-DayMap Touch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayMap Touch.modulemap"; sourceTree = "<group>"; };
+		0BBCEBDE2DC28117D6C32E8AF8E8D074 /* Pods-DayMap TouchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap TouchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D09A11659FF5223E1CDF60D8BF7AA2F /* Pods-DayMapUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMapUITests-Info.plist"; sourceTree = "<group>"; };
+		0DC7AB2A58C1C8D35D6C91E7F220802F /* Pods-DayMap TouchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap TouchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E88C4F3A022F97F2B88507DE770F30F /* Pods-DayMapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17CA385E94262A7AD9F3A64CAD0E9024 /* Pods-DayMapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayMapUITests.modulemap"; sourceTree = "<group>"; };
+		1C6457909C38EC038C195C0C3DA14A2B /* Pods-DayMap TouchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayMap TouchTests-dummy.m"; sourceTree = "<group>"; };
+		1CF8F2592CA0DCEF25A16577A28A6582 /* Pods-DayMapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayMapUITests-dummy.m"; sourceTree = "<group>"; };
+		1CFAE022E2503F14036BF16F2BC47163 /* Pods-DayMap Touch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap Touch-Info.plist"; sourceTree = "<group>"; };
+		24352E278B18062B42BBEB1901CA8508 /* Pods-DayMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39EB8F41A17ED800B52762B256AAC9BF /* Pods-DayMapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayMapTests.modulemap"; sourceTree = "<group>"; };
+		3D66122BFD974CAF9D2244B0E12409CD /* Pods_DayMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BAFDEC624417BAF4A33851174B863A /* Pods-DayMap TouchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayMap TouchUITests-dummy.m"; sourceTree = "<group>"; };
+		4BF898233AAA5C6645000368E9B4DA57 /* Pods-DayMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayMap-dummy.m"; sourceTree = "<group>"; };
+		4DC60CFA0D0AA882BC2B5FA106EF4B44 /* Pods-DayMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayMap.modulemap"; sourceTree = "<group>"; };
+		577FA6ED9185865E811CDC3F7D46CA40 /* Pods-DayMap Touch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayMap Touch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		592730B8B2D8B72226A19B4F9784DC04 /* Pods_DayMap_TouchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap_TouchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8C0676AE154E9E6B24B3B5993A3E43 /* Pods_DayMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2E6E4EEF0B392AB842EDA35CCC1A39 /* Pods-DayMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DFC8ECC8FD013331CF7851A2B7D4EF7 /* Pods-DayMapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayMapUITests-umbrella.h"; sourceTree = "<group>"; };
+		6E7720C906E7533167E76AA6CBE60481 /* Pods-DayMap Touch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayMap Touch-dummy.m"; sourceTree = "<group>"; };
+		722966F685B83883B9E3F3335107C292 /* Pods-DayMap TouchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap TouchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		749F206B0561DDC052DA9D0EE0E227FF /* Pods_DayMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		775514A45716DF6E46F6DFCCE53DE3F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7884E72D518221F962100693E4EED535 /* Pods-DayMap TouchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayMap TouchTests-umbrella.h"; sourceTree = "<group>"; };
+		7894913DB0549344032AAE466D4B388A /* Pods-DayMap TouchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayMap TouchUITests.modulemap"; sourceTree = "<group>"; };
+		7A6FF911B65BC97D8D86D2103C27F9A2 /* Pods-DayMap TouchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayMap TouchTests.modulemap"; sourceTree = "<group>"; };
+		7F3921E60949836F9C9E8D1F6AA74204 /* Pods-DayMap Touch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap Touch.debug.xcconfig"; sourceTree = "<group>"; };
+		84FC832C0952EE0D54DEEC1776D70413 /* Pods-DayMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		876A559DA2BC8BBC107069E9DDD1178D /* Pods-DayMap TouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap TouchTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CDBA8E275D802E64BEB7DB9B461F4A2 /* Pods-DayMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap.debug.xcconfig"; sourceTree = "<group>"; };
+		92062A095103C99A09A27EDD1D6FB79C /* Pods_DayMap_TouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap_TouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D3DABABADC039A52F24265E6743FD3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		96D87778DBDC89BB493C6E50FABACDBF /* Pods-DayMap TouchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap TouchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A201F8C83CEBD07F2463A8DAA1D9DA21 /* Pods-DayMap TouchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayMap TouchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4B8941C1822281570515A37975084C1 /* Pods-DayMap TouchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayMap TouchUITests-umbrella.h"; sourceTree = "<group>"; };
+		B91B86F7D37244259B6F452813CFD989 /* Pods-DayMap TouchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayMap TouchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFC974B736A54DF37921E49DDBCFFC45 /* Pods-DayMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayMap-umbrella.h"; sourceTree = "<group>"; };
+		C18D16EC18126CA5A2AE028E628920DD /* Pods-DayMapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayMapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C679C6DE6D773A7F18359947426E648A /* Pods-DayMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC99A309EB56E57605051FA1F4FB2D22 /* Pods-DayMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3582E5C42A94EF0DB7F58087412A6C0 /* Pods-DayMapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayMapTests-umbrella.h"; sourceTree = "<group>"; };
+		D4FBCEEF11C8E36544C2F19CB1F2C500 /* Pods-DayMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap-Info.plist"; sourceTree = "<group>"; };
+		D6E16509AA759A1BBB6A8FBE227923CA /* Pods-DayMap Touch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayMap Touch-umbrella.h"; sourceTree = "<group>"; };
+		D72EE73ACB2ED0115518CC8474E53DA8 /* Pods_DayMap_Touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayMap_Touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6A1189C1285AA65235464248EE53A5 /* Pods-DayMapTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMapTests-Info.plist"; sourceTree = "<group>"; };
+		DADA3D3FF12021C7A62CB61BD194997B /* Pods-DayMapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEDE8A9914503811B44279051F02DED3 /* Pods-DayMap TouchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap TouchUITests-Info.plist"; sourceTree = "<group>"; };
+		E159AEDAA458ED270BCC084D27462DD4 /* Pods-DayMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		EADB4EFCE233B074693B368D628108DA /* Pods-DayMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap.release.xcconfig"; sourceTree = "<group>"; };
+		EC4FEE9253C6C24EF705B6F74258C9DF /* Pods-DayMapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayMapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE739FB19339C30B2DB98A5BE8CD28A8 /* Pods-DayMapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayMapTests-dummy.m"; sourceTree = "<group>"; };
+		F0D09F976B7AE719668940F8937235D3 /* Pods-DayMap TouchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayMap TouchTests-Info.plist"; sourceTree = "<group>"; };
+		FA8232545F0C7E3B9D436967A09CDB64 /* Pods-DayMap TouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayMap TouchTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE2B69A061130971A598A471500025F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8452F9D2990B5CCB7E2278D42A6D04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F546F8561B099FD2F02B79E58349FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F69B490A15A8D6C212E219966EB3EB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779EA5CBB45D97E250456801386F3EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6BED8BFB4F4EB4AB6A45BEF326AFDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7D1C83AC48A6BFB8CB7DF4CDB6CE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD22B5AF3CD697B6D7BE5E7A3C237D7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9137CAC64735902E797E97C00E529F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D103A39FC11AA6A16453DFCA05AFD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F906B7A67DB527E707EA1620DAFC31DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF93A17C8C7387A2CD8D6BD1C902871 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C2DDD7ACBF27A6F430D467E2E6AAD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82AF29857DE6E461A5B9C56C271A4A7 /* iOS */,
+				720D12EAC8FDA2301CBE0C1B5D499F84 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D714C96843540FBE930A46824637F29 /* Pods-DayMap TouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7894913DB0549344032AAE466D4B388A /* Pods-DayMap TouchUITests.modulemap */,
+				B91B86F7D37244259B6F452813CFD989 /* Pods-DayMap TouchUITests-acknowledgements.markdown */,
+				0BBCEBDE2DC28117D6C32E8AF8E8D074 /* Pods-DayMap TouchUITests-acknowledgements.plist */,
+				41BAFDEC624417BAF4A33851174B863A /* Pods-DayMap TouchUITests-dummy.m */,
+				DEDE8A9914503811B44279051F02DED3 /* Pods-DayMap TouchUITests-Info.plist */,
+				B4B8941C1822281570515A37975084C1 /* Pods-DayMap TouchUITests-umbrella.h */,
+				722966F685B83883B9E3F3335107C292 /* Pods-DayMap TouchUITests.debug.xcconfig */,
+				0DC7AB2A58C1C8D35D6C91E7F220802F /* Pods-DayMap TouchUITests.release.xcconfig */,
+			);
+			name = "Pods-DayMap TouchUITests";
+			path = "Target Support Files/Pods-DayMap TouchUITests";
+			sourceTree = "<group>";
+		};
+		672D5E93F0867E0FBA7C36D9D609FF20 /* Pods-DayMap TouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A6FF911B65BC97D8D86D2103C27F9A2 /* Pods-DayMap TouchTests.modulemap */,
+				A201F8C83CEBD07F2463A8DAA1D9DA21 /* Pods-DayMap TouchTests-acknowledgements.markdown */,
+				96D87778DBDC89BB493C6E50FABACDBF /* Pods-DayMap TouchTests-acknowledgements.plist */,
+				1C6457909C38EC038C195C0C3DA14A2B /* Pods-DayMap TouchTests-dummy.m */,
+				F0D09F976B7AE719668940F8937235D3 /* Pods-DayMap TouchTests-Info.plist */,
+				7884E72D518221F962100693E4EED535 /* Pods-DayMap TouchTests-umbrella.h */,
+				FA8232545F0C7E3B9D436967A09CDB64 /* Pods-DayMap TouchTests.debug.xcconfig */,
+				876A559DA2BC8BBC107069E9DDD1178D /* Pods-DayMap TouchTests.release.xcconfig */,
+			);
+			name = "Pods-DayMap TouchTests";
+			path = "Target Support Files/Pods-DayMap TouchTests";
+			sourceTree = "<group>";
+		};
+		6BAA2C51F9B428122E522BB201EA7EEE /* Pods-DayMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17CA385E94262A7AD9F3A64CAD0E9024 /* Pods-DayMapUITests.modulemap */,
+				EC4FEE9253C6C24EF705B6F74258C9DF /* Pods-DayMapUITests-acknowledgements.markdown */,
+				0E88C4F3A022F97F2B88507DE770F30F /* Pods-DayMapUITests-acknowledgements.plist */,
+				1CF8F2592CA0DCEF25A16577A28A6582 /* Pods-DayMapUITests-dummy.m */,
+				0D09A11659FF5223E1CDF60D8BF7AA2F /* Pods-DayMapUITests-Info.plist */,
+				6DFC8ECC8FD013331CF7851A2B7D4EF7 /* Pods-DayMapUITests-umbrella.h */,
+				24352E278B18062B42BBEB1901CA8508 /* Pods-DayMapUITests.debug.xcconfig */,
+				CC99A309EB56E57605051FA1F4FB2D22 /* Pods-DayMapUITests.release.xcconfig */,
+			);
+			name = "Pods-DayMapUITests";
+			path = "Target Support Files/Pods-DayMapUITests";
+			sourceTree = "<group>";
+		};
+		720D12EAC8FDA2301CBE0C1B5D499F84 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				93D3DABABADC039A52F24265E6743FD3 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		77CAB8C6A54DA91D203D226FC6648631 /* Pods-DayMap Touch */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCED82FDA2969E93B5D9FAA525D3FC /* Pods-DayMap Touch.modulemap */,
+				577FA6ED9185865E811CDC3F7D46CA40 /* Pods-DayMap Touch-acknowledgements.markdown */,
+				081CB8A79AE36DDACD08182C758399E7 /* Pods-DayMap Touch-acknowledgements.plist */,
+				6E7720C906E7533167E76AA6CBE60481 /* Pods-DayMap Touch-dummy.m */,
+				1CFAE022E2503F14036BF16F2BC47163 /* Pods-DayMap Touch-Info.plist */,
+				D6E16509AA759A1BBB6A8FBE227923CA /* Pods-DayMap Touch-umbrella.h */,
+				7F3921E60949836F9C9E8D1F6AA74204 /* Pods-DayMap Touch.debug.xcconfig */,
+				083D00A9425C9C8B5C72169719988E82 /* Pods-DayMap Touch.release.xcconfig */,
+			);
+			name = "Pods-DayMap Touch";
+			path = "Target Support Files/Pods-DayMap Touch";
+			sourceTree = "<group>";
+		};
+		9902DCFEB7D35E824E819EC5BEB7812B /* Pods-DayMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				39EB8F41A17ED800B52762B256AAC9BF /* Pods-DayMapTests.modulemap */,
+				C18D16EC18126CA5A2AE028E628920DD /* Pods-DayMapTests-acknowledgements.markdown */,
+				DADA3D3FF12021C7A62CB61BD194997B /* Pods-DayMapTests-acknowledgements.plist */,
+				EE739FB19339C30B2DB98A5BE8CD28A8 /* Pods-DayMapTests-dummy.m */,
+				DA6A1189C1285AA65235464248EE53A5 /* Pods-DayMapTests-Info.plist */,
+				D3582E5C42A94EF0DB7F58087412A6C0 /* Pods-DayMapTests-umbrella.h */,
+				84FC832C0952EE0D54DEEC1776D70413 /* Pods-DayMapTests.debug.xcconfig */,
+				6A2E6E4EEF0B392AB842EDA35CCC1A39 /* Pods-DayMapTests.release.xcconfig */,
+			);
+			name = "Pods-DayMapTests";
+			path = "Target Support Files/Pods-DayMapTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				16C2DDD7ACBF27A6F430D467E2E6AAD4 /* Frameworks */,
+				E4E641F4BF7BA50FF44C84C18DFDC350 /* Products */,
+				FE4614B46798A7EE431D4BAB3AA0F4BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E641F4BF7BA50FF44C84C18DFDC350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D66122BFD974CAF9D2244B0E12409CD /* Pods_DayMap.framework */,
+				D72EE73ACB2ED0115518CC8474E53DA8 /* Pods_DayMap_Touch.framework */,
+				92062A095103C99A09A27EDD1D6FB79C /* Pods_DayMap_TouchTests.framework */,
+				592730B8B2D8B72226A19B4F9784DC04 /* Pods_DayMap_TouchUITests.framework */,
+				5E8C0676AE154E9E6B24B3B5993A3E43 /* Pods_DayMapTests.framework */,
+				749F206B0561DDC052DA9D0EE0E227FF /* Pods_DayMapUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E82AF29857DE6E461A5B9C56C271A4A7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				775514A45716DF6E46F6DFCCE53DE3F1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E92B603198F960C3E3EBB4C316D8BC5A /* Pods-DayMap */ = {
+			isa = PBXGroup;
+			children = (
+				4DC60CFA0D0AA882BC2B5FA106EF4B44 /* Pods-DayMap.modulemap */,
+				C679C6DE6D773A7F18359947426E648A /* Pods-DayMap-acknowledgements.markdown */,
+				E159AEDAA458ED270BCC084D27462DD4 /* Pods-DayMap-acknowledgements.plist */,
+				4BF898233AAA5C6645000368E9B4DA57 /* Pods-DayMap-dummy.m */,
+				D4FBCEEF11C8E36544C2F19CB1F2C500 /* Pods-DayMap-Info.plist */,
+				BFC974B736A54DF37921E49DDBCFFC45 /* Pods-DayMap-umbrella.h */,
+				8CDBA8E275D802E64BEB7DB9B461F4A2 /* Pods-DayMap.debug.xcconfig */,
+				EADB4EFCE233B074693B368D628108DA /* Pods-DayMap.release.xcconfig */,
+			);
+			name = "Pods-DayMap";
+			path = "Target Support Files/Pods-DayMap";
+			sourceTree = "<group>";
+		};
+		FE4614B46798A7EE431D4BAB3AA0F4BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E92B603198F960C3E3EBB4C316D8BC5A /* Pods-DayMap */,
+				77CAB8C6A54DA91D203D226FC6648631 /* Pods-DayMap Touch */,
+				672D5E93F0867E0FBA7C36D9D609FF20 /* Pods-DayMap TouchTests */,
+				2D714C96843540FBE930A46824637F29 /* Pods-DayMap TouchUITests */,
+				9902DCFEB7D35E824E819EC5BEB7812B /* Pods-DayMapTests */,
+				6BAA2C51F9B428122E522BB201EA7EEE /* Pods-DayMapUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AE1E4C180E24BA4A1182F8BEFBB9210 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67675019C5AE54C7E17356456D0FFE7 /* Pods-DayMapUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF42D441F6F3E413016AA245DDD0B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860A127123944F4E22F5F2D004B8A192 /* Pods-DayMap TouchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4321106881CB74418CE3BCEF68040D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A738AF2A827F70AE6E70B629C5C3144 /* Pods-DayMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDF876F725FD5E77A5E2C704C1BBC0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB70AE24A3D9D6DC74CD1B6F9683AD /* Pods-DayMap Touch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0FAB6AAB21B6E398A1B534995EE965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA071E2A67AC7400DDD68E8D98E4F6A2 /* Pods-DayMapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE379FE4F4A3C36C87F26CAC8B06C459 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C670E0CB2E4852C131B6058323675227 /* Pods-DayMap TouchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		005ADCFF6C5E790A42B8EAB94898713C /* Pods-DayMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2948439619576E540F6BB1BD5016EE /* Build configuration list for PBXNativeTarget "Pods-DayMapUITests" */;
+			buildPhases = (
+				2AE1E4C180E24BA4A1182F8BEFBB9210 /* Headers */,
+				7662D3C879BD1D2B1D143C24D92E01E6 /* Sources */,
+				DE7D1C83AC48A6BFB8CB7DF4CDB6CE53 /* Frameworks */,
+				2FCBD6F4DAE60C558D75874A958920C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E0E318BE27957FB681F9D7C0F79C7FA /* PBXTargetDependency */,
+			);
+			name = "Pods-DayMapUITests";
+			productName = "Pods-DayMapUITests";
+			productReference = 749F206B0561DDC052DA9D0EE0E227FF /* Pods_DayMapUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E31B81380E5C7B240999F80C010C665 /* Pods-DayMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8AC42CEDEF59B0C84015276D959A0A /* Build configuration list for PBXNativeTarget "Pods-DayMap" */;
+			buildPhases = (
+				BD4321106881CB74418CE3BCEF68040D /* Headers */,
+				9650107FE6F0010F1A4E5E56D09BB950 /* Sources */,
+				F906B7A67DB527E707EA1620DAFC31DE /* Frameworks */,
+				50679512BEC946BF868A507F54E02A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DayMap";
+			productName = "Pods-DayMap";
+			productReference = 3D66122BFD974CAF9D2244B0E12409CD /* Pods_DayMap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		247C18D1CD373554952F8B0807265229 /* Pods-DayMap TouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6551872F9B46AF07DB5B9C0A3A5F24 /* Build configuration list for PBXNativeTarget "Pods-DayMap TouchUITests" */;
+			buildPhases = (
+				EE379FE4F4A3C36C87F26CAC8B06C459 /* Headers */,
+				969DB4B07EDA2C0EAAB293D501C38159 /* Sources */,
+				0BE2B69A061130971A598A471500025F /* Frameworks */,
+				7BB6B591B2EDD6BD83BB187BC067F8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				382C5F5CBDCD6E578F0F359C3676CC64 /* PBXTargetDependency */,
+			);
+			name = "Pods-DayMap TouchUITests";
+			productName = "Pods-DayMap TouchUITests";
+			productReference = 592730B8B2D8B72226A19B4F9784DC04 /* Pods_DayMap_TouchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41F6F7AA6556DA2B2F3AE30FFED2457A /* Pods-DayMap TouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5F7FB8DD8A0F6AEAE1F7A8FF1B8116 /* Build configuration list for PBXNativeTarget "Pods-DayMap TouchTests" */;
+			buildPhases = (
+				84BF42D441F6F3E413016AA245DDD0B7 /* Headers */,
+				2B44DD5A4E6EAE824AB4AF5EEB14285A /* Sources */,
+				779EA5CBB45D97E250456801386F3EE5 /* Frameworks */,
+				A90295A346EA3741E5F55D2F0BAF2357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790919502EB5BF6F19AFEFC25301B7B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DayMap TouchTests";
+			productName = "Pods-DayMap TouchTests";
+			productReference = 92062A095103C99A09A27EDD1D6FB79C /* Pods_DayMap_TouchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F1958158EBAE0331445D8DD3287F4B8 /* Pods-DayMap Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0963A0410680341753BED4AB77A28F28 /* Build configuration list for PBXNativeTarget "Pods-DayMap Touch" */;
+			buildPhases = (
+				CDDF876F725FD5E77A5E2C704C1BBC0D /* Headers */,
+				3981038CAAEF1CC072DD42E990DC52E3 /* Sources */,
+				DE9137CAC64735902E797E97C00E529F /* Frameworks */,
+				495CFED923818661F10307BB7C6F1B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DayMap Touch";
+			productName = "Pods-DayMap Touch";
+			productReference = D72EE73ACB2ED0115518CC8474E53DA8 /* Pods_DayMap_Touch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2547D3B6487EEE5807E39509D63F01D /* Pods-DayMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AF031F56886A108A23FB353080BC7C /* Build configuration list for PBXNativeTarget "Pods-DayMapTests" */;
+			buildPhases = (
+				CE0FAB6AAB21B6E398A1B534995EE965 /* Headers */,
+				D3D9B1C3B34608572304EE19DEF1211E /* Sources */,
+				1F546F8561B099FD2F02B79E58349FA0 /* Frameworks */,
+				9E6D6AE2D74C3CA9831C330816260072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E88E270B184ABD14EF5A899895F4BF /* PBXTargetDependency */,
+			);
+			name = "Pods-DayMapTests";
+			productName = "Pods-DayMapTests";
+			productReference = 5E8C0676AE154E9E6B24B3B5993A3E43 /* Pods_DayMapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E4E641F4BF7BA50FF44C84C18DFDC350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E31B81380E5C7B240999F80C010C665 /* Pods-DayMap */,
+				7F1958158EBAE0331445D8DD3287F4B8 /* Pods-DayMap Touch */,
+				41F6F7AA6556DA2B2F3AE30FFED2457A /* Pods-DayMap TouchTests */,
+				247C18D1CD373554952F8B0807265229 /* Pods-DayMap TouchUITests */,
+				D2547D3B6487EEE5807E39509D63F01D /* Pods-DayMapTests */,
+				005ADCFF6C5E790A42B8EAB94898713C /* Pods-DayMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FCBD6F4DAE60C558D75874A958920C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495CFED923818661F10307BB7C6F1B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50679512BEC946BF868A507F54E02A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB6B591B2EDD6BD83BB187BC067F8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6D6AE2D74C3CA9831C330816260072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90295A346EA3741E5F55D2F0BAF2357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B44DD5A4E6EAE824AB4AF5EEB14285A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A85F7F9F932BB76D57027A6261DA018 /* Pods-DayMap TouchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3981038CAAEF1CC072DD42E990DC52E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2054739F3102A204ED3F774997031C8 /* Pods-DayMap Touch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662D3C879BD1D2B1D143C24D92E01E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBE2EA205822C233108C00CF9FF7C4A /* Pods-DayMapUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9650107FE6F0010F1A4E5E56D09BB950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551DC8899C2E9720B0BC1AC9E9D1439 /* Pods-DayMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969DB4B07EDA2C0EAAB293D501C38159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B86D0CB13A18A11DB2724421CA91B8D /* Pods-DayMap TouchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9B1C3B34608572304EE19DEF1211E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483880DA7174CB80FC74EF3B04280A61 /* Pods-DayMapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		382C5F5CBDCD6E578F0F359C3676CC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DayMap Touch";
+			target = 7F1958158EBAE0331445D8DD3287F4B8 /* Pods-DayMap Touch */;
+			targetProxy = B0995771F13E6B8F24AB5848A259962C /* PBXContainerItemProxy */;
+		};
+		5E0E318BE27957FB681F9D7C0F79C7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DayMap";
+			target = 1E31B81380E5C7B240999F80C010C665 /* Pods-DayMap */;
+			targetProxy = 5B27762A7A240C850B343D578844E918 /* PBXContainerItemProxy */;
+		};
+		63E88E270B184ABD14EF5A899895F4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DayMap";
+			target = 1E31B81380E5C7B240999F80C010C665 /* Pods-DayMap */;
+			targetProxy = 972D707CC66CF1234B0CC2A09D70EC83 /* PBXContainerItemProxy */;
+		};
+		790919502EB5BF6F19AFEFC25301B7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DayMap Touch";
+			target = 7F1958158EBAE0331445D8DD3287F4B8 /* Pods-DayMap Touch */;
+			targetProxy = 6FB89EA1431EB5D11A0721054C87C3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F9BEBA59F99325F5A0A8C15E7F0C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C86BB02BBFBE7CCB17830D87A083D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDBA8E275D802E64BEB7DB9B461F4A2 /* Pods-DayMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap/Pods-DayMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap/Pods-DayMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2915E55E3F383269925C3370DA2645AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876A559DA2BC8BBC107069E9DDD1178D /* Pods-DayMap TouchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap TouchTests/Pods-DayMap TouchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap TouchTests/Pods-DayMap TouchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		394431B3F1892A35851B41E32F1D0BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083D00A9425C9C8B5C72169719988E82 /* Pods-DayMap Touch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap Touch/Pods-DayMap Touch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap Touch/Pods-DayMap Touch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A2ED100A5ABF2A38CCA65CD882F2BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7359013843E049DE9F243B1121536485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FC832C0952EE0D54DEEC1776D70413 /* Pods-DayMapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMapTests/Pods-DayMapTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMapTests/Pods-DayMapTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C50CD0D68A4AA22F64DBBB932BCBCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADB4EFCE233B074693B368D628108DA /* Pods-DayMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap/Pods-DayMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap/Pods-DayMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		957601A42B9091CC50634022433CC860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24352E278B18062B42BBEB1901CA8508 /* Pods-DayMapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMapUITests/Pods-DayMapUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMapUITests/Pods-DayMapUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0BC5E0C79D3100BD5B48A76C1119C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC7AB2A58C1C8D35D6C91E7F220802F /* Pods-DayMap TouchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap TouchUITests/Pods-DayMap TouchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap TouchUITests/Pods-DayMap TouchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C158BE23399628CEE5395EE9BF4220F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2E6E4EEF0B392AB842EDA35CCC1A39 /* Pods-DayMapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMapTests/Pods-DayMapTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMapTests/Pods-DayMapTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8097410B27135020F200B0932B16CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8232545F0C7E3B9D436967A09CDB64 /* Pods-DayMap TouchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap TouchTests/Pods-DayMap TouchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap TouchTests/Pods-DayMap TouchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDAF130196DD2A81646CFDAF7749C897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722966F685B83883B9E3F3335107C292 /* Pods-DayMap TouchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap TouchUITests/Pods-DayMap TouchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap TouchUITests/Pods-DayMap TouchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E97652EEE8E41F5E2525E7B905C654DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC99A309EB56E57605051FA1F4FB2D22 /* Pods-DayMapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMapUITests/Pods-DayMapUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMapUITests/Pods-DayMapUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F19F257C0ED0E294FA7C1DE694F06EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3921E60949836F9C9E8D1F6AA74204 /* Pods-DayMap Touch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayMap Touch/Pods-DayMap Touch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayMap Touch/Pods-DayMap Touch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0963A0410680341753BED4AB77A28F28 /* Build configuration list for PBXNativeTarget "Pods-DayMap Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19F257C0ED0E294FA7C1DE694F06EA8 /* Debug */,
+				394431B3F1892A35851B41E32F1D0BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5F7FB8DD8A0F6AEAE1F7A8FF1B8116 /* Build configuration list for PBXNativeTarget "Pods-DayMap TouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8097410B27135020F200B0932B16CB3 /* Debug */,
+				2915E55E3F383269925C3370DA2645AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AF031F56886A108A23FB353080BC7C /* Build configuration list for PBXNativeTarget "Pods-DayMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7359013843E049DE9F243B1121536485 /* Debug */,
+				C158BE23399628CEE5395EE9BF4220F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F9BEBA59F99325F5A0A8C15E7F0C83 /* Debug */,
+				5A2ED100A5ABF2A38CCA65CD882F2BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8AC42CEDEF59B0C84015276D959A0A /* Build configuration list for PBXNativeTarget "Pods-DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C86BB02BBFBE7CCB17830D87A083D55 /* Debug */,
+				8C50CD0D68A4AA22F64DBBB932BCBCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6551872F9B46AF07DB5B9C0A3A5F24 /* Build configuration list for PBXNativeTarget "Pods-DayMap TouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAF130196DD2A81646CFDAF7749C897 /* Debug */,
+				A0BC5E0C79D3100BD5B48A76C1119C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2948439619576E540F6BB1BD5016EE /* Build configuration list for PBXNativeTarget "Pods-DayMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957601A42B9091CC50634022433CC860 /* Debug */,
+				E97652EEE8E41F5E2525E7B905C654DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aTe-XR-GOM">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Project Outline Collection View Controller-->
+        <scene sceneID="DFZ-HO-fvw">
+            <objects>
+                <collectionViewController id="aTe-XR-GOM" customClass="ProjectOutlineCollectionViewController" customModule="DayMap_Touch" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="eac-j4-upz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Jou-aL-QER" customClass="ProjectOutlineFlowLayout" customModule="DayMap_Touch" customModuleProvider="target">
+                            <size key="itemSize" width="227" height="429"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Project" id="pVg-7q-SLX" customClass="ProjectCollectionViewCell" customModule="DayMap_Touch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="227" height="429"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="227" height="429"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="655-qf-B3A" customClass="ProjectHeaderView" customModule="DayMap_Touch" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="227" height="44"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEC-8V-Tpz">
+                                                    <rect key="frame" x="20" y="12" width="187" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="44" id="PsM-IA-ELr"/>
+                                                <constraint firstItem="oEC-8V-Tpz" firstAttribute="leading" secondItem="655-qf-B3A" secondAttribute="leading" constant="20" id="as2-Jn-2zd"/>
+                                                <constraint firstItem="oEC-8V-Tpz" firstAttribute="centerY" secondItem="655-qf-B3A" secondAttribute="centerY" id="dJL-fc-7P5"/>
+                                                <constraint firstAttribute="trailing" secondItem="oEC-8V-Tpz" secondAttribute="trailing" constant="20" id="gCg-Z9-as4"/>
+                                            </constraints>
+                                            <connections>
+                                                <outlet property="nameLabel" destination="oEC-8V-Tpz" id="EfJ-rv-zeL"/>
+                                            </connections>
+                                        </view>
+                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tgY-TF-8kz">
+                                            <rect key="frame" x="0.0" y="44" width="227" height="377"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <prototypes>
+                                                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskCell" id="jB7-rx-etb" customClass="ProjectTableTaskCellView" customModule="DayMap_Touch" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="50" width="227" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jB7-rx-etb" id="j8Y-IK-4XW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="227" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="yeg-A8-Xau">
+                                                                <rect key="frame" x="0.0" y="0.0" width="211" height="40"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83j-6T-mhI">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZ0-OG-nHu">
+                                                                        <rect key="frame" x="0.0" y="24" width="33" height="16"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="yeg-A8-Xau" firstAttribute="top" secondItem="j8Y-IK-4XW" secondAttribute="top" id="5Hh-j2-XTI"/>
+                                                            <constraint firstAttribute="trailing" secondItem="yeg-A8-Xau" secondAttribute="trailing" id="JXK-fF-CHu"/>
+                                                            <constraint firstAttribute="bottom" secondItem="yeg-A8-Xau" secondAttribute="bottom" id="dR9-LT-rYc"/>
+                                                            <constraint firstItem="yeg-A8-Xau" firstAttribute="leading" secondItem="j8Y-IK-4XW" secondAttribute="leading" id="z9y-nd-R0M"/>
+                                                        </constraints>
+                                                    </tableViewCellContentView>
+                                                    <connections>
+                                                        <outlet property="detailsLabel" destination="oZ0-OG-nHu" id="rf2-mj-qqR"/>
+                                                        <outlet property="nameLabel" destination="83j-6T-mhI" id="HxI-Gu-9hm"/>
+                                                    </connections>
+                                                </tableViewCell>
+                                            </prototypes>
+                                            <connections>
+                                                <outlet property="delegate" destination="pVg-7q-SLX" id="UD6-5A-IzX"/>
+                                            </connections>
+                                        </tableView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="tgY-TF-8kz" secondAttribute="bottom" id="5AZ-ba-P3x"/>
+                                    <constraint firstItem="tgY-TF-8kz" firstAttribute="leading" secondItem="pVg-7q-SLX" secondAttribute="leadingMargin" id="POw-dv-PJQ"/>
+                                    <constraint firstItem="tgY-TF-8kz" firstAttribute="top" secondItem="655-qf-B3A" secondAttribute="bottom" id="aw7-6F-rYk"/>
+                                    <constraint firstAttribute="trailing" secondItem="655-qf-B3A" secondAttribute="trailing" id="btc-PQ-qS9"/>
+                                    <constraint firstItem="655-qf-B3A" firstAttribute="top" secondItem="pVg-7q-SLX" secondAttribute="top" id="pxd-de-zTF"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="tgY-TF-8kz" secondAttribute="trailing" id="sAl-Om-d33"/>
+                                    <constraint firstItem="655-qf-B3A" firstAttribute="leading" secondItem="pVg-7q-SLX" secondAttribute="leading" id="sWg-Ej-frh"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="headerView" destination="655-qf-B3A" id="Vsi-ri-P7v"/>
+                                    <outlet property="tableView" destination="tgY-TF-8kz" id="CKo-hs-0kh"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="aTe-XR-GOM" id="ejR-l7-Hwt"/>
+                            <outlet property="delegate" destination="aTe-XR-GOM" id="3Ir-dj-Vxe"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wvK-h1-08O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-987.5" y="-680.2734375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

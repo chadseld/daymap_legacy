@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="CDO-4n-0wy">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Project Outline Collection View Controller-->
+        <scene sceneID="AiV-sv-mni">
+            <objects>
+                <viewController id="CDO-4n-0wy" customClass="ProjectOutlineCollectionViewController" customModule="DayMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <customView key="view" wantsLayer="YES" id="Jqb-dg-mHy">
+                        <rect key="frame" x="0.0" y="0.0" width="550" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView wantsLayer="YES" fixedFrame="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" verticalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-gT-vsC" customClass="CascadingHorizontalOnlyScrollView" customModule="DayMap" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="550" height="300"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <clipView key="contentView" wantsLayer="YES" ambiguous="YES" id="6nM-Xj-8Fz">
+                                    <rect key="frame" x="0.0" y="0.0" width="550" height="300"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView wantsLayer="YES" ambiguous="YES" selectable="YES" id="Xez-6y-lKn" customClass="ProjectOutlineCollectionView" customModule="DayMap" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="550" height="300"/>
+                                            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="1" minimumLineSpacing="1" scrollDirection="horizontal" id="kcZ-Ro-hEV" customClass="ProjectOutlineFlowLayout" customModule="DayMap" customModuleProvider="target">
+                                                <size key="itemSize" width="50" height="50"/>
+                                            </collectionViewFlowLayout>
+                                            <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <connections>
+                                                <outlet property="dataSource" destination="CDO-4n-0wy" id="0ge-aY-qxX"/>
+                                                <outlet property="delegate" destination="CDO-4n-0wy" id="e2b-Bf-lLn"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="bzr-MR-a24">
+                                    <rect key="frame" x="0.0" y="-16" width="0.0" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="mj5-RT-st7">
+                                    <rect key="frame" x="-100" y="-100" width="16" height="300"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                    </customView>
+                    <connections>
+                        <outlet property="collectionView" destination="Xez-6y-lKn" id="qfd-Un-RyN"/>
+                    </connections>
+                </viewController>
+                <customObject id="g2W-gv-NBV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-184" y="-78"/>
+        </scene>
+    </scenes>
+</document>

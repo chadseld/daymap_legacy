@@ -1,0 +1,18 @@
+/* Class = "NSButtonCell"; title = "Archived"; ObjectID = "7b4-h1-rkN"; */
+"7b4-h1-rkN.title" = "Archiviert";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "13"; */
+"13.title" = "Fertig";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "31"; */
+"31.title" = "Farbe";
+
+/* Class = "NSTextFieldCell"; title = "Notes"; ObjectID = "Isu-ve-k0J"; */
+"Isu-ve-k0J.title" = "Notizen";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "fpO-ub-jsD"; */
+"fpO-ub-jsD.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "Expand"; ObjectID = "t3Q-op-wTr"; */
+"t3Q-op-wTr.title" = "Aufklappen";
+

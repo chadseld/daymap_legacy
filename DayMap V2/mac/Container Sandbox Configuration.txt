@@ -1,0 +1,1 @@
+asctl container acl add -file ~/tmp/build/Debug/DayMap.app

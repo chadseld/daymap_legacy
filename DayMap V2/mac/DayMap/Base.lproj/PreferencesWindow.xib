@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindowController">
+            <connections>
+                <outlet property="liteWindow" destination="eRE-3D-vbJ" id="p1R-Fb-Lm7"/>
+                <outlet property="quickAddShortcutRecorder" destination="51" id="54"/>
+                <outlet property="toggleiCloudButton" destination="18" id="31"/>
+                <outlet property="window" destination="1" id="8"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" topStrut="YES"/>
+            <rect key="contentRect" x="138" y="686" width="368" height="175"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="l8D-Ag-Uw2">
+                        <rect key="frame" x="18" y="81" width="164" height="18"/>
+                        <buttonCell key="cell" type="check" title="Use high contrast fonts" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="cVs-yt-G68">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="16" name="value" keyPath="values.PrefUseHighContrastFonts" id="ANd-op-sox"/>
+                        </connections>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                        <rect key="frame" x="18" y="139" width="88" height="18"/>
+                        <buttonCell key="cell" type="check" title="Use iCloud" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="19">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="toggleiCloud:" target="-2" id="28"/>
+                            <binding destination="37" name="enabled" keyPath="selection.disableiCloudConfigurationChanges" id="46">
+                                <dictionary key="options">
+                                    <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                </dictionary>
+                            </binding>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                        <rect key="frame" x="36" y="105" width="314" height="28"/>
+                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="DayMap data stored on iCloud will be available to all your Macs using the same iCloud account." id="23">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <customView appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="51" customClass="SRRecorderControl">
+                        <rect key="frame" x="146" y="20" width="180" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Ce5-Qd-PRe"/>
+                            <constraint firstAttribute="width" constant="180" id="XFS-ou-6IF"/>
+                        </constraints>
+                    </customView>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="52">
+                        <rect key="frame" x="18" y="21" width="123" height="20"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Quick Add Shortcut" id="53">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xWZ-9g-ByN">
+                        <rect key="frame" x="268" y="60" width="37" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="days." id="yyD-eO-vtZ">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vZK-OP-Daa">
+                        <rect key="frame" x="222" y="57" width="41" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" id="UO9-ru-shK"/>
+                            <constraint firstAttribute="height" constant="22" id="yyt-PA-ADd"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="90" drawsBackground="YES" id="rpT-fp-AHH">
+                            <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="###0" negativeFormat="###0" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="*" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="309" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="0TD-Rw-t5n">
+                                <integer key="minimum" value="1"/>
+                                <integer key="maximum" value="9999"/>
+                            </numberFormatter>
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="16" name="value" keyPath="values.PrefDeleteCompletedItemsAfterTimeDays" id="fRq-L9-saN"/>
+                            <binding destination="16" name="enabled" keyPath="values.PrefShouldDeleteCompletedItemsAfterTime" id="efr-5b-Iwi"/>
+                        </connections>
+                    </textField>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="Xho-dN-oGH">
+                        <rect key="frame" x="18" y="59" width="198" height="18"/>
+                        <buttonCell key="cell" type="check" title="Delete completed items after" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Iet-j7-Z4A">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="16" name="value" keyPath="values.PrefShouldDeleteCompletedItemsAfterTime" id="33y-RP-K8I"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xWZ-9g-ByN" firstAttribute="baseline" secondItem="Xho-dN-oGH" secondAttribute="baseline" id="2fF-1S-Y54"/>
+                    <constraint firstItem="l8D-Ag-Uw2" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="8" id="5Hz-8J-YUp"/>
+                    <constraint firstItem="vZK-OP-Daa" firstAttribute="baseline" secondItem="Xho-dN-oGH" secondAttribute="baseline" id="670-8l-nB6"/>
+                    <constraint firstItem="vZK-OP-Daa" firstAttribute="leading" secondItem="Xho-dN-oGH" secondAttribute="trailing" constant="8" id="6B1-ix-t5L"/>
+                    <constraint firstItem="Xho-dN-oGH" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="7gq-Y4-ZDX"/>
+                    <constraint firstItem="22" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="38" id="8qW-Oa-bd8"/>
+                    <constraint firstItem="51" firstAttribute="leading" secondItem="52" secondAttribute="trailing" constant="7" id="BZ3-0s-d07"/>
+                    <constraint firstItem="l8D-Ag-Uw2" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="CA7-8a-dvl"/>
+                    <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" id="EbV-wA-i4f"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xWZ-9g-ByN" secondAttribute="trailing" constant="20" id="IEb-Ph-4YX"/>
+                    <constraint firstItem="52" firstAttribute="top" secondItem="Xho-dN-oGH" secondAttribute="bottom" constant="20" id="OKv-HI-CzD"/>
+                    <constraint firstItem="22" firstAttribute="top" secondItem="18" secondAttribute="bottom" constant="8" id="S8N-cl-pKY"/>
+                    <constraint firstItem="52" firstAttribute="centerY" secondItem="51" secondAttribute="centerY" id="VKK-ZJ-hbX"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="51" secondAttribute="trailing" constant="20" id="YYF-NK-NbC"/>
+                    <constraint firstItem="51" firstAttribute="top" secondItem="Xho-dN-oGH" secondAttribute="bottom" constant="19" id="a2I-R0-wZ3"/>
+                    <constraint firstItem="52" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="bV3-Qv-ZUk"/>
+                    <constraint firstAttribute="bottom" secondItem="51" secondAttribute="bottom" constant="20" id="jSe-Zc-dTW"/>
+                    <constraint firstItem="xWZ-9g-ByN" firstAttribute="leading" secondItem="vZK-OP-Daa" secondAttribute="trailing" constant="7" id="mro-w2-KuL"/>
+                    <constraint firstItem="18" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="pSz-s5-vF6"/>
+                    <constraint firstItem="Xho-dN-oGH" firstAttribute="top" secondItem="l8D-Ag-Uw2" secondAttribute="bottom" constant="8" id="qqh-jK-AZY"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="l8D-Ag-Uw2" secondAttribute="trailing" constant="20" id="suJ-tB-3ir"/>
+                    <constraint firstItem="18" firstAttribute="top" secondItem="2" secondAttribute="top" constant="20" id="ucg-c1-IpJ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="18" secondAttribute="trailing" constant="20" id="ydi-HY-LIL"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="49"/>
+            </connections>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="16"/>
+        <objectController objectClassName="DayMapAppDelegate" id="37" userLabel="App Delegate Proxy">
+            <connections>
+                <binding destination="-3" name="contentObject" keyPath="delegate" id="38"/>
+            </connections>
+        </objectController>
+        <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="eRE-3D-vbJ">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" topStrut="YES"/>
+            <rect key="contentRect" x="138" y="686" width="368" height="129"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="gb9-UP-oBg">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="BHH-ft-FX6">
+                        <rect key="frame" x="18" y="40" width="164" height="18"/>
+                        <buttonCell key="cell" type="check" title="Use high contrast fonts" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="QaQ-GO-gUS">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="16" name="value" keyPath="values.PrefUseHighContrastFonts" id="Nhm-Z3-e2V"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RIX-Zz-h1O">
+                        <rect key="frame" x="268" y="19" width="37" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="days." id="BuZ-uD-FYC">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lZl-C1-LiX">
+                        <rect key="frame" x="222" y="16" width="41" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" id="FtV-sC-GHI"/>
+                            <constraint firstAttribute="height" constant="22" id="uBd-rv-OBA"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="90" drawsBackground="YES" id="Iyj-kX-yRG">
+                            <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="###0" negativeFormat="###0" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="*" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="309" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="PSs-0R-Ch5">
+                                <integer key="minimum" value="1"/>
+                                <integer key="maximum" value="9999"/>
+                            </numberFormatter>
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="16" name="value" keyPath="values.PrefDeleteCompletedItemsAfterTimeDays" id="SA7-xT-hpG"/>
+                            <binding destination="16" name="enabled" keyPath="values.PrefShouldDeleteCompletedItemsAfterTime" id="RQz-WM-Hlq"/>
+                        </connections>
+                    </textField>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="jFF-3e-rwK">
+                        <rect key="frame" x="18" y="18" width="198" height="18"/>
+                        <buttonCell key="cell" type="check" title="Delete completed items after" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="dsZ-SX-jfd">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="16" name="value" keyPath="values.PrefShouldDeleteCompletedItemsAfterTime" id="lG6-bi-ynU"/>
+                        </connections>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="Sxh-eo-54r">
+                        <rect key="frame" x="20" y="74" width="328" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="dY1-8V-0xw"/>
+                        </constraints>
+                        <buttonCell key="cell" type="square" title="Upgrade to the full version of DayMap" bezelStyle="shadowlessSquare" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0DC-wS-YAq" customClass="WSSolidModernButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSizeAdjustment">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </buttonCell>
+                        <connections>
+                            <action selector="upgradeToFullVersion:" target="-2" id="ux7-3V-iIX"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BHH-ft-FX6" secondAttribute="trailing" constant="20" id="1Ii-Fs-mZK"/>
+                    <constraint firstAttribute="bottom" secondItem="jFF-3e-rwK" secondAttribute="bottom" constant="20" id="2mg-yI-QId"/>
+                    <constraint firstItem="lZl-C1-LiX" firstAttribute="leading" secondItem="jFF-3e-rwK" secondAttribute="trailing" constant="8" id="6tp-ZB-UPB"/>
+                    <constraint firstItem="jFF-3e-rwK" firstAttribute="leading" secondItem="gb9-UP-oBg" secondAttribute="leading" constant="20" id="8HM-VK-GMd"/>
+                    <constraint firstItem="BHH-ft-FX6" firstAttribute="top" secondItem="Sxh-eo-54r" secondAttribute="bottom" constant="18" id="BGY-tZ-ZyU"/>
+                    <constraint firstAttribute="trailing" secondItem="Sxh-eo-54r" secondAttribute="trailing" constant="20" id="KZV-OG-IhZ"/>
+                    <constraint firstItem="RIX-Zz-h1O" firstAttribute="baseline" secondItem="jFF-3e-rwK" secondAttribute="baseline" id="NRu-bd-mBB"/>
+                    <constraint firstItem="Sxh-eo-54r" firstAttribute="top" secondItem="gb9-UP-oBg" secondAttribute="top" constant="20" id="Wcx-LC-vbq"/>
+                    <constraint firstItem="jFF-3e-rwK" firstAttribute="top" secondItem="BHH-ft-FX6" secondAttribute="bottom" constant="8" id="cyN-ZL-nTe"/>
+                    <constraint firstItem="BHH-ft-FX6" firstAttribute="leading" secondItem="gb9-UP-oBg" secondAttribute="leading" constant="20" id="g2z-gF-9Ug"/>
+                    <constraint firstItem="RIX-Zz-h1O" firstAttribute="leading" secondItem="lZl-C1-LiX" secondAttribute="trailing" constant="7" id="mTj-21-3Vo"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RIX-Zz-h1O" secondAttribute="trailing" constant="20" id="pD4-Gu-Lb2"/>
+                    <constraint firstItem="RIX-Zz-h1O" firstAttribute="baseline" secondItem="lZl-C1-LiX" secondAttribute="baseline" id="tML-Sf-r9H"/>
+                    <constraint firstItem="Sxh-eo-54r" firstAttribute="leading" secondItem="gb9-UP-oBg" secondAttribute="leading" constant="20" id="tpw-QA-FKe"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="139" y="174.5"/>
+        </window>
+    </objects>
+</document>

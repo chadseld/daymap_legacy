@@ -1,0 +1,69 @@
+/* Class = "NSButtonCell"; title = "Expand"; ObjectID = "3ih-2a-8lt"; */
+"3ih-2a-8lt.title" = "扩大";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "6"; */
+"6.title" = "名称";
+
+/* Class = "NSTextFieldCell"; title = "Notes"; ObjectID = "8"; */
+"8.title" = "备注";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "16"; */
+"16.title" = "完成";
+
+/* Class = "NSButtonCell"; title = "Completed"; ObjectID = "51"; */
+"51.title" = "完成";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "136"; */
+"136.title" = "其他界面";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "137"; */
+"137.title" = "无";
+
+/* Class = "NSMenuItem"; title = "Every day"; ObjectID = "138"; */
+"138.title" = "每天";
+
+/* Class = "NSMenuItem"; title = "Every week"; ObjectID = "139"; */
+"139.title" = "每周";
+
+/* Class = "NSTextFieldCell"; title = "Repeat"; ObjectID = "144"; */
+"144.title" = "重复";
+
+/* Class = "NSTextFieldCell"; title = "End"; ObjectID = "148"; */
+"148.title" = "结束";
+
+/* Class = "NSMenuItem"; title = "Every month"; ObjectID = "151"; */
+"151.title" = "每月";
+
+/* Class = "NSMenuItem"; title = "Every year"; ObjectID = "152"; */
+"152.title" = "每年";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "167"; */
+"167.title" = "其他界面";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "168"; */
+"168.title" = "从不";
+
+/* Class = "NSMenuItem"; title = "After"; ObjectID = "169"; */
+"169.title" = "之后";
+
+/* Class = "NSMenuItem"; title = "On date"; ObjectID = "170"; */
+"170.title" = "在日期";
+
+/* Class = "NSTextFieldCell"; title = "Scheduled"; ObjectID = "195"; */
+"195.title" = "约定的";
+
+/* Class = "NSTextFieldCell"; title = "3"; ObjectID = "309"; */
+"309.title" = "3";
+
+/* Class = "NSTextFieldCell"; title = "times"; ObjectID = "314"; */
+"314.title" = "次";
+
+/* Class = "NSButtonCell"; title = "Clear"; ObjectID = "484"; */
+"484.title" = "清理";
+
+/* Class = "NSButtonCell"; title = "Today"; ObjectID = "537"; */
+"537.title" = "今天";
+
+/* Class = "NSMenuItem"; title = "Every other week"; ObjectID = "V9s-ry-zP5"; */
+"V9s-ry-zP5.title" = "每两周";
+

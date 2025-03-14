@@ -1,0 +1,93 @@
+/* Class = "NSMenuItem"; title = "DayMap"; ObjectID = "0Z4-Ta-SuP"; */
+"0Z4-Ta-SuP.title" = "DayMap";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "2z5-ML-oaP"; */
+"2z5-ML-oaP.title" = "Tout ramener à l'avant";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "7WR-0c-F1X"; */
+"7WR-0c-F1X.title" = "Masquer les autres";
+
+/* Class = "NSTableColumn"; headerCell.title = "Size on Disk"; ObjectID = "7nb-7p-0KH"; */
+"7nb-7p-0KH.headerCell.title" = "Taille sur le disque";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "9EE-mp-x4x"; */
+"9EE-mp-x4x.title" = "Fichier";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "63K-Eg-TxA"; */
+"63K-Eg-TxA.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "72P-Dz-F19"; */
+"72P-Dz-F19.title" = "Minimiser";
+
+/* Class = "NSMenuItem"; title = "Quit DayMap"; ObjectID = "AJi-yn-AeZ"; */
+"AJi-yn-AeZ.title" = "Quitter DayMap";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "Ebs-PQ-lHH"; */
+"Ebs-PQ-lHH.title" = "Fermer";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "Fyk-Lf-qxg"; */
+"Fyk-Lf-qxg.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "HNj-oR-IeH"; */
+"HNj-oR-IeH.title" = "Fenêtre";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "JJJ-Ss-MCI"; */
+"JJJ-Ss-MCI.title" = "Fenêtre";
+
+/* Class = "NSMenuItem"; title = "About DayMap"; ObjectID = "Kd9-Tb-r02"; */
+"Kd9-Tb-r02.title" = "À propos de DayMap";
+
+/* Class = "NSMenuItem"; title = "Show Backups…"; ObjectID = "OWF-zY-XAC"; */
+"OWF-zY-XAC.title" = "Afficher sauvegardes...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Oyu-7s-JNb"; */
+"Oyu-7s-JNb.title" = "Cellule de texte";
+
+/* Class = "NSMenuItem"; title = "Hide DayMap"; ObjectID = "PqU-rc-wDQ"; */
+"PqU-rc-wDQ.title" = "Masquer DayMap";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "RxO-GV-5xW"; */
+"RxO-GV-5xW.title" = "Quitter";
+
+/* Class = "NSTableColumn"; headerCell.title = "Backup Date"; ObjectID = "UtQ-on-URM"; */
+"UtQ-on-URM.headerCell.title" = "Date de sauvegarde";
+
+/* Class = "NSWindow"; title = "DayMap Recovery"; ObjectID = "Zg7-8c-Wyu"; */
+"Zg7-8c-Wyu.title" = "Récupération DayMap";
+
+/* Class = "NSButtonCell"; title = "Show Files"; ObjectID = "afl-GT-vYO"; */
+"afl-GT-vYO.title" = "Afficher les fichiers";
+
+/* Class = "NSMenu"; title = "RecoveryMenu"; ObjectID = "dII-Iu-8n3"; */
+"dII-Iu-8n3.title" = "Menu de récupération";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "f3W-gz-tt1"; */
+"f3W-gz-tt1.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "fbA-m1-qof"; */
+"fbA-m1-qof.title" = "Services";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "gGj-MP-wrp"; */
+"gGj-MP-wrp.title" = "Cellule de texte";
+
+/* Class = "NSTextFieldCell"; title = "Backups:"; ObjectID = "gQ5-4E-RsV"; */
+"gQ5-4E-RsV.title" = "Sauvegardes :";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "okF-cM-bYt"; */
+"okF-cM-bYt.title" = "Zoomer";
+
+/* Class = "NSMenu"; title = "DayMap"; ObjectID = "tKh-v3-ZSH"; */
+"tKh-v3-ZSH.title" = "DayMap";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "tPK-RT-v7N"; */
+"tPK-RT-v7N.title" = "Tout montrer";
+
+/* Class = "NSMenuItem"; title = "DayMap Help"; ObjectID = "uTS-Kd-VNS"; */
+"uTS-Kd-VNS.title" = "Aide DayMap";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "uf5-mM-EKA"; */
+"uf5-mM-EKA.title" = "Services";
+
+/* Class = "NSButtonCell"; title = "Restore"; ObjectID = "vlQ-ah-BHv"; */
+"vlQ-ah-BHv.title" = "Restaurer";
+

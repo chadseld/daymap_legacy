@@ -1,0 +1,21 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "Fenster";
+
+/* Class = "NSButtonCell"; title = "Show in App Store"; ObjectID = "1Lh-NP-r38"; */
+"1Lh-NP-r38.title" = "Im App Store anzeigen";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label"; ObjectID = "POe-5g-jft"; */
+"POe-5g-jft.title" = "Mehrzeilige Beschriftung";
+
+/* Class = "NSTextFieldCell"; title = "• Recurring / Repeating Tasks\n• iCloud Syncing with DayMap for iOS\n• System-wide Quick Add shortcut"; ObjectID = "UYo-Cx-Y2L"; */
+"UYo-Cx-Y2L.title" = "• Wiederholende Aufgabe\n• iCloud-Synchronisation mit DayMap für iOS\n• Systemweite \"Quick Add\" Verknüpfung";
+
+/* Class = "NSButtonCell"; title = "More Information…"; ObjectID = "hzP-0X-twl"; */
+"hzP-0X-twl.title" = "Mehr Informationen";
+
+/* Class = "NSTextFieldCell"; title = "Upgrade to the full version of DayMap…"; ObjectID = "w51-0t-uxq"; */
+"w51-0t-uxq.title" = "Zur Vollversion von DayMap upgraden...";
+
+/* Class = "NSButtonCell"; title = "Not Now"; ObjectID = "xUT-pQ-K15"; */
+"xUT-pQ-K15.title" = "Nicht jetzt";
+

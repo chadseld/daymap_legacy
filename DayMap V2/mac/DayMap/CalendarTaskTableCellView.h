@@ -1,0 +1,18 @@
+//
+//  CalendarTaskTableCellView.h
+//  DayMap
+//
+//  Created by Chad Seldomridge on 3/22/11.
+//  Copyright 2012 Whetstone Apps, LLC. All rights reserved.
+//
+
+#import <Cocoa/Cocoa.h>
+#import "TaskTableCellView.h"
+
+@interface CalendarTaskTableCellView : TaskTableCellView <NSPopoverDelegate> 
+
+@property (weak) IBOutlet NSButton *completedCheckbox;
+
+- (IBAction)toggleCompleted:(id)sender;
+
+@end

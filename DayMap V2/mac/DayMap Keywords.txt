@@ -1,0 +1,33 @@
+todo list, todo, planner, day planner, day planners, outliner, organizer, weekly planner, scheduler
+todo,list,planner,planners,day,outliner,organizer,weekly,scheduler,calendar,task,project,management
+todo,list,planner,planners,day,outliner,organizer,week,scheduler,calendar,task,tasks,project,manager
+
+want:
+	manager -- this is even better than management
+	week -- this is even better than weekly
+	tasks -- more important than planners
+	iCloud
+	sync
+	outline better than outliner???
+
+task planner
+weekly planner
+planner, todo, gtd, to do, planning, scheduling, calendar, task, project
+
+
+todo list	  	   380,000
+todo			20,400,000
+planner			20,400,000
+planners		 7,480,000
+weekly planner	   135,000
+day planner		   165,000
+day planners	   135,000
+outliner		    49,500
+outliners		    27,100
+organizer		 3,350,000
+organizers		 1,830,000
+scheduler		 1,220,000
+task list		   165,000
+
+Don't do two-word keywords. Apple combines them automatically. 
+Don't need spaces.

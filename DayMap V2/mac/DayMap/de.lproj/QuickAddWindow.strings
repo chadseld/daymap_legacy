@@ -1,0 +1,12 @@
+/* Class = "NSButtonCell"; title = "Add Task"; ObjectID = "6"; */
+"6.title" = "Aufgabe hinzufügen";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "105"; */
+"105.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "109"; */
+"109.title" = "Beschreibung";
+
+/* Class = "NSWindow"; title = "DayMap - Inbox"; ObjectID = "141"; */
+"141.title" = "DayMap - Posteingang";
+

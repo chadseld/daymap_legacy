@@ -1,0 +1,111 @@
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "前置全部窗口";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "窗口";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "About DayMap"; ObjectID = "58"; */
+"58.title" = "关于 DayMap";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "关闭";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "文件";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Hide DayMap"; ObjectID = "134"; */
+"134.title" = "隐藏 DayMap";
+
+/* Class = "NSMenuItem"; title = "Quit DayMap"; ObjectID = "136"; */
+"136.title" = "退出 DayMap";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "隐藏其他";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; */
+"197.title" = "复制";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; */
+"199.title" = "剪切";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "202"; */
+"202.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; */
+"203.title" = "粘贴";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "205"; */
+"205.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; */
+"207.title" = "撤销";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "211"; */
+"211.title" = "语音";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "212"; */
+"212.title" = "语音";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "215"; */
+"215.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; */
+"217.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "350"; */
+"350.title" = "智能复制/粘贴";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; */
+"490.title" = "帮助";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
+"491.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "New Task…"; ObjectID = "682"; */
+"682.title" = "新建任务...";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "706"; */
+"706.title" = "偏好设置…";
+
+/* Class = "NSPanel"; title = "Window"; ObjectID = "743"; */
+"743.title" = "窗口";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "769"; */
+"769.title" = "窗口";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "776"; */
+"776.title" = "关闭";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Search"; ObjectID = "E2J-51-Mry"; */
+"E2J-51-Mry.placeholderString" = "搜索";
+
+/* Class = "NSToolbarItem"; label = "Search"; ObjectID = "Ozx-wb-Q3x"; */
+"Ozx-wb-Q3x.label" = "搜索";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Search"; ObjectID = "Ozx-wb-Q3x"; */
+"Ozx-wb-Q3x.paletteLabel" = "搜索";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "QNQ-xC-Gxw"; */
+"QNQ-xC-Gxw.title" = "编辑";
+
+/* Class = "NSButtonCell"; title = "New Task"; ObjectID = "Ruu-6V-w8D"; */
+"Ruu-6V-w8D.title" = "新建任务";
+
+/* Class = "NSToolbarItem"; label = "New Task"; ObjectID = "zRx-SG-rwd"; */
+"zRx-SG-rwd.label" = "新建任务";
+
+/* Class = "NSToolbarItem"; paletteLabel = "New Task"; ObjectID = "zRx-SG-rwd"; */
+"zRx-SG-rwd.paletteLabel" = "新建任务";
+

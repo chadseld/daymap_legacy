@@ -1,0 +1,304 @@
+VERSION 2.1.5
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+[NEW] Support for dark system appearance. (e.g. Dark Mode).
+
+VERSION 2.1.4
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+[FIXED] Fixed a crash that could occur while viewing the month calendar.
+
+VERSION 2.1.3
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+[FIXED] This version of DayMap has been updated to fix calendar layout problems on macOS Sierra.
+
+VERSION 2.1.1
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+[NEW] Each occurrence of a recurring task can be sorted in the the Calendar view independently.
+[IMPROVEMENT] Graying out scheduled icon when a task is completed.
+[OLD IS NEW] Hide Completed slider now affects the Calendar view as well as the Outline view.
+[FIXED] Fixed problem with the pop-up calendar where the wrong day could be highlighted as Today.
+[FIXED] Fixed problem where the Go to Today menu and button could send you to the wrong day.
+[FIXED] Fixed problem where autosave could get stuck in an endless loop, saving every 5 seconds.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 2.1.0
+
+[NEW] Translated DayMap into German, French, and Chinese.
+[NEW] Hide Completed slider now only affects the Outline view. Completed tasks in the Calendar will always remain visible.
+[NEW] Removed italic text to represent scheduled Tasks. Scheduled Tasks are now marked with an icon.
+[NEW] Task Notes can now be previewed in the Outline view. (View > Show Task Notes in Outline)
+[NEW] Holding down the Option key while dragging a task in the Outline will create a copy of the task instead of moving it.
+[NEW] Added a quick “Schedule for Today” option to the Task context menu.
+[IMPROVEMENT] Improved the look of the Task drag destination drawing.
+[IMPROVEMENT] Apple Calendar Event time format now respects the 24-hour / 12-hour setting in System Preferences.
+[IMPROVEMENT] Increased default project width.
+[FIXED] Fixed problem where indentation would be long when dragging a hierarchy of tasks to another location.
+[FIXED] Fixed bug where recurring Task “end on date” could shift by one day.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 2.0.5
+
+[FIXED] Fixed problem with Apple Calendar Events sometimes appearing on the wrong day.
+[FIXED] Fixed more problems where the "Today" highlighting would sometimes be incorrect.
+[IMPROVEMENT] Added more useful reporting for iCloud sync related errors.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 2.0.5 Lite
+
+[NEW] Added many DayMap (paid version) features into DayMap Lite for free.
+- Hierarchical Task Outlines
+- Project Archiving
+- Search
+- Collapsible Projects
+[FIXED] Fixed problem with Apple Calendar Events sometimes appearing on the wrong day.
+[FIXED] Fixed more problems where the "Today" highlighting would sometimes be incorrect.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 2.0.3
+
+[FIXED] Fixed problem where the "Today" highlighting would sometimes be incorrect.
+
+----
+VERSION 2.0.0
+
+[NEW] DayMap has been updated to fully support Mac OS X Yosemite.
+[NEW] Selected tasks can be exported into other applications via Drag & Drop (e.g. to create an email.)
+[NEW] New Share menu in the toolbar with multiple ways to share your DayMap outline with others.
+[NEW] “Move To” context menu for tasks in the Outline view.
+[NEW] New features added to Project context menu: Expand All Tasks, Collapse All Tasks.
+[NEW] Printing the Calendar view will now include Apple Calendar Events.
+[NEW] Can now print month view.
+[NEW] Task selection highlight color now follows the view with keyboard input.
+[NEW] Minimized Projects will automatically expand when tasks are dragged into them.
+[FIXED] Completed Recurring tasks are now filtered with the hide completed slider.
+[FIXED] The calendar view is now immediately updated when a project is archived.
+[FIXED] Fixed problem saving printout as PDF.
+[FIXED] The Inbox will expand if minimized and a new task is added to it.
+[FIXED] Fixed bug selecting multiple tasks quickly with Shift + Arrow keys.
+[FIXED] Fixed problem with scheduled dates shifting with certain time zone changes.
+[IMPROVEMENT] Printing Calendar is now formatted as a list instead of columns.
+[IMPROVEMENT] Cleaned up the toolbar.
+[IMPROVEMENT] Asking for user confirmation before deleting a Project.
+[IMPROVEMENT] Current day highlight color is a bit more red.
+[IMPROVEMENT] When expanding a collapsed Project, the Project’s column is scrolled to visible.
+[IMPROVEMENT] Inactive/background DayMap window now appears more visually distinct.
+[IMPROVEMENT] Improved reliability of initial iCloud sync.
+
+----
+VERSION 1.9.2
+
+[NEW] Projects can now be Archived. Archived projects and their subtasks are hidden by default. You can show your archived projects by choosing “Show Archived Projects” from the View menu.
+[NEW] Projects now have a description text area.
+[IMPROVED] You can now start entering a task name before the task edit popover animation is finished.
+
+----
+VERSION 1.9.1
+
+[FIXED] Fixed problem updating Database for some users, which was causing DayMap to hang on launch.
+[IMPROVED] No longer prompting for All/One when completing tasks in the Calendar view.
+
+—---
+VERSION 1.9.0
+
+This version includes improvements to Recurring tasks, the Task Description editing, iCloud syncing, and more…
+
+[NEW] Individual occurrences of recurring tasks can now be completed separately. Previously, all occurrences of a task were completed up until a date.
+[NEW] Individual occurrences of recurring tasks can now be rescheduled separately by dragging to another day. Previously, all occurrences of a task were rescheduled to start at the new date.
+[NEW] Added View menu with more keyboard shortcuts for quick navigation.
+[NEW] Task description text view can now be expanded to a larger size.
+[NEW] Added Edit > Formatting menu for easier rich text editing of task Description.
+[NEW] Added drop-down menu for each Project header with helpful options.
+[NEW] Scrolling past the end of the projects list and holding for a second creates a new project.
+[IMPROVED] Improved responsiveness during backup creation.
+[IMPROVED] Improved reliability of iCloud syncing.
+[IMPROVED] Improved look and layout of titlebar and toolbar buttons.
+[FIXED] Fixed eventual slow down caused by memory leak in the task and project edit popovers.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+
+----
+VERSION 1.8.1
+
+[FIXED] Fixed problem migrating task description text from version 1.7 and earlier.
+[FIXED] Fixed problem dropping a task near the edge of the Calendar view which could result in endless scrolling.
+[IMPROVED] Improved reliability of iCloud syncing. Fixed frequent update loop which could occur in some situations.
+
+- If you like DayMap, please take the time to give us a nice review. We really appreciate it. -
+
+----
+VERSION 1.8.0
+
+This is a major update to DayMap. There is a new Month view and iCloud syncing has been made much more robust. There have also been many usability improvements.
+
+[NEW] Can now choose to merge or replace data on iCloud when enabling iCloud syncing.
+[NEW] Can now repeat tasks every other week.
+[NEW] The split view can now be collapsed to show only the outline or only the calendar.
+[NEW] The week view will advance to the next (or previous) week when tasks are dragged to the edge and held for a moment.
+[NEW] The calendar view remembers the selected week across launches.
+[NEW] Option-clicking the project collapse button will collapse all other projects instead — providing a quick way to focus on one project at a time.
+[NEW] Task description is now Rich Text with support for URLs, fonts, bold text etc…
+[NEW] Welcome screen and demo data for new users.
+[IMPROVEMENT] Improved performance and reliability.
+[IMPROVEMENT] Several improvements to iCloud sync.
+[IMPROVEMENT] Now honoring the System locale settings for the start of the week. Removed preference to start week with Monday since this is now set in System Preferences.
+[IMPROVEMENT] Additional menu and keyboard shortcuts for creating subtasks and for going forward and back in the Calendar view.
+[FIXED] Current day highlighting is updated at midnight if DayMap is left running.
+[FIXED] Fixed problem selecting and deleting projects at first launch or whenever the search field has focus.
+[FIXED] Fixed problem where subtasks would not be duplicated when duplicating Tasks and Projects.
+
+----
+VERSION 1.7.1
+
+[FIXED] Fixed crash some users were experiencing on launch.
+
+----
+VERSION 1.7
+
+[NEW] All new look. This streamlined professional look carries over into our iPhone app (iOS 7 only).
+[NEW] Retina graphics.
+[NEW] High Contrast font setting for those who desire more readability.
+[NEW] Multiple-selection is now enabled for all outlines and tables.
+[NEW] Context-sensitive menus in the outline and calendar tables.
+[NEW] New keyboard shortcut -- Press Space to complete an item.
+[NEW] New keyboard shortcut -- Press Enter to edit an item.
+[NEW] New preference to automatically delete completed items after a time period.
+[NEW] New "Today" button in task edit popover to easily schedule a task for today.
+[IMPROVEMENT] Increased size of notes field in task edit popover.
+[IMPROVEMENT] Completed items in the outline have a lighter gray font color.
+[IMPROVEMENT] File > New Task… now creates the new task as a sibling of the currently selected task (if any).
+[FIXED] Fixed bug with cancel button when completing repeating tasks in the week view.
+[FIXED] Fixed bug showing completed task as uncompleted in day view if moved to a later day.
+
+----
+VERSION 1.6.1
+
+[FIXED] Fixed crash scheduling a task to repeat Monthly.
+
+----
+VERSION 1.6.0
+
+[NEW] Recurring tasks! Tasks can be scheduled to repeat daily, weekly, monthly etc...
+[NEW] New simplified look. Reduced skeuomorphism in the design.
+[NEW] Projects can be archived by minimizing to a narrow column.
+[NEW] Added "Show Backups…" item to the Help menu.
+[NEW] Can now double-click to edit items in the search results.
+[FIXED] Fixed broken undo/redo menu.
+
+----
+VERSION 1.5.3
+
+[NEW] Search! One of the most requested features has been implemented -- search / find tasks by name.
+[NEW] Double-clicking in empty space below Project outline or Day will add a new task.
+
+----
+VERSION 1.5.2
+
+[NEW] Task in the week view are now marked with their project's color.
+[NEW] Automatic daily backups of your data are now being performed.
+[NEW] Improved week selection control text rendering for Retina displays.
+[IMPROVED] iCloud sync conflict resolution and merging is now automatic.
+[FIXED] Scrolling 'pause' glitch on OS X 10.8 Mountain Lion.
+[FIXED] Stability improvements.
+
+----
+VERSION 1.5.1
+
+[NEW] Items selected in the week view will highlight in the outline view (and vise versa).
+[FIXED] Various stability improvements.
+[FIXED] Fixed problem updating completed date when toggling item completion.
+[FIXED] Improved selection handling when moving tasks.
+
+----
+VERSION 1.5
+
+[NEW] iCloud support! DayMap data can now by synced between all your Macs with iCloud.
+[NEW] Quick Add! New system-wide keyboard shortcut to quickly add tasks to the inbox.
+[NEW] Now presenting error message if anything went wrong during data autosave.
+[CHANGED] Week number is now "Week of Year" instead of "Week of Month".
+[FIXED] "Today" button now works properly when the preference is set to start week on Monday.
+[FIXED] Fixed problem where scheduled tasks would not show up in the week view after changing the Mac's time zone.
+
+----
+VERSION 1.1.1
+
+[NEW] Printing of project outlines and calendar week.
+[NEW] Tasks can be sorted within day by drag and drop.
+[NEW] Bulk cleanup of overdue tasks. From the main menu, choose Edit > Move Overdue Tasks to Today.
+[NEW] The current day is slightly highlighted in the week view.
+[NEW] Tooltip reveals full title and notes when the mouse hovers over an item.
+
+----
+VERSION 1.1.0
+
+This update includes support for subtasks. Subtasks allow you to organize tasks into a multi-level deep hierarchical outline.
+Also included are miscellaneous bug fixes and improvements.
+
+[NEW] Tasks can now have subtasks in a hierarchy.
+[NEW] Improved display of selected tasks in week view.
+[FIXED] Fixed bug selecting and deleting task, where the selection would have to be made a second time.
+
+----
+VERSION 1.0.5
+
+[NEW] Added preference to start week on Monday instead of Sunday.
+[NEW] Item labels in the Inbox now show italic and strike-through when scheduled or completed.
+[NEW] Tasks can now be dragged back into the Inbox.
+[NEW] Three-finger swipe can be used to change week.
+[FIXED] File > New Task now creates task in the currently selected project.
+[FIXED] Improved text rendering in week view.
+[FIXED] Fixed problem drawing week view on some systems in full-screen mode.
+[FIXED] Greatly improved selection of tasks and projects via mouse. Clicking in empty areas now correctly clears selection.
+
+----
+VERSION 1.0.4
+
+This update includes usability improvements and bug fixes in the week view.
+We are interesting in hearing what you think, so share your feedback with us on our website.
+
+Follow our blog for up-to-date information regarding DayMap releases.
+
+[NEW] New Icon!
+[NEW] Greatly improved week selection control.
+[NEW] The scheduled date of a task is now visible in the task edit popover.
+[FIXED] Fixed bug preventing the selection of Jan 1-7 2012 in the week view.
+
+----
+VERSION 1.0.3
+
+This update is includes numerous usability and stability improvements.
+
+We are interesting in hearing what you think, so share your feedback with us on our website.
+
+Follow our blog for up-to-date information regarding DayMap releases.
+
+Note #1: The sort order of your projects and tasks may be mixed up upon upgrade. The internal mechanism for sorting / ordering projects and tasks has changed in preparation for iCloud support (coming soon). We apologize for the inconvenience. 
+
+Note #2: The "Hide Completed" slider relies on a task's completed date to determine which completed tasks to show. Tasks marked as completed with DayMap 1.0.2 do not have a completed date and will show as having been completed one day ago. Tasks marked as completed in DayMap 1.0.3 and later work properly.
+
+[NEW]	Added ability to hide completed tasks.
+[NEW]	Added shortcut keys and "New Task" and "New Project" menu items.
+[NEW]	Added ability to duplicate tasks and projects.
+[FIXED]	Fixed problem with orphaned tasks in week view after deleting project.
+[FIXED]	Various stability improvements.
+[FIXED]	Better layout of week view header.
+
+----
+VERSION 1.0.2
+
+This is the initial release of DayMap on the Mac App Store.

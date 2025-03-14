@@ -1,0 +1,42 @@
+/* Class = "NSButtonCell"; title = "Upgrade to the full version of DayMap"; ObjectID = "0DC-wS-YAq"; */
+"0DC-wS-YAq.title" = "Zur Vollversion von DayMap upgraden";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "1"; */
+"1.title" = "Einstellungen";
+
+/* Class = "NSButtonCell"; title = "Use iCloud"; ObjectID = "19"; */
+"19.title" = "iCloud benutzen";
+
+/* Class = "NSTextFieldCell"; title = "DayMap data stored on iCloud will be available to all your Macs using the same iCloud account."; ObjectID = "23"; */
+"23.title" = "DayMap Daten, die in der iCloud gespeichert werden, werden für alle Ihre Macs verfügbar sein, die den gleichen iCloud Account nutzen.";
+
+/* Class = "NSTextFieldCell"; title = "Quick Add Shortcut"; ObjectID = "53"; */
+"53.title" = "\"Quick Add\"-Verknüpfung";
+
+/* Class = "NSTextFieldCell"; title = "days."; ObjectID = "BuZ-uD-FYC"; */
+"BuZ-uD-FYC.title" = "Tage.";
+
+/* Class = "NSButtonCell"; title = "Delete completed items after"; ObjectID = "Iet-j7-Z4A"; */
+"Iet-j7-Z4A.title" = "Abgeschlossene Termine löschen nach";
+
+/* Class = "NSTextFieldCell"; title = "90"; ObjectID = "Iyj-kX-yRG"; */
+"Iyj-kX-yRG.title" = "90";
+
+/* Class = "NSButtonCell"; title = "Use high contrast fonts"; ObjectID = "QaQ-GO-gUS"; */
+"QaQ-GO-gUS.title" = "Schriftarten mit hohem Kontrast benutzen";
+
+/* Class = "NSButtonCell"; title = "Use high contrast fonts"; ObjectID = "cVs-yt-G68"; */
+"cVs-yt-G68.title" = "Schriftarten mit hohem Kontrast benutzen";
+
+/* Class = "NSButtonCell"; title = "Delete completed items after"; ObjectID = "dsZ-SX-jfd"; */
+"dsZ-SX-jfd.title" = "Abgeschlossene Termine löschen nach";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "eRE-3D-vbJ"; */
+"eRE-3D-vbJ.title" = "Einstellungen";
+
+/* Class = "NSTextFieldCell"; title = "90"; ObjectID = "rpT-fp-AHH"; */
+"rpT-fp-AHH.title" = "90";
+
+/* Class = "NSTextFieldCell"; title = "days."; ObjectID = "yyD-eO-vtZ"; */
+"yyD-eO-vtZ.title" = "Tage.";
+
