@@ -212,9 +212,9 @@
 }
 
 - (void)addEmailToMailingList:(NSString *)email {
-	[[ChimpKit sharedKit] setApiKey:@"6544bcf7bd27e6477ef5566a954737db-us4"];
+	[[ChimpKit sharedKit] setApiKey:@"<redacted>"];
 	
-	NSDictionary *params = @{@"id" : @"0c79c7ca7d",
+	NSDictionary *params = @{@"id" : @"<redacted>",
 							 @"email" : @{@"email": email},
 							 @"double_optin" : @"false",
 							 @"update_existing" : @"true"};
